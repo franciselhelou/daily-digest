@@ -1,0 +1,100 @@
+# Add sources freely; each entry is a publicly accessible RSS/Atom endpoint.
+# Per-source errors are logged and do not halt the rest of the run.
+sources:
+  - {name: arXiv AI, category: Research, url: 'https://export.arxiv.org/rss/cs.AI'}
+  - {name: arXiv Machine Learning, category: Research, url: 'https://export.arxiv.org/rss/cs.LG'}
+  - {name: arXiv Language Models, category: Research, url: 'https://export.arxiv.org/rss/cs.CL'}
+  - {name: arXiv Computer Vision, category: Research, url: 'https://export.arxiv.org/rss/cs.CV'}
+  - {name: Hugging Face Blog, category: Open source, url: 'https://huggingface.co/blog/feed.xml'}
+  - {name: OpenAI News, category: Models, url: 'https://openai.com/news/rss.xml'}
+  - {name: Google Research, category: Research, url: 'https://research.google/blog/rss/'}
+  - {name: Google DeepMind, category: Models, url: 'https://deepmind.google/blog/rss.xml'}
+  - {name: Microsoft Research, category: Research, url: 'https://www.microsoft.com/en-us/research/feed/'}
+  - {name: NVIDIA Developer Blog, category: Hardware, url: 'https://developer.nvidia.com/blog/feed/'}
+  - {name: AWS Machine Learning, category: Enterprise, url: 'https://aws.amazon.com/blogs/machine-learning/feed/'}
+  - {name: MIT Technology Review AI, category: News, url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed/'}
+  - {name: TechCrunch AI, category: News, url: 'https://techcrunch.com/category/artificial-intelligence/feed/'}
+  - {name: VentureBeat AI, category: Enterprise, url: 'https://venturebeat.com/category/ai/feed/'}
+  - {name: Simon Willison, category: Engineering, url: 'https://simonwillison.net/atom/everything/'}
+  - {name: Latent Space, category: Engineering, url: 'https://www.latent.space/feed'}
+  - {name: Interconnects, category: Research, url: 'https://www.interconnects.ai/feed'}
+  - {name: One Useful Thing, category: Enterprise, url: 'https://www.oneusefulthing.org/feed'}
+  - {name: The Batch, category: News, url: 'https://www.deeplearning.ai/the-batch/feed/'}
+  - {name: Import AI, category: Policy, url: 'https://importai.substack.com/feed'}
+  - {name: AI Snake Oil, category: Policy, url: 'https://www.aisnakeoil.com/feed'}
+  - {name: SemiAnalysis, category: Hardware, url: 'https://semianalysis.com/feed/'}
+  - {name: OWASP News, category: Security, url: 'https://owasp.org/feed.xml'}
+  - {name: CrowdStrike Blog, category: Security, url: 'https://www.crowdstrike.com/en-us/blog/feed/'}
+  - {name: Unit 42, category: Security, url: 'https://unit42.paloaltonetworks.com/feed/'}
+  - {name: Hugging Face Papers, category: Research, url: 'https://huggingface.co/papers/rss'}
+# Check workflow logs for any sources that change or discontinue their feed URLs.
+github_repos:
+  - ggml-org/llama.cpp
+  - ollama/ollama
+  - vllm-project/vllm
+  - huggingface/transformers
+  - langchain-ai/langgraph
+  - microsoft/agent-framework
+  - crewAIInc/crewAI
+  - openai/openai-agents-python
+  - langgenius/dify
+  - All-Hands-AI/OpenHands
+  - browser-use/browser-use
+  - modelcontextprotocol/specification
+  - NVIDIA/garak
+  - promptfoo/promptfoo
+  - huggingface/diffusers
+  - ultralytics/ultralytics
+  - sgl-project/sglang
+  - NVIDIA/TensorRT-LLM
+  - ml-explore/mlx
+  - mudler/LocalAI
+  - open-webui/open-webui
+  - BerriAI/litellm
+  - huggingface/peft
+  - huggingface/trl
+  - axolotl-ai-cloud/axolotl
+  - unslothai/unsloth
+  - microsoft/DeepSpeed
+  - Dao-AILab/flash-attention
+  - deepseek-ai/DeepSeek-V3
+  - QwenLM/Qwen3
+  - microsoft/autogen
+  - google/adk-python
+  - pydantic/pydantic-ai
+  - mastra-ai/mastra
+  - microsoft/semantic-kernel
+  - n8n-io/n8n
+  - FlowiseAI/Flowise
+  - run-llama/llama_index
+  - langfuse/langfuse
+  - Arize-ai/phoenix
+  - Trusted-AI/adversarial-robustness-toolbox
+  - protectai/modelscan
+  - NVIDIA/NeMo-Guardrails
+  - huggingface/smolagents
+  - Comfy-Org/ComfyUI
+  - ggml-org/whisper.cpp
+  - fishaudio/fish-speech
+  - vllm-project/llm-compressor
+  - scikit-learn/scikit-learn
+  - dmlc/xgboost
+  - microsoft/LightGBM
+  - pytorch/pytorch
+  - jax-ml/jax
+  - roboflow/supervision
+  - langchain-ai/langchain
+  - openai/openai-python
+  - anthropics/anthropic-sdk-python
+  - google-gemini/generative-ai-python
+  - modelcontextprotocol/python-sdk
+  - aider-chat/aider
+  - mem0ai/mem0
+  - infiniflow/ragflow
+  - chroma-core/chroma
+  - qdrant/qdrant
+  - milvus-io/milvus
+  - pgvector/pgvector
+  - explodinggradients/ragas
+  - confident-ai/deepeval
+  - EleutherAI/lm-evaluation-harness

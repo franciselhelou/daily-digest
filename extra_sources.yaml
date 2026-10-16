@@ -1,0 +1,43 @@
+# Discovery expansion. Sources are individually checked on every run; inactive/broken endpoints stay visible in health reporting.
+# Exact feed URLs may change; don't interpret an unreachable endpoint as a publisher going offline.
+extra_feeds:
+  - {name: arXiv Robotics, category: Robotics, url: 'https://export.arxiv.org/rss/cs.RO'}
+  - {name: arXiv Security, category: Security, url: 'https://export.arxiv.org/rss/cs.CR'}
+  - {name: arXiv Statistical ML, category: Research, url: 'https://export.arxiv.org/rss/stat.ML'}
+  - {name: arXiv Quantum, category: Quantum, url: 'https://export.arxiv.org/rss/quant-ph'}
+  - {name: Hugging Face Daily Papers, category: Research, url: 'https://huggingface.co/papers/rss'}
+  - {name: Anthropic, category: Models, url: 'https://www.anthropic.com/rss.xml'}
+  - {name: Google AI, category: Models, url: 'https://blog.google/technology/ai/rss/'}
+  - {name: Google Cloud AI, category: Enterprise, url: 'https://cloud.google.com/blog/topics/ai-ml/rss/'}
+  - {name: Amazon Science, category: Research, url: 'https://www.amazon.science/index.rss'}
+  - {name: NVIDIA Blog, category: Hardware, url: 'https://blogs.nvidia.com/blog/feed/'}
+  - {name: AMD ROCm, category: Hardware, url: 'https://rocm.blogs.amd.com/rss.xml'}
+  - {name: IEEE Spectrum AI, category: Research, url: 'https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss'}
+  - {name: The Verge AI, category: News, url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml'}
+  - {name: Ars Technica, category: News, url: 'https://feeds.arstechnica.com/arstechnica/index'}
+  - {name: The Register AI, category: News, url: 'https://www.theregister.com/software/ai_ml/headlines.atom'}
+  - {name: Rest of World, category: Regional, url: 'https://restofworld.org/feed/latest/'}
+  - {name: AI News Newsletter, category: Engineering, url: 'https://buttondown.com/ainews/rss'}
+  - {name: Ahead of AI, category: Research, url: 'https://magazine.sebastianraschka.com/feed'}
+  - {name: Last Week in AI, category: News, url: 'https://lastweekin.ai/feed'}
+  - {name: Turing Post, category: Research, url: 'https://www.turingpost.com/feed'}
+  - {name: Exponential View, category: Enterprise, url: 'https://www.exponentialview.co/feed'}
+  - {name: Hacker News, category: Community, url: 'https://hnrss.org/newest?q=AI+OR+LLM+OR+agent'}
+  - {name: Reddit LocalLLaMA, category: Community, url: 'https://www.reddit.com/r/LocalLLaMA/new/.rss'}
+  - {name: Reddit MachineLearning, category: Community, url: 'https://www.reddit.com/r/MachineLearning/new/.rss'}
+  - {name: Google Security Blog, category: Security, url: 'https://security.googleblog.com/feeds/posts/default'}
+  - {name: Microsoft Security Blog, category: Security, url: 'https://www.microsoft.com/en-us/security/blog/feed/'}
+  - {name: CISA Alerts, category: Security, url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml'}
+  - {name: UK AI Security Institute, category: Governance, url: 'https://www.aisi.gov.uk/rss.xml'}
+  - {name: OECD AI, category: Governance, url: 'https://oecd.ai/en/feed'}
+  - {name: TechCrunch Startups, category: Business, url: 'https://techcrunch.com/category/startups/feed/'}
+  - {name: VentureBeat, category: Business, url: 'https://venturebeat.com/feed/'}
+  - {name: Wamda, category: Regional, url: 'https://www.wamda.com/feed'}
+  - {name: SemiAnalysis Posts, category: Hardware, url: 'https://semianalysis.com/feed/'}
+arxiv_queries:
+  - {name: AI Agents, category: Agents, query: 'all:"agentic AI" OR all:"tool use"', limit: 14}
+  - {name: AI Governance, category: Governance, query: 'all:"AI governance" OR all:"AI safety"', limit: 12}
+  - {name: RAG and Retrieval, category: Engineering, query: 'all:"retrieval augmented generation"', limit: 12}
+  - {name: AI Security, category: Security, query: 'all:"prompt injection" OR all:"LLM security"', limit: 12}
+  - {name: Arabic Language Models, category: Regional, query: 'all:"Arabic language model"', limit: 10}
+  - {name: Efficient Inference, category: Hardware, query: 'all:"LLM inference"', limit: 12}
