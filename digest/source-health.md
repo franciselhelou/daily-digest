@@ -1,6 +1,6 @@
 # Source Health
 
-**Tracked:** 41 · **Failed most recently:** 11
+**Tracked:** 130 · **Failed most recently:** 11
 
 Failures are recorded; failing sources do not stop the digest. Check Actions logs for details.
 
