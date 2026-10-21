@@ -1,8 +1,8 @@
 # Daily AI Intelligence Digest
 
-**Generated:** 2026-10-21T06:54:31.758503+00:00  
+**Generated:** 2026-10-21T12:56:45.587520+00:00  
 **Window: last 24 hours (UTC, rolling)**  
-**Distinct events:** 414 · **High-signal candidates:** 9 · **Sources reporting:** 41
+**Distinct events:** 424 · **High-signal candidates:** 9 · **Sources reporting:** 43
 
 ## Executive brief
 
@@ -74,9 +74,9 @@ Modern LLM agents persist state across sessions via two channels: long-lived mem
 arXiv:2610.27383v1 Announce Type: new 
 Abstract: Finding vulnerabilities early, before they can affect the production system, is important for reducing the risk of any software attacks. However, detecting vulnerabilities during secure code review is still difficult because the vulnerable code logic 
 
-## Agents — 16 distinct findings, 2 high-signal
+## Agents — 11 distinct findings, 2 high-signal
 
-16 distinct agents developments appeared in the last 24 hours. Highest-ranked topics: Vulnerability Analysis for Safe Multi-Agent Reinforcement; MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning; TraceLite: Efficient Trace Reduction for SWE Agents via Optical Compression and Redundancy Removal. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+11 distinct agents developments appeared in the last 24 hours. Highest-ranked topics: Vulnerability Analysis for Safe Multi-Agent Reinforcement; MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning; TraceLite: Efficient Trace Reduction for SWE Agents via Optical Compression and Redundancy Removal. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [Vulnerability Analysis for Safe Multi-Agent Reinforcement](https://arxiv.org/abs/2610.27293)
 
@@ -96,9 +96,9 @@ arXiv:2610.26943v1 Announce Type: new Abstract: Mathematical reasoning is a fund
 
 Software engineering agents solve repository-level tasks through iterative tool use, but their continuously growing interaction traces incur substantial token consumption and inference overhead. Existing compression approaches often require model training, auxiliary LLM calls, or assumptions about s
 
-## Security — 43 distinct findings, 2 high-signal
+## Security — 37 distinct findings, 2 high-signal
 
-43 distinct security developments appeared in the last 24 hours. Highest-ranked topics: Adversarial Benchmarks and BenchDoor Attacks: Exploiting Benchmark Incentives for Backdoor Attacks; After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents; AgenticVulHunter: Bringing Local Agentic Vulnerability Hunting to Your Terminal. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+37 distinct security developments appeared in the last 24 hours. Highest-ranked topics: Adversarial Benchmarks and BenchDoor Attacks: Exploiting Benchmark Incentives for Backdoor Attacks; After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents; AgenticVulHunter: Bringing Local Agentic Vulnerability Hunting to Your Terminal. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [Adversarial Benchmarks and BenchDoor Attacks: Exploiting Benchmark Incentives for Backdoor Attacks](https://arxiv.org/abs/2610.27533)
 
@@ -120,9 +120,9 @@ Modern LLM agents persist state across sessions via two channels: long-lived mem
 arXiv:2610.27383v1 Announce Type: new 
 Abstract: Finding vulnerabilities early, before they can affect the production system, is important for reducing the risk of any software attacks. However, detecting vulnerabilities during secure code review is still difficult because the vulnerable code logic 
 
-## Research — 167 distinct findings, 3 high-signal
+## Research — 168 distinct findings, 3 high-signal
 
-167 distinct research developments appeared in the last 24 hours. Highest-ranked topics: The Culture Within: Towards Mechanistic Understanding of Cultural Reasoning in LLMs; Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing; Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+168 distinct research developments appeared in the last 24 hours. Highest-ranked topics: The Culture Within: Towards Mechanistic Understanding of Cultural Reasoning in LLMs; Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing; Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [The Culture Within: Towards Mechanistic Understanding of Cultural Reasoning in LLMs](https://arxiv.org/abs/2610.27202)
 
@@ -167,21 +167,9 @@ Abstract: Foundation models now serve as reasoning layers for robot teams, but i
 arXiv:2610.27613v1 Announce Type: new 
 Abstract: Can embodied task agents use tactile experience to perform fine manipulation without task-specific model training? We investigate this capability through Tactile-ETA, a system that incorporates tactile experience into an embodied task agent through in
 
-## Models — 3 distinct findings, 0 high-signal
+## Models — 1 distinct findings, 0 high-signal
 
-3 distinct models developments appeared in the last 24 hours. Highest-ranked topics: Franchisee reconciles cash in 94% less time with ChatGPT Work; Terminal X matches senior investor judgment 88.6% with GPT-6.1; Southeast Asia’s digital economy to hit $368 billion. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
-
-### [Franchisee reconciles cash in 94% less time with ChatGPT Work](https://openai.com/index/ted-taylor-restaurant)
-
-**Models · Other developments · Score 6 · OpenAI News**
-
-An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.
-
-### [Terminal X matches senior investor judgment 88.6% with GPT-6.1](https://openai.com/index/terminal-x)
-
-**Models · Other developments · Score 6 · OpenAI News**
-
-Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.
+1 distinct models developments appeared in the last 24 hours. Highest-ranked topics: Southeast Asia’s digital economy to hit $368 billion. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [Southeast Asia’s digital economy to hit $368 billion](https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/)
 
@@ -189,9 +177,9 @@ Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching
 
 Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen
 
-## Engineering — 9 distinct findings, 0 high-signal
+## Engineering — 8 distinct findings, 0 high-signal
 
-9 distinct engineering developments appeared in the last 24 hours. Highest-ranked topics: A Multimodal Engineering GraphRAG Framework for Post-Wind-Event Building Assessment and Recovery Inference; RAG-NIMBF: A Non-Invasive, Modular Benchmarking Framework for Automated RAG Configuration Analysis; DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+8 distinct engineering developments appeared in the last 24 hours. Highest-ranked topics: A Multimodal Engineering GraphRAG Framework for Post-Wind-Event Building Assessment and Recovery Inference; DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge; Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [A Multimodal Engineering GraphRAG Framework for Post-Wind-Event Building Assessment and Recovery Inference](https://arxiv.org/abs/2610.28216v1)
 
@@ -199,21 +187,21 @@ Cover image for the e-Conomy SEA 2026 report titled Building the intelligent eco
 
 Post-event building assessment requires linking observed physical damage to its consequences for safety, habitability, functionality, and recovery. Yet post-disaster evidence is often heterogeneous, incomplete, and distributed across images and reconnaissance reports, while recovery models typically
 
-### [RAG-NIMBF: A Non-Invasive, Modular Benchmarking Framework for Automated RAG Configuration Analysis](https://arxiv.org/abs/2610.27816v1)
-
-**Engineering · Worth watching · Score 12 · arXiv Search: RAG and Retrieval**
-
-Retrieval-Augmented Generation (RAG) has become the dominant paradigm for grounding the outputs of large language models (LLM) in external knowledge. However, practitioners are faced with a vast configuration space comprising chunking, embedding, retrieval, reranking, prompting and generation models
-
 ### [DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge](https://arxiv.org/abs/2610.28340v1)
 
 **Engineering · Worth watching · Score 10 · arXiv Search: RAG and Retrieval**
 
 Reliable retrieval-augmented generation (RAG) requires recognizing when neither retrieved documents nor parametric knowledge supports an answer. We introduce DeclineCraft, a dynamic abstention benchmark whose unanswerable questions target Minecraft feature additions after a corpus cut-off, with audi
 
-## Open source — 23 distinct findings, 0 high-signal
+### [Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG](https://arxiv.org/abs/2610.28364v1)
 
-23 distinct open source developments appeared in the last 24 hours. Highest-ranked topics: microsoft/DeepSpeed: v0.19.8 Patch Release; pydantic/pydantic-ai: v1.107.9 (2026-10-20); pydantic/pydantic-ai: v2.59.0 (2026-10-20). These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+**Engineering · Other developments · Score 8 · arXiv Search: RAG and Retrieval**
+
+Local Retrieval-Augmented Generation (RAG) systems are vulnerable to indirect prompt injection and retrieval poisoning, where malicious instructions in retrieved content are mistaken for trusted input. We present nokast-secureRAG, a roughly 0.5B-parameter small language model that acts as a semantic
+
+## Open source — 30 distinct findings, 0 high-signal
+
+30 distinct open source developments appeared in the last 24 hours. Highest-ranked topics: microsoft/DeepSpeed: v0.19.8 Patch Release; mastra-ai/mastra: October 21, 2026; Dao-AILab/flash-attention: fa4-v4.0.0.beta36. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [microsoft/DeepSpeed: v0.19.8 Patch Release](https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.19.8)
 
@@ -221,27 +209,39 @@ Reliable retrieval-augmented generation (RAG) requires recognizing when neither 
 
 ## What's Changed * Deprecate leftovers of compression library by @hwchen2017 in https://github.com/deepspeedai/DeepSpeed/pull/8535 * Update version.txt after 0.19.7 release by @loadams in https://github.com/deepspeedai/DeepSpeed/pull/8555 * Deprecate loco zero++ by @hwchen2017 in https://github.com
 
-### [pydantic/pydantic-ai: v1.107.9 (2026-10-20)](https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.9)
+### [mastra-ai/mastra: October 21, 2026](https://github.com/mastra-ai/mastra/releases/tag/%40mastra/core%401.79.0)
 
-**Open source · Other developments · Score 7 · GitHub: pydantic/pydantic-ai**
+**Open source · Other developments · Score 7 · GitHub: mastra-ai/mastra**
 
-&gt; This comment was posted by Codex Desktop using gpt-6.1-sol on behalf of David. ## What's Changed ### 🛡️ Security * **High — HTML conversion in `web_fetch`:** [GHSA-4whf-38hw-pxxh](https://github.com/pydantic/pydantic-ai/security/advisories/GHSA-4whf-38hw-pxxh). When `web_fetch_tool` fetched attack
+## Highlights ### MCP Events (poll/stream/webhooks + Studio inspection) Experimental MCP Events (SEP-3415 draft) let MCP servers publish event streams that clients can poll, keep a stream open for, or receive via signed webhooks. Core/server/client add inspection APIs so Studio can list event types,
 
-### [pydantic/pydantic-ai: v2.59.0 (2026-10-20)](https://github.com/pydantic/pydantic-ai/releases/tag/v2.59.0)
+### [Dao-AILab/flash-attention: fa4-v4.0.0.beta36](https://github.com/Dao-AILab/flash-attention/releases/tag/fa4-v4.0.0.beta36)
 
-**Open source · Other developments · Score 7 · GitHub: pydantic/pydantic-ai**
+**Open source · Other developments · Score 7 · GitHub: Dao-AILab/flash-attention**
 
-&gt; This comment was posted by Codex Desktop using gpt-6.1-sol on behalf of David. ## What's Changed ### 🛡️ Security * **High — HTML conversion in `web_fetch`:** [GHSA-4whf-38hw-pxxh](https://github.com/pydantic/pydantic-ai/security/advisories/GHSA-4whf-38hw-pxxh). When `web_fetch_tool` fetched attack
+## What's Changed * Fix paged KV-cache CUDA graph capture by @pkuwangh in https://github.com/Dao-AILab/flash-attention/pull/2984 * [CuTe, SM100] Unify hd256 backward (2/5): 64-row KV tile per CTA (M=64 TMEM layout) with GQA, varlen and deterministic support by @Johnsonms in https://github.com/Dao-AI
 
-## Hardware — 1 distinct findings, 0 high-signal
+## Hardware — 5 distinct findings, 0 high-signal
 
-1 distinct hardware developments appeared in the last 24 hours. Highest-ranked topics: How Developers Configure LLM Inference: A Large-Scale Study of Real-World Practices. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+5 distinct hardware developments appeared in the last 24 hours. Highest-ranked topics: Inside NVIDIA Sentry: Secure AI Agents at Runtime; How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale; Developing an AI Factory Digital Twin with an Agent-Assisted Workflow. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [How Developers Configure LLM Inference: A Large-Scale Study of Real-World Practices](https://arxiv.org/abs/2610.27945v1)
+### [Inside NVIDIA Sentry: Secure AI Agents at Runtime](https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime)
 
-**Hardware · Other developments · Score 9 · arXiv Search: Efficient Inference**
+**Hardware · Other developments · Score 9 · NVIDIA Developer Blog**
 
-LLMs are increasingly integrated into software systems, making deployment and inference configuration a recurring software engineering task. Inference backends expose many options that affect model loading, generation, serving, and request processing. Yet little is known about which of these options
+An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using...
+
+### [How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale](https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale)
+
+**Hardware · Other developments · Score 9 · NVIDIA Developer Blog**
+
+Autonomous agents can work for hours on complex tasks, accessing files, tools, the internet, and spawning other agents to collaborate with. Executing complex...
+
+### [Developing an AI Factory Digital Twin with an Agent-Assisted Workflow](https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow)
+
+**Hardware · Other developments · Score 9 · NVIDIA Developer Blog**
+
+Building an AI factory digital twin requires developers to bring site plans, equipment assets, and engineering requirements into a consistent model that teams...
 
 ## Governance — 3 distinct findings, 0 high-signal
 
@@ -338,9 +338,9 @@ Abstract: Unstructured meshes are widely used in modelling and simulation in Com
 arXiv:2610.27854v1 Announce Type: new 
 Abstract: Concatenation of quantum repeater nodes has been proposed as a means to distribute entanglement efficiently across future long-distance networks. Here, we demonstrate a trapped-ion repeater node that establishes photonic entanglement over a 17 km fibe
 
-## Community — 25 distinct findings, 0 high-signal
+## Community — 42 distinct findings, 0 high-signal
 
-25 distinct community developments appeared in the last 24 hours. Highest-ranked topics: KFlash: Benchmarks of newly released versions of Apple Silicon optimized engines: 1.4.0 Splash (DFlash2 ~ 50 tok/s) vs 0.2 Kapitsa (KFlash ~65 tok/s), MLX(MTP) & more on Qwen 3.8 27b/4b/35b 4Q on Macbook Pro M4 Pro 48 GB 2024, 48GB & Macboo; The costs of “decisions” has dropped 10x in just a few months; How to squeeze the Max Token from M1 Max 64gb?. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+42 distinct community developments appeared in the last 24 hours. Highest-ranked topics: KFlash: Benchmarks of newly released versions of Apple Silicon optimized engines: 1.4.0 Splash (DFlash2 ~ 50 tok/s) vs 0.2 Kapitsa (KFlash ~65 tok/s), MLX(MTP) & more on Qwen 3.8 27b/4b/35b 4Q on Macbook Pro M4 Pro 48 GB 2024, 48GB & Macboo; Qwen3.8-Flash-Next @ 1.66bpw-exl3 STABLE under 36gb; Training Factory from ThousandML. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [KFlash: Benchmarks of newly released versions of Apple Silicon optimized engines: 1.4.0 Splash (DFlash2 ~ 50 tok/s) vs 0.2 Kapitsa (KFlash ~65 tok/s), MLX(MTP) & more on Qwen 3.8 27b/4b/35b 4Q on Macbook Pro M4 Pro 48 GB 2024, 48GB & Macboo](https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of/)
 
@@ -348,21 +348,21 @@ Abstract: Concatenation of quantum repeater nodes has been proposed as a means t
 
 hey folks, its Ye, I work on an open source project called Kapitsa : its a fast Apple Silicon optimized inference engine built for Qwen and Nemotron models. this week two new releases landed in local inference: Inco shipped Splash 1.4.0 yesterday, and we shipped Kapitsa 0.2 today with a new speculat
 
-### [The costs of “decisions” has dropped 10x in just a few months](https://www.reddit.com/r/LocalLLaMA/comments/1xbe9ga/the_costs_of_decisions_has_dropped_10x_in_just_a/)
+### [Qwen3.8-Flash-Next @ 1.66bpw-exl3 STABLE under 36gb](https://www.reddit.com/r/LocalLLaMA/comments/1xbgi6i/qwen38flashnext_166bpwexl3_stable_under_36gb/)
 
 **Community · Other developments · Score 5 · Reddit LocalLLaMA**
 
-pplx-decider-v1.2 is one tenth the costs of GPT 6 Luna (low reasoning) while making identical quality decisions, and pplx-decider-flash-v1.2 idem ditto compare to 6 Luna in the Decisions API. v1.2 is also 2.5x cheaper than Jev. - https://artificialanalysis.ai/evaluations/artificial-analysis-decision
+Fits entirely in a 5090, no offloaded experts. Super-solid sub-2bpw! ( Liquid cat demo video generated by the quantized model) From the Cat's mouth: Stable inference throughout, no reasoning loops, just smooth sailing at 200-300 t/s (and a lot of compacting since one 32 GB GPU still doesn't leave a 
 
-### [How to squeeze the Max Token from M1 Max 64gb?](https://www.reddit.com/r/LocalLLaMA/comments/1xb9ax1/how_to_squeeze_the_max_token_from_m1_max_64gb/)
+### [Training Factory from ThousandML](https://www.reddit.com/r/LocalLLaMA/comments/1xbg3xl/training_factory_from_thousandml/)
 
-**Community · Other developments · Score 4 · Reddit LocalLLaMA**
+**Community · Other developments · Score 5 · Reddit LocalLLaMA**
 
-For last 9 ​months, been using cloud frontier 99% the from Gemini Flash Pro, Claude, Deepseek, ​Groq & Cerebras. Ready to give 32B, 70B, 120B another try. Was getting decent 45 token/sec on 7B Llama MLX, but 7B is too simple for most task. I loaded Gwen 32B, get some errors on LM Studio. Which are b
+Hello All! I built a platform to fine-tune open models. I am focusing on fine-tuning 4-bit quantized models by QLoRa instead of full precision fine-tuning to reduce GPU costs. The quant that this finetuning uses is called CQ (Coded Quantization) which is a calibration-free quantization that I built 
 
-## News — 40 distinct findings, 0 high-signal
+## News — 35 distinct findings, 0 high-signal
 
-40 distinct news developments appeared in the last 24 hours. Highest-ranked topics: PHP warns it plans to release 2 emergency patches imminently; Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers; JustWatch, which tackles streaming fragmentation, launches own streaming service. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+35 distinct news developments appeared in the last 24 hours. Highest-ranked topics: PHP warns it plans to release 2 emergency patches imminently; Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers; JustWatch, which tackles streaming fragmentation, launches own streaming service. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [PHP warns it plans to release 2 emergency patches imminently](https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/)
 
