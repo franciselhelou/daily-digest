@@ -1,6 +1,6 @@
 # Daily AI Intelligence Digest
 
-**Generated:** 2026-10-21T12:56:45.587520+00:00  
+**Generated:** 2026-10-21T12:59:16.653974+00:00  
 **Window: last 24 hours (UTC, rolling)**  
 **Distinct events:** 424 · **High-signal candidates:** 9 · **Sources reporting:** 43
 
