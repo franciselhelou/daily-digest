@@ -20,13 +20,14 @@ import feedparser
 import requests
 import yaml
 from . import advanced
+from . import intelligence, dashboard, narration
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / 'data' / 'findings.sqlite'
 UTC = dt.timezone.utc
 NOW = dt.datetime.now(UTC)
-LOOKBACK_HOURS = int(os.getenv('LOOKBACK_HOURS', '36'))
+LOOKBACK_HOURS = 24
 MAX_STORIES = int(os.getenv('MAX_STORIES', '25'))
 MAX_PER_SOURCE = int(os.getenv('MAX_PER_SOURCE', '35'))
 MAX_PER_CATEGORY = int(os.getenv('MAX_PER_CATEGORY', '7'))
@@ -64,11 +65,13 @@ def init_db(conn):
     conn.commit()
 
 
-def fetch_feeds(config):
+def fetch_feeds(config, conn=None):
     session = requests.Session()
     session.headers.update({'User-Agent': USER_AGENT, 'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*'})
     rows = []
     for source in config.get('sources', []):
+        if source.get('enabled',True) is False: continue
+        before=len(rows)
         try:
             res = session.get(source['url'], timeout=(8, 18))
             res.raise_for_status()
@@ -87,12 +90,14 @@ def fetch_feeds(config):
                 rows.append({'title':title, 'url':url, 'source':source['name'],
                              'category':source['category'], 'published':when.isoformat(),
                              'summary':clean(item.get('summary', item.get('description','')))})
+            if conn is not None: advanced.update_health(conn,source['name'],'feed',source['url'],len(rows)-before)
         except Exception as ex:
             LOG.warning('Failed feed %s: %s', source['name'], ex)
+            if conn is not None: advanced.update_health(conn,source['name'],'feed',source['url'],0,str(ex))
     return rows
 
 
-def fetch_github(config):
+def fetch_github(config, conn=None):
     session = requests.Session()
     headers = {'Accept':'application/vnd.github+json', 'User-Agent':USER_AGENT,
                'X-GitHub-Api-Version':'2022-11-28'}
@@ -102,6 +107,7 @@ def fetch_github(config):
     session.headers.update(headers)
     rows = []
     for repo in config.get('github_repos', []):
+        before=len(rows)
         try:
             r = session.get(f'https://api.github.com/repos/{repo}/releases?per_page=5', timeout=(8, 18))
             r.raise_for_status()
@@ -116,8 +122,10 @@ def fetch_github(config):
                              'url':release['html_url'], 'source':f'GitHub: {repo}',
                              'category':'Open source', 'published':when.isoformat(),
                              'summary':clean(release.get('body',''))})
+            if conn is not None: advanced.update_health(conn,repo,'github',f'https://github.com/{repo}',len(rows)-before)
         except Exception as ex:
             LOG.warning('Failed GitHub %s: %s', repo, ex)
+            if conn is not None: advanced.update_health(conn,repo,'github',f'https://github.com/{repo}',0,str(ex))
     return rows
 
 
@@ -252,32 +260,36 @@ def main():
     with sqlite3.connect(DB) as conn:
         init_db(conn)
         advanced.health_schema(conn)
-        # The basic feeds and releases are ingested independently of the expanded catalog.
-        basic = fetch_feeds(config)
-        git = fetch_github(config)
-        advanced.update_health(conn,'Primary RSS Collection','batch','sources.yaml',len(basic))
-        advanced.update_health(conn,'GitHub Releases','batch','github_repos',len(git))
-        extra_rows = advanced.fetch_extra(extra,conn)
-        arxiv_rows = advanced.fetch_arxiv_queries(extra,conn) if os.getenv('ENABLE_ARXIV_SEARCH','1')=='1' else []
-        rows = basic + git + extra_rows + arxiv_rows
-        inserted = store(conn, rows)
-        items, total = get_candidates(conn)
-        advanced.enrich_recent(conn,items)
-        clusters = advanced.cluster_items(items)
-        advanced.save_clusters(conn,clusters,NOW.date().isoformat())
-        status=advanced.source_status(conn)
-    LOG.info('Fetched %d items, inserted %d, in-window %d, selected %d, clusters %d',len(rows),inserted,total,len(items),len(clusters))
-    # Narrate one representative from each headline cluster; list all selected stories.
-    narrative = synthesize([group[0] for group in clusters])
-    md = create_markdown(items,total,inserted,narrative)
-    md += f"\n**Distinct headline clusters:** {len(clusters)}. Some headlines may cover the same event.\n"
-    write_outputs(md)
-    health=advanced.status_markdown(status)
-    (ROOT/'digest'/'source-health.md').write_text(health,encoding='utf-8')
-    (ROOT/'docs'/'source-health.md').write_text(health,encoding='utf-8')
-    # One HTML digest is overwritten every run. SQLite is retained for historical search.
-    # Optional SMTP delivery fails loudly so that alerts can be configured on failed Actions.
-    send_email(md)
+        primary = fetch_feeds(config,conn)
+        releases = fetch_github(config,conn)
+        # These batch health checks represent ingestion success, not individual source uptime.
+        advanced.update_health(conn,'Primary feeds (aggregate)','batch','sources.yaml',len(primary), '' if primary else 'No entries')
+        advanced.update_health(conn,'GitHub releases (aggregate)','batch','github_repos',len(releases), '' if releases else 'No entries')
+        supplementary = advanced.fetch_extra(extra,conn)
+        arxiv = advanced.fetch_arxiv_queries(extra,conn) if os.getenv('ENABLE_ARXIV_SEARCH','1')=='1' else []
+        incoming=primary+releases+supplementary+arxiv
+        # Preserve all historic observations, but daily report strictly uses publication time.
+        inserted=store(conn,incoming)
+        cutoff=(NOW-dt.timedelta(hours=24)).isoformat()
+        rows=[dict(zip(('title','url','source','category','published','summary'),r)) for r in
+            conn.execute('SELECT title,url,source,category,published,summary FROM findings WHERE published>=? AND published<=? ORDER BY published DESC',(cutoff,NOW.isoformat()))]
+        events=intelligence.group_events(rows,NOW,hours=24)
+        health=advanced.source_status(conn)
+    narratives=narration.create_narratives(events)
+    report=intelligence.build_report(events,len(incoming),inserted,NOW,health,narratives)
+    md=dashboard.markdown(report)
+    (ROOT/'digest').mkdir(exist_ok=True)
+    (ROOT/'digest'/'latest.md').write_text(md,encoding='utf-8')
+    (ROOT/'README.md').write_text(md+'\n[Configuration guide](SETUP.md)\n',encoding='utf-8')
+    docs=ROOT/'docs'
+    dashboard.write_dashboard(docs,report)
+    (docs/'latest.md').write_text(md,encoding='utf-8')
+    health_md=advanced.status_markdown(health,top=200)
+    (docs/'source-health.md').write_text(health_md,encoding='utf-8')
+    (ROOT/'digest'/'source-health.md').write_text(health_md,encoding='utf-8')
+    LOG.info('Fetched %s observations, inserted %s, unique published events in 24h %s, high signal %s, source issues %s',len(incoming),inserted,report['stats']['events'],report['stats']['high'],report['stats']['sources_failed'])
+    # Email contains compact executive summary + up to 10 top source-linked stories, not all observations.
+    send_email(md.split('## '+report['categories'][0]['name']+' —')[0] if report['categories'] else md)
 
 
 if __name__ == '__main__':

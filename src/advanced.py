@@ -61,6 +61,7 @@ def fetch_extra(config, conn, timeout=13):
     session=requests.Session()
     session.headers.update({'User-Agent':UA, 'Accept':'application/rss+xml, application/atom+xml, text/html, */*'})
     for src in config.get('extra_feeds', []):
+        if src.get('enabled',True) is False: continue
         name, url, category = src['name'], src['url'], src['category']
         try:
             resp=session.get(url,timeout=(5,timeout)); resp.raise_for_status()
