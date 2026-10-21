@@ -1,0 +1,137 @@
+{
+  "generated": "2026-10-21T06:21:56.866780+00:00",
+  "window_hours": 24,
+  "window_start": "2026-10-20T06:21:56.866780+00:00",
+  "stats": {
+    "events": 2,
+    "high": 1,
+    "sources_reporting": 2,
+    "categories": 2,
+    "records_inserted": 2,
+    "fetched": 2,
+    "sources_failed": 0,
+    "source_checks": 0
+  },
+  "top": [
+    {
+      "title": "New evaluation of multi-agent security flaws",
+      "url": "https://example.org/research/a",
+      "source": "arXiv AI",
+      "category": "Security",
+      "published": "2026-10-21T06:21:56.866780+00:00",
+      "summary": "A preprint proposes a way to evaluate tool-use attacks.",
+      "score": 14,
+      "priority": "High signal",
+      "interests": [
+        "Security",
+        "Agents",
+        "Engineering"
+      ],
+      "event_id": "b343ca976d22",
+      "coverage": []
+    },
+    {
+      "title": "Robot manipulation research introduces tactile control",
+      "url": "https://example.org/research/b",
+      "source": "arXiv Robotics",
+      "category": "Robotics",
+      "published": "2026-10-21T06:21:56.866780+00:00",
+      "summary": "Researchers present a prototype tactile learning method.",
+      "score": 9,
+      "priority": "Other developments",
+      "interests": [
+        "Robotics"
+      ],
+      "event_id": "77069e390e81",
+      "coverage": []
+    }
+  ],
+  "categories": [
+    {
+      "name": "Security",
+      "count": 1,
+      "high": 1,
+      "top": [
+        {
+          "title": "New evaluation of multi-agent security flaws",
+          "url": "https://example.org/research/a",
+          "source": "arXiv AI",
+          "category": "Security",
+          "published": "2026-10-21T06:21:56.866780+00:00",
+          "summary": "A preprint proposes a way to evaluate tool-use attacks.",
+          "score": 14,
+          "priority": "High signal",
+          "interests": [
+            "Security",
+            "Agents",
+            "Engineering"
+          ],
+          "event_id": "b343ca976d22",
+          "coverage": []
+        }
+      ],
+      "items": [
+        {
+          "title": "New evaluation of multi-agent security flaws",
+          "url": "https://example.org/research/a",
+          "source": "arXiv AI",
+          "category": "Security",
+          "published": "2026-10-21T06:21:56.866780+00:00",
+          "summary": "A preprint proposes a way to evaluate tool-use attacks.",
+          "score": 14,
+          "priority": "High signal",
+          "interests": [
+            "Security",
+            "Agents",
+            "Engineering"
+          ],
+          "event_id": "b343ca976d22",
+          "coverage": []
+        }
+      ],
+      "narrative": "1 distinct security developments appeared in the last 24 hours. Highest-ranked topics: New evaluation of multi-agent security flaws. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+    },
+    {
+      "name": "Robotics",
+      "count": 1,
+      "high": 0,
+      "top": [
+        {
+          "title": "Robot manipulation research introduces tactile control",
+          "url": "https://example.org/research/b",
+          "source": "arXiv Robotics",
+          "category": "Robotics",
+          "published": "2026-10-21T06:21:56.866780+00:00",
+          "summary": "Researchers present a prototype tactile learning method.",
+          "score": 9,
+          "priority": "Other developments",
+          "interests": [
+            "Robotics"
+          ],
+          "event_id": "77069e390e81",
+          "coverage": []
+        }
+      ],
+      "items": [
+        {
+          "title": "Robot manipulation research introduces tactile control",
+          "url": "https://example.org/research/b",
+          "source": "arXiv Robotics",
+          "category": "Robotics",
+          "published": "2026-10-21T06:21:56.866780+00:00",
+          "summary": "Researchers present a prototype tactile learning method.",
+          "score": 9,
+          "priority": "Other developments",
+          "interests": [
+            "Robotics"
+          ],
+          "event_id": "77069e390e81",
+          "coverage": []
+        }
+      ],
+      "narrative": "1 distinct robotics developments appeared in the last 24 hours. Highest-ranked topics: Robot manipulation research introduces tactile control. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+    }
+  ],
+  "health": [],
+  "executive": "The highest-ranked developments in this 24-hour window concentrate on Security (1), Robotics (1). Scores reflect relevance, source type and headline signals, not independently established impact. Read the linked evidence before making decisions."
+}
