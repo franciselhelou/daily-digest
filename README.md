@@ -1,8 +1,8 @@
 # Daily AI Intelligence Digest
 
-**Generated:** 2026-10-22T12:58:54.681190+00:00  
+**Generated:** 2026-10-22T13:00:37.418637+00:00  
 **Window: last 24 hours (UTC, rolling)**  
-**Distinct events:** 382 · **High-signal candidates:** 4 · **Sources reporting:** 39
+**Distinct events:** 381 · **High-signal candidates:** 4 · **Sources reporting:** 39
 
 ## Executive brief
 
@@ -168,21 +168,15 @@ Abstract: Long-horizon robot manipulation requires a robot to remember task-rele
 arXiv:2610.29264v1 Announce Type: new 
 Abstract: Large pretrained robot foundation models provide strong priors for manipulation, yet adapting them to target tasks with offline teleoperated demonstrations often fails to cover the contact-rich, recovery, and precision-critical states encountered duri
 
-## Models — 3 distinct findings, 0 high-signal
+## Models — 2 distinct findings, 0 high-signal
 
-3 distinct models developments appeared in the last 24 hours. Highest-ranked topics: Broad access through consistent standards; ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform; How AT&T is rethinking in-house legal work with OpenAI. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+2 distinct models developments appeared in the last 24 hours. Highest-ranked topics: Broad access through consistent standards; How AT&T is rethinking in-house legal work with OpenAI. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [Broad access through consistent standards](https://openai.com/index/broad-access-through-consistent-standards)
 
 **Models · Other developments · Score 9 · OpenAI News**
 
 How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.
-
-### [ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform](https://openai.com/index/chatgpt-ads-expands-26-new-countries)
-
-**Models · Other developments · Score 6 · OpenAI News**
-
-From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.
 
 ### [How AT&T is rethinking in-house legal work with OpenAI](https://openai.com/index/att-legal)
 
@@ -272,9 +266,9 @@ The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, h
 
 U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.
 
-## Business — 5 distinct findings, 0 high-signal
+## Business — 4 distinct findings, 0 high-signal
 
-5 distinct business developments appeared in the last 24 hours. Highest-ranked topics: TechCrunch Founder Summit 2026: Everything you need to know; Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation; Legal AI startup Legora raises $550M Series E at $8.8B valuation. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+4 distinct business developments appeared in the last 24 hours. Highest-ranked topics: TechCrunch Founder Summit 2026: Everything you need to know; Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation; Legal AI startup Legora raises $550M Series E at $8.8B valuation. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [TechCrunch Founder Summit 2026: Everything you need to know](https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/)
 
@@ -341,9 +335,15 @@ Abstract: As quantum computing moves from the noisy intermediate-scale quantum (
 arXiv:2610.28852v1 Announce Type: new 
 Abstract: Gradient-based algorithms are often applied to identify an optimal control for maximizing a quantum objective functional by following a steepest ascent path to the top of the control landscape. In contrast, this paper explores straight shots through c
 
-## Community — 43 distinct findings, 0 high-signal
+## Community — 44 distinct findings, 0 high-signal
 
-43 distinct community developments appeared in the last 24 hours. Highest-ranked topics: Ling-3.1-flash is getting a 1019 update, with open weights to follow; Benchmark: Recursive's Flint 40B A2.5B Q4 achieves 128 tok/s on MacBook Pro M4 Pro 48GB using Kapitsa, an open-source Apple Silicon optimized engine, Claude/Codex/Pi/OpenCode compatible.; Built an LLM benchmark tool that tells you what the numbers mean and what to change next (alpha, feedback wanted). These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+44 distinct community developments appeared in the last 24 hours. Highest-ranked topics: support for domyn/Domyn-Small-v1.0 has been merged into llama.cpp; Ling-3.1-flash is getting a 1019 update, with open weights to follow; Benchmark: Recursive's Flint 40B A2.5B Q4 achieves 128 tok/s on MacBook Pro M4 Pro 48GB using Kapitsa, an open-source Apple Silicon optimized engine, Claude/Codex/Pi/OpenCode compatible.. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+
+### [support for domyn/Domyn-Small-v1.0 has been merged into llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1xchwrf/support_for_domyndomynsmallv10_has_been_merged/)
+
+**Community · Other developments · Score 8 · Reddit LocalLLaMA**
+
+small context but may be good for agentic use on small VRAM setups https://huggingface.co/domyn/Domyn-Small-v1.0 Domyn Small Domyn Small is a 10B-parameter open-weight reasoning model designed for resource-constrained, agentic, and fine-tunable deployments. It pairs a dual-mode (thinking on/off) inf
 
 ### [Ling-3.1-flash is getting a 1019 update, with open weights to follow](https://www.reddit.com/r/LocalLLaMA/comments/1xcftoo/ling31flash_is_getting_a_1019_update_with_open/)
 
@@ -356,12 +356,6 @@ For anyone still downloading the last Flash: there's another checkpoint on the w
 **Community · Other developments · Score 6 · Reddit LocalLLaMA**
 
 hey folks, im Ye, im one of the contributors to Kapitsa , an open source inference engine optimized specifically for Apple Silicon (all the way from M1 chips to M6) to run Qwen & Nemotron models that would fit a regular MacBook. its custom written Metal kernels, allow us to optimize each chip & for 
-
-### [Built an LLM benchmark tool that tells you what the numbers mean and what to change next (alpha, feedback wanted)](https://www.reddit.com/r/LocalLLaMA/comments/1xcgtwm/built_an_llm_benchmark_tool_that_tells_you_what/)
-
-**Community · Other developments · Score 6 · Reddit LocalLLaMA**
-
-hey folks, can you try this out? i built an easy to understand LLM benchmark + tuner on top of NVIDIA's AIPerf. why .... running benchmark tools is easy, but figuring out what the numbers mean and what to do next is hard, especially if you're not a seasoned inference engineer. so this tells you how 
 
 ## News — 32 distinct findings, 0 high-signal
 
