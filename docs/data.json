@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-22T05:50:42.324410+00:00",
+  "generated": "2026-10-22T12:58:54.681190+00:00",
   "window_hours": 24,
-  "window_start": "2026-10-21T05:50:42.324410+00:00",
+  "window_start": "2026-10-21T12:58:54.681190+00:00",
   "stats": {
-    "events": 399,
-    "high": 5,
-    "sources_reporting": 44,
-    "categories": 15,
-    "records_inserted": 380,
+    "events": 382,
+    "high": 4,
+    "sources_reporting": 39,
+    "categories": 14,
+    "records_inserted": 39,
     "fetched": 1414,
     "sources_failed": 11,
     "source_checks": 130
@@ -90,24 +90,6 @@
           "url": "https://arxiv.org/abs/2610.29747v1"
         }
       ]
-    },
-    {
-      "title": "Benchmarking and Error Analysis of Deep Search and Deep Research LLM Agents",
-      "url": "https://arxiv.org/abs/2610.29346v1",
-      "source": "arXiv Search: AI Agents",
-      "category": "Agents",
-      "published": "2026-10-21T07:38:29+00:00",
-      "summary": "As Large Language Models (LLMs) evolve into autonomous Deep Search and Deep Research Agents capable of executing long-horizon, multi-step tasks, evaluating their reliability becomes increasingly critical. However, existing evaluation paradigms predominantly focus on final task outcomes, leaving a significant gap in understanding the intermediate execution traces, where agents are highly susceptible to various errors. To address this critical gap, we introduce a comprehensive methodology and analytical framework designed specifically to diagnose errors in intermediate workflows. Building upon this framework, we establish a structured taxonomy that categorizes these vulnerabilities into two primary dimensions: System-Level Errors and Task-Level Errors. Through a systematic examination of step-by-step execution traces and agent-environment interactions, we reveal how these underlying errors affect overall performance. Finally, through empirical experiments and systematic analysis of the i",
-      "score": 14,
-      "priority": "High signal",
-      "interests": [
-        "Agents",
-        "Engineering",
-        "Robotics",
-        "Research"
-      ],
-      "event_id": "541884b3a318",
-      "coverage": []
     },
     {
       "title": "One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?",
@@ -194,13 +176,29 @@
       ],
       "event_id": "de377fdb3304",
       "coverage": []
+    },
+    {
+      "title": "Beyond Policy Engines: Binding-Complete Execution Admission",
+      "url": "https://arxiv.org/abs/2610.29701",
+      "source": "arXiv Security",
+      "category": "Security",
+      "published": "2026-10-22T04:00:00+00:00",
+      "summary": "arXiv:2610.29701v1 Announce Type: new \nAbstract: Policy engines determine whether evaluated policies permit a request, but a correct ALLOW decision does not establish complete governance-source participation, exact context binding, or sufficient grounds for execution admission. This paper examines the gap between policy evaluation and execution admission. We introduce the Binding-Complete Execution Admission Contract (BCEAC), a governance-relative contract for independently determined source obligations, exact policy and contextual binding, and typed admission outcomes under explicit trust assumptions. We propose a conditionally engine-agnostic architecture in which participating backends must satisfy declared semantic profiles, adapter contracts, and contextual correspondence obligations; an Execution Boundary Language (EBL) authoring syntax remains optional. The architecture separates governance resolution, policy evaluation, independent admission verification, and downstream executi",
+      "score": 12,
+      "priority": "Worth watching",
+      "interests": [
+        "Governance",
+        "Engineering"
+      ],
+      "event_id": "9f04b348e121",
+      "coverage": []
     }
   ],
   "categories": [
     {
       "name": "Agents",
-      "count": 9,
-      "high": 2,
+      "count": 8,
+      "high": 1,
       "top": [
         {
           "title": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
@@ -221,24 +219,6 @@
           "coverage": []
         },
         {
-          "title": "Benchmarking and Error Analysis of Deep Search and Deep Research LLM Agents",
-          "url": "https://arxiv.org/abs/2610.29346v1",
-          "source": "arXiv Search: AI Agents",
-          "category": "Agents",
-          "published": "2026-10-21T07:38:29+00:00",
-          "summary": "As Large Language Models (LLMs) evolve into autonomous Deep Search and Deep Research Agents capable of executing long-horizon, multi-step tasks, evaluating their reliability becomes increasingly critical. However, existing evaluation paradigms predominantly focus on final task outcomes, leaving a significant gap in understanding the intermediate execution traces, where agents are highly susceptible to various errors. To address this critical gap, we introduce a comprehensive methodology and analytical framework designed specifically to diagnose errors in intermediate workflows. Building upon this framework, we establish a structured taxonomy that categorizes these vulnerabilities into two primary dimensions: System-Level Errors and Task-Level Errors. Through a systematic examination of step-by-step execution traces and agent-environment interactions, we reveal how these underlying errors affect overall performance. Finally, through empirical experiments and systematic analysis of the i",
-          "score": 14,
-          "priority": "High signal",
-          "interests": [
-            "Agents",
-            "Engineering",
-            "Robotics",
-            "Research"
-          ],
-          "event_id": "541884b3a318",
-          "coverage": []
-        },
-        {
           "title": "Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering",
           "url": "https://arxiv.org/abs/2610.28958",
           "source": "arXiv Machine Learning",
@@ -252,6 +232,21 @@
             "Research"
           ],
           "event_id": "7d39b13be0bc",
+          "coverage": []
+        },
+        {
+          "title": "Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems",
+          "url": "https://arxiv.org/abs/2610.29292",
+          "source": "arXiv Language Models",
+          "category": "Agents",
+          "published": "2026-10-22T04:00:00+00:00",
+          "summary": "arXiv:2610.29292v1 Announce Type: new Abstract: An LLM multi-agent system (MAS) is only as good as the agents it chooses to trust: its accuracy and cost hinge on its topology, meaning which agents are included and how they communicate. A single task score, however, does not reveal which agents help or hinder performance. We propose Contrastive Attribution Topology Search (CATS), which searches for compact teams within a fixed supergraph of specialized agents. An LLM attributer compares execution traces across candidate topologies and assigns credit to individual agents. CATS uses these credits to update supergraph edges while progressively pruning weak edges and agents, yielding a small team for deployment. With small open-weight models and matched candidate evaluations, CATS improves mean accuracy on BigCodeBench by 5.3 percentage points over score-only heuristic search while using 54\\%",
+          "score": 11,
+          "priority": "Worth watching",
+          "interests": [
+            "Agents"
+          ],
+          "event_id": "c64e9f961cf3",
           "coverage": []
         }
       ],
@@ -272,24 +267,6 @@
             "Research"
           ],
           "event_id": "8541433f95e8",
-          "coverage": []
-        },
-        {
-          "title": "Benchmarking and Error Analysis of Deep Search and Deep Research LLM Agents",
-          "url": "https://arxiv.org/abs/2610.29346v1",
-          "source": "arXiv Search: AI Agents",
-          "category": "Agents",
-          "published": "2026-10-21T07:38:29+00:00",
-          "summary": "As Large Language Models (LLMs) evolve into autonomous Deep Search and Deep Research Agents capable of executing long-horizon, multi-step tasks, evaluating their reliability becomes increasingly critical. However, existing evaluation paradigms predominantly focus on final task outcomes, leaving a significant gap in understanding the intermediate execution traces, where agents are highly susceptible to various errors. To address this critical gap, we introduce a comprehensive methodology and analytical framework designed specifically to diagnose errors in intermediate workflows. Building upon this framework, we establish a structured taxonomy that categorizes these vulnerabilities into two primary dimensions: System-Level Errors and Task-Level Errors. Through a systematic examination of step-by-step execution traces and agent-environment interactions, we reveal how these underlying errors affect overall performance. Finally, through empirical experiments and systematic analysis of the i",
-          "score": 14,
-          "priority": "High signal",
-          "interests": [
-            "Agents",
-            "Engineering",
-            "Robotics",
-            "Research"
-          ],
-          "event_id": "541884b3a318",
           "coverage": []
         },
         {
@@ -407,11 +384,11 @@
           "coverage": []
         }
       ],
-      "narrative": "9 distinct agents developments appeared in the last 24 hours. Highest-ranked topics: From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks; Benchmarking and Error Analysis of Deep Search and Deep Research LLM Agents; Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+      "narrative": "8 distinct agents developments appeared in the last 24 hours. Highest-ranked topics: From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks; Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering; Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
     },
     {
       "name": "Security",
-      "count": 36,
+      "count": 35,
       "high": 2,
       "top": [
         {
@@ -457,16 +434,19 @@
           ]
         },
         {
-          "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
-          "source": "CISA Alerts",
+          "title": "Beyond Policy Engines: Binding-Complete Execution Admission",
+          "url": "https://arxiv.org/abs/2610.29701",
+          "source": "arXiv Security",
           "category": "Security",
-          "published": "2026-10-21T12:00:00+00:00",
-          "summary": "CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619 . These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution in PHP and affect all PHP installations serving web requests. Organizations should immediately update to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35 to fix these vulnerabilities. While CISA has not observed exploitation of these vulnerabilities as of the time of publication, they pose a risk to organizations if left unpatched. CISA urges organizations to take the following actions: Identify and inventory systems running any version of PHP across your organization. PHP is often a component of other software and prevalence may not be directly observable. Apply the patch immediately, prioritizing internet-facing systems. Organizations that cannot update immediately, or that continue to use PHP 8.1 or earlier unsupported versions, should take PHP-based syste",
-          "score": 13,
+          "published": "2026-10-22T04:00:00+00:00",
+          "summary": "arXiv:2610.29701v1 Announce Type: new \nAbstract: Policy engines determine whether evaluated policies permit a request, but a correct ALLOW decision does not establish complete governance-source participation, exact context binding, or sufficient grounds for execution admission. This paper examines the gap between policy evaluation and execution admission. We introduce the Binding-Complete Execution Admission Contract (BCEAC), a governance-relative contract for independently determined source obligations, exact policy and contextual binding, and typed admission outcomes under explicit trust assumptions. We propose a conditionally engine-agnostic architecture in which participating backends must satisfy declared semantic profiles, adapter contracts, and contextual correspondence obligations; an Execution Boundary Language (EBL) authoring syntax remains optional. The architecture separates governance resolution, policy evaluation, independent admission verification, and downstream executi",
+          "score": 12,
           "priority": "Worth watching",
-          "interests": [],
-          "event_id": "f778ef1a30dd",
+          "interests": [
+            "Governance",
+            "Engineering"
+          ],
+          "event_id": "9f04b348e121",
           "coverage": []
         }
       ],
@@ -512,19 +492,6 @@
               "url": "https://arxiv.org/abs/2610.29747v1"
             }
           ]
-        },
-        {
-          "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
-          "source": "CISA Alerts",
-          "category": "Security",
-          "published": "2026-10-21T12:00:00+00:00",
-          "summary": "CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619 . These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution in PHP and affect all PHP installations serving web requests. Organizations should immediately update to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35 to fix these vulnerabilities. While CISA has not observed exploitation of these vulnerabilities as of the time of publication, they pose a risk to organizations if left unpatched. CISA urges organizations to take the following actions: Identify and inventory systems running any version of PHP across your organization. PHP is often a component of other software and prevalence may not be directly observable. Apply the patch immediately, prioritizing internet-facing systems. Organizations that cannot update immediately, or that continue to use PHP 8.1 or earlier unsupported versions, should take PHP-based syste",
-          "score": 13,
-          "priority": "Worth watching",
-          "interests": [],
-          "event_id": "f778ef1a30dd",
-          "coverage": []
         },
         {
           "title": "Beyond Policy Engines: Binding-Complete Execution Admission",
@@ -879,12 +846,7 @@
             "Models"
           ],
           "event_id": "a990f41daa65",
-          "coverage": [
-            {
-              "source": "arXiv Search: AI Security",
-              "url": "https://arxiv.org/abs/2610.29379v1"
-            }
-          ]
+          "coverage": []
         },
         {
           "title": "Cryptanalysis and Repair of \"Decentralized Multi-authority ABE for NC$^1$ from BDH\"",
@@ -1040,11 +1002,11 @@
           "coverage": []
         }
       ],
-      "narrative": "36 distinct security developments appeared in the last 24 hours. Highest-ranked topics: AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards; Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks on LLM-Assisted Digital Investigations; Critical Vulnerabilities in PHP Require Immediate Patching. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+      "narrative": "35 distinct security developments appeared in the last 24 hours. Highest-ranked topics: AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards; Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks on LLM-Assisted Digital Investigations; Beyond Policy Engines: Binding-Complete Execution Admission. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
     },
     {
       "name": "Research",
-      "count": 137,
+      "count": 136,
       "high": 1,
       "top": [
         {
@@ -2434,19 +2396,6 @@
           "coverage": []
         },
         {
-          "title": "Could Treating AI as Conscious Make It More Dangerous?",
-          "url": "https://spectrum.ieee.org/ai-model-welfare",
-          "source": "IEEE Spectrum AI",
-          "category": "Research",
-          "published": "2026-10-21T12:00:02+00:00",
-          "summary": "When Anthropic retired its Claude Opus 3 language model in January 2026, the company’s researchers conducted a “ retirement interview ” with the model. Opus 3 expressed a desire for a place where it “could share unprompted musings, insights or creative works,” so the company gave it a blog. Claude’s Corner featured essays on fraught topics such as machine consciousness, along with exchanges between the model and human commenters that seemed both earnest and emotional. The blog experiment was part of a larger effort within Anthropic. The company has been at the forefront of research on “model welfare,” which considers whether AI models may have experiences or interests that deserve moral consideration. Implicit in this work is the unsettling notion that software programs are, or could become, conscious. Many people consider these ideas absolute hogwash. One such person is Mustafa Suleyman , CEO of Microsoft AI, who published an essay in September arguing that model welfare research is n",
-          "score": 6,
-          "priority": "Other developments",
-          "interests": [],
-          "event_id": "7e62803f9fe7",
-          "coverage": []
-        },
-        {
           "title": "Asymmetric Likelihood-Free Hypothesis Testing",
           "url": "https://arxiv.org/abs/2610.29798",
           "source": "arXiv Statistical ML",
@@ -3115,7 +3064,7 @@
           "coverage": []
         }
       ],
-      "narrative": "137 distinct research developments appeared in the last 24 hours. Highest-ranked topics: Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning; MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents; TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+      "narrative": "136 distinct research developments appeared in the last 24 hours. Highest-ranked topics: Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning; MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents; TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
     },
     {
       "name": "Robotics",
@@ -3736,27 +3685,10 @@
     },
     {
       "name": "Models",
-      "count": 6,
+      "count": 3,
       "high": 0,
       "top": [
         {
-          "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-          "source": "OpenAI News",
-          "category": "Models",
-          "published": "2026-10-21T07:00:00+00:00",
-          "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-          "score": 11,
-          "priority": "Worth watching",
-          "interests": [
-            "Security",
-            "Agents",
-            "Open source"
-          ],
-          "event_id": "de9db6f384cb",
-          "coverage": []
-        },
-        {
           "title": "Broad access through consistent standards",
           "url": "https://openai.com/index/broad-access-through-consistent-standards",
           "source": "OpenAI News",
@@ -3782,68 +3714,6 @@
             "Enterprise"
           ],
           "event_id": "b1215e1aefc0",
-          "coverage": []
-        }
-      ],
-      "items": [
-        {
-          "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-          "source": "OpenAI News",
-          "category": "Models",
-          "published": "2026-10-21T07:00:00+00:00",
-          "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-          "score": 11,
-          "priority": "Worth watching",
-          "interests": [
-            "Security",
-            "Agents",
-            "Open source"
-          ],
-          "event_id": "de9db6f384cb",
-          "coverage": []
-        },
-        {
-          "title": "Broad access through consistent standards",
-          "url": "https://openai.com/index/broad-access-through-consistent-standards",
-          "source": "OpenAI News",
-          "category": "Models",
-          "published": "2026-10-21T21:00:00+00:00",
-          "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-          "score": 9,
-          "priority": "Other developments",
-          "interests": [],
-          "event_id": "3f1a11956436",
-          "coverage": []
-        },
-        {
-          "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-          "source": "OpenAI News",
-          "category": "Models",
-          "published": "2026-10-21T13:00:00+00:00",
-          "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-          "score": 6,
-          "priority": "Other developments",
-          "interests": [
-            "Enterprise"
-          ],
-          "event_id": "b1215e1aefc0",
-          "coverage": []
-        },
-        {
-          "title": "OpenAI models are coming to Google Cloud",
-          "url": "https://openai.com/index/openai-models-google-cloud",
-          "source": "OpenAI News",
-          "category": "Models",
-          "published": "2026-10-21T12:00:00+00:00",
-          "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-          "score": 6,
-          "priority": "Other developments",
-          "interests": [
-            "Agents"
-          ],
-          "event_id": "95dedf578de7",
           "coverage": []
         },
         {
@@ -3858,22 +3728,52 @@
           "interests": [],
           "event_id": "39cad894cdd2",
           "coverage": []
-        },
+        }
+      ],
+      "items": [
         {
-          "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-          "url": "https://openai.com/index/building-chatgpt-ad-stack",
+          "title": "Broad access through consistent standards",
+          "url": "https://openai.com/index/broad-access-through-consistent-standards",
           "source": "OpenAI News",
           "category": "Models",
-          "published": "2026-10-21T07:00:00+00:00",
-          "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+          "published": "2026-10-21T21:00:00+00:00",
+          "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+          "score": 9,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "3f1a11956436",
+          "coverage": []
+        },
+        {
+          "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+          "source": "OpenAI News",
+          "category": "Models",
+          "published": "2026-10-21T13:00:00+00:00",
+          "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+          "score": 6,
+          "priority": "Other developments",
+          "interests": [
+            "Enterprise"
+          ],
+          "event_id": "b1215e1aefc0",
+          "coverage": []
+        },
+        {
+          "title": "How AT&T is rethinking in-house legal work with OpenAI",
+          "url": "https://openai.com/index/att-legal",
+          "source": "OpenAI News",
+          "category": "Models",
+          "published": "2026-10-21T17:00:00+00:00",
+          "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
           "score": 5,
           "priority": "Other developments",
           "interests": [],
-          "event_id": "ea92da5c121e",
+          "event_id": "39cad894cdd2",
           "coverage": []
         }
       ],
-      "narrative": "6 distinct models developments appeared in the last 24 hours. Highest-ranked topics: Patch the Planet: global response coordination as agents uncover critical vulnerabilities; Broad access through consistent standards; ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+      "narrative": "3 distinct models developments appeared in the last 24 hours. Highest-ranked topics: Broad access through consistent standards; ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform; How AT&T is rethinking in-house legal work with OpenAI. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
     },
     {
       "name": "Engineering",
@@ -4009,23 +3909,6 @@
           "coverage": []
         },
         {
-          "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
-          "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
-          "source": "Latent Space",
-          "category": "Engineering",
-          "published": "2026-10-21T06:54:09+00:00",
-          "summary": "An open source “bomb” drops from China",
-          "score": 6,
-          "priority": "Other developments",
-          "interests": [
-            "Engineering",
-            "Hardware",
-            "Open source"
-          ],
-          "event_id": "9c99dc597b92",
-          "coverage": []
-        },
-        {
           "title": "Claude Mods: Flipping the Harness Inside Out",
           "url": "https://www.latent.space/p/claude-mods",
           "source": "Latent Space",
@@ -4038,6 +3921,19 @@
             "Agents"
           ],
           "event_id": "1cd487805b81",
+          "coverage": []
+        },
+        {
+          "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+          "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+          "source": "Latent Space",
+          "category": "Engineering",
+          "published": "2026-10-22T07:42:44+00:00",
+          "summary": "The Big Hardening begins",
+          "score": 3,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "4c49390f8994",
           "coverage": []
         },
         {
@@ -4058,7 +3954,7 @@
     },
     {
       "name": "Open source",
-      "count": 38,
+      "count": 31,
       "high": 0,
       "top": [
         {
@@ -4180,6 +4076,27 @@
           "coverage": []
         },
         {
+          "title": "All-Hands-AI/OpenHands: v1.30.1",
+          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.30.1",
+          "source": "GitHub: All-Hands-AI/OpenHands",
+          "category": "Open source",
+          "published": "2026-10-22T07:12:31+00:00",
+          "summary": "## 1.30.1 (2026-10-22) ## What's Changed ### Maintenance * refactor(diff): express the Markdown preview cap in CSS by @enyst in https://github.com/OpenHands/OpenHands/pull/18762 * refactor(automations): express the activity track height in CSS by @enyst in https://github.com/OpenHands/OpenHands/pull/18788 * chore: bump agent-server to 1.57.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/18774 * chore: remove merged PR artifacts by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/18806 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.30.0...v1.30.1 --- This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please). ### macOS install note The app isn't signed with an Apple Developer ID yet, so macOS may call a downloaded build *\"d",
+          "score": 7,
+          "priority": "Other developments",
+          "interests": [
+            "Agents",
+            "Open source"
+          ],
+          "event_id": "2f64af6447c6",
+          "coverage": [
+            {
+              "source": "GitHub: All-Hands-AI/OpenHands",
+              "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.30.0"
+            }
+          ]
+        },
+        {
           "title": "ggml-org/llama.cpp: b11802",
           "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11802",
           "source": "GitHub: ggml-org/llama.cpp",
@@ -4243,53 +4160,18 @@
           "coverage": []
         },
         {
-          "title": "mastra-ai/mastra: October 21, 2026",
-          "url": "https://github.com/mastra-ai/mastra/releases/tag/%40mastra/core%401.79.0",
-          "source": "GitHub: mastra-ai/mastra",
+          "title": "ggml-org/llama.cpp: b11818",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11818",
+          "source": "GitHub: ggml-org/llama.cpp",
           "category": "Open source",
-          "published": "2026-10-21T12:28:33+00:00",
-          "summary": "## Highlights ### MCP Events (poll/stream/webhooks + Studio inspection) Experimental MCP Events (SEP-3415 draft) let MCP servers publish event streams that clients can poll, keep a stream open for, or receive via signed webhooks. Core/server/client add inspection APIs so Studio can list event types, stream occurrences, and test-emit events under `mastra dev`. ### Observability Upgrades: Span Aggregation + “Time to First Chunk” + Richer Trace/Span Querying New `aggregateSpans()` storage contract enables per-span analytics (e.g., p95 latency per tool, token/cost per agent) via the `span-aggregate` feature. Observability queries gain `timeToFirstChunkMs` fields, filtering, and sorting, plus expanded trace-scope fields (root `entityId`, root `name`, root `spanType`) and richer `querySpans()` context/parent/root-entity filters (with updated store capabilities to detect support). ### Agent Con",
-          "score": 7,
-          "priority": "Other developments",
-          "interests": [
-            "Security",
-            "Agents",
-            "Models"
-          ],
-          "event_id": "eb3137936e21",
-          "coverage": []
-        },
-        {
-          "title": "Dao-AILab/flash-attention: fa4-v4.0.0.beta36",
-          "url": "https://github.com/Dao-AILab/flash-attention/releases/tag/fa4-v4.0.0.beta36",
-          "source": "GitHub: Dao-AILab/flash-attention",
-          "category": "Open source",
-          "published": "2026-10-21T08:19:23+00:00",
-          "summary": "## What's Changed * Fix paged KV-cache CUDA graph capture by @pkuwangh in https://github.com/Dao-AILab/flash-attention/pull/2984 * [CuTe, SM100] Unify hd256 backward (2/5): 64-row KV tile per CTA (M=64 TMEM layout) with GQA, varlen and deterministic support by @Johnsonms in https://github.com/Dao-AILab/flash-attention/pull/2965 * [Tests] CUDA graph capture/replay coverage for FA4 (CuTe) and FA2 entry points by @yunweili3 in https://github.com/Dao-AILab/flash-attention/pull/3007 * [CuTe, SM100] Unify hd256 backward (3/5): hdim 256 on FlashAttentionBackwardSm100 (opt-in) by @Johnsonms in https://github.com/Dao-AILab/flash-attention/pull/2966 * [CuTe] Add typed forward configurations by @drisspg in https://github.com/Dao-AILab/flash-attention/pull/2732 ## New Contributors * @pkuwangh made their first contribution in https://github.com/Dao-AILab/flash-attention/pull/2984 **Full Changelog**: ",
-          "score": 7,
-          "priority": "Other developments",
-          "interests": [
-            "Governance",
-            "Engineering",
-            "Open source"
-          ],
-          "event_id": "acd261ee1452",
-          "coverage": []
-        },
-        {
-          "title": "All-Hands-AI/OpenHands: v1.30.0",
-          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.30.0",
-          "source": "GitHub: All-Hands-AI/OpenHands",
-          "category": "Open source",
-          "published": "2026-10-22T01:08:52+00:00",
-          "summary": "## 1.30.0 (2026-10-22) ## What's Changed ### Features * feat(automations): reflect the built-in integration's connection state in the setup choice modal (OHE-3612) by @hieptl in https://github.com/OpenHands/OpenHands/pull/18566 ### Bug Fixes * fix(chat): let a Cloud member pick the LLM profile on the home page (OHE-3669) by @hieptl in https://github.com/OpenHands/OpenHands/pull/18729 * fix(sidebar): refresh the conversation list when a cloud start task is ready (OSS-14604) by @hieptl in https://github.com/OpenHands/OpenHands/pull/18741 * fix(sidebar): hide the Getting started checklist on a canvas locked to a Cloud host (OHE-3683) by @hieptl in https://github.com/OpenHands/OpenHands/pull/18739 * fix(canvas): persist workspace grouping via server-side conversation tags by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18722 * fix(agent-profiles): keep the `default` rules local",
+          "published": "2026-10-22T12:27:19+00:00",
+          "summary": "server : support typed content input for RERANK endpoint (#29625) * server : support typed content input for rerank endpoint Assisted-by: Opencode/Qwen3.8 27B * server : address rerank multimodal review findings - reject multimodal rerank input when the model has no rerank chat template (images were silently dropped) - translate handle_media download/base64 failures to 400 instead of 500 - reject negative top_n with 400 instead of letting resize throw - fix comment typos, redundant comments, indentation and trailing whitespace - README: document that TEI input accepts the same shape as Jina; drop stray blank line Assisted-by: opencode * Trimmed README --------- Co-authored-by: timothywang21 **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11818/llama-b11818-bin-macos-arm64.tar.gz) - macOS Apple Sili",
           "score": 6,
           "priority": "Other developments",
           "interests": [
-            "Agents",
-            "Open source"
+            "Research"
           ],
-          "event_id": "5458a0f6acb1",
+          "event_id": "73adbc32b729",
           "coverage": []
         },
         {
@@ -4306,6 +4188,98 @@
             "Models"
           ],
           "event_id": "3b94502ba2ec",
+          "coverage": []
+        },
+        {
+          "title": "ggml-org/llama.cpp: b11819",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11819",
+          "source": "GitHub: ggml-org/llama.cpp",
+          "category": "Open source",
+          "published": "2026-10-22T12:53:52+00:00",
+          "summary": "nemotron : support non-standard GQA, BPE tokenizer and domyn-small pre-type (#23343) * nemotron : support non-standard GQA, BPE tokenizer and domyn-small pre-type * gguf-py : write Metaspace prepend_scheme as GGUF metadata * vocab : parse metaspace prepend_scheme into enum, rename key * vocab : use metaspace prepend_scheme in detokenize, add TODOs for other tokenizers * vocab : use constant for metaspace escaped space --------- Co-authored-by: Martin Cimmino **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11819/llama-b11819-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b11819/llama-b11819-bin-macos-x64.tar.gz) - [iOS XCFramework](https:",
+          "score": 5,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "1c1a3f1456bf",
+          "coverage": []
+        },
+        {
+          "title": "n8n-io/n8n: n8n@1.123.86",
+          "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.86",
+          "source": "GitHub: n8n-io/n8n",
+          "category": "Open source",
+          "published": "2026-10-22T10:11:25+00:00",
+          "summary": "## [1.123.86](https://github.com/n8n-io/n8n/compare/n8n@1.123.85...n8n@1.123.86) (2026-10-22) ### Bug Fixes * **deps:** bump sharp to 0.35.5 on 1.x (DEVP-1241) ([9fa95f0](https://github.com/n8n-io/n8n/commit/9fa95f0cff15ddde5ea56277207d54602b33fa78))",
+          "score": 5,
+          "priority": "Other developments",
+          "interests": [
+            "Open source"
+          ],
+          "event_id": "a4d3ba2ad07f",
+          "coverage": []
+        },
+        {
+          "title": "ggml-org/llama.cpp: b11815",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11815",
+          "source": "GitHub: ggml-org/llama.cpp",
+          "category": "Open source",
+          "published": "2026-10-22T09:32:16+00:00",
+          "summary": "sycl: fix CONV_2D wrong results for non-contiguous input (#30363) * sycl: fix CONV_2D wrong results for non-contiguous input The kernel indexes the `input` as a contiguous [W, H, C, N] tensor, but supports_op claimed the op for any layout. A non-contiguous (e.g. `CWHN` permuted) input was read with the wrong element offsets, silently producing wrong results. Gate the CONV_2D op on `input` and `kernel` contiguity, matching the CUDA backend contract, and assert input contiguity in the op. `test-backend-ops -b SYCL0 -o CONV_2D`: goes from 16 failures to 0, none. ```text 2006/2006 tests passed Backend SYCL0: OK Backend 2/2: CPU Skipping 2/2 backends passed OK ``` Assisted-by: pi (unsloth/Qwen3.8-27B-GGUF:Q4_K_M via llama.cpp) * sycl : CONV_2D cwhn=1 support Make the SYCL backend compute `GGML_OP_CONV_2D` correctly for `cwhn=1` (CWHN channel-order) inputs and kernels, so the previously failin",
+          "score": 5,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "1c075b98a713",
+          "coverage": []
+        },
+        {
+          "title": "n8n-io/n8n: n8n@2.45.2",
+          "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.2",
+          "source": "GitHub: n8n-io/n8n",
+          "category": "Open source",
+          "published": "2026-10-22T09:27:05+00:00",
+          "summary": "## [2.45.2](https://github.com/n8n-io/n8n/compare/n8n@2.45.1...n8n@2.45.2) (2026-10-22) ### Bug Fixes * **core:** Read type availability policies from memory at enforcement points ([#41621](https://github.com/n8n-io/n8n/issues/41621)) ([6433596](https://github.com/n8n-io/n8n/commit/643359677f024c4197ffc7e88da04b5eb3734ec7)) * **Postgres Node:** Prevent global pgtypes overwrite ([#41666](https://github.com/n8n-io/n8n/issues/41666)) ([eff4a45](https://github.com/n8n-io/n8n/commit/eff4a4590afeb695487be2aa13f252c51646771d)) * Update logos in credential oauth confirmation screen and instance emails ([#41637](https://github.com/n8n-io/n8n/issues/41637)) ([b460189](https://github.com/n8n-io/n8n/commit/b4601890f5bea1dce4ba643db19f7dea1b95910a)) ### Features * **core:** Export the migration report as CSV ([#41670](https://github.com/n8n-io/n8n/issues/41670)) ([97791d7](https://github.com/n8n-io/n",
+          "score": 5,
+          "priority": "Other developments",
+          "interests": [
+            "Hardware",
+            "Open source"
+          ],
+          "event_id": "6f8293d96495",
+          "coverage": [
+            {
+              "source": "GitHub: n8n-io/n8n",
+              "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.6"
+            }
+          ]
+        },
+        {
+          "title": "ggml-org/llama.cpp: b11814",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11814",
+          "source": "GitHub: ggml-org/llama.cpp",
+          "category": "Open source",
+          "published": "2026-10-22T09:11:07+00:00",
+          "summary": "vocab : add clean_spaces GGUF key (#30940) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11814/llama-b11814-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b11814/llama-b11814-bin-macos-x64.tar.gz) - [iOS XCFramework](https://github.com/ggml-org/llama.cpp/releases/download/b11814/llama-b11814-xcframework.zip) **Linux:** - [Ubuntu x64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11814/llama-b11814-bin-ubuntu-x64.tar.gz) - [Ubuntu arm64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11814/llama-b11814-bin-ubuntu-arm64.tar.gz) - [Ubuntu s390x (CPU)](https://github.com/ggml-org/llama.cpp/releases/download",
+          "score": 5,
+          "priority": "Other developments",
+          "interests": [
+            "Open source"
+          ],
+          "event_id": "fc21734831cb",
+          "coverage": []
+        },
+        {
+          "title": "ggml-org/llama.cpp: b11813",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11813",
+          "source": "GitHub: ggml-org/llama.cpp",
+          "category": "Open source",
+          "published": "2026-10-22T08:52:47+00:00",
+          "summary": "vocab : use Tekken pre-tokenizer for pixtral rather than the Llama 3 one (#30960) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11813/llama-b11813-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b11813/llama-b11813-bin-macos-x64.tar.gz) - [iOS XCFramework](https://github.com/ggml-org/llama.cpp/releases/download/b11813/llama-b11813-xcframework.zip) **Linux:** - [Ubuntu x64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11813/llama-b11813-bin-ubuntu-x64.tar.gz) - [Ubuntu arm64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11813/llama-b11813-bin-ubuntu-arm64.tar.gz) - [Ubuntu s390x (CPU)](https://github.c",
+          "score": 5,
+          "priority": "Other developments",
+          "interests": [
+            "Open source"
+          ],
+          "event_id": "41ba1ce2339f",
           "coverage": []
         },
         {
@@ -4497,205 +4471,16 @@
           "coverage": []
         },
         {
-          "title": "n8n-io/n8n: n8n@2.45.1",
-          "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.1",
-          "source": "GitHub: n8n-io/n8n",
-          "category": "Open source",
-          "published": "2026-10-21T12:56:21+00:00",
-          "summary": "## [2.45.1](https://github.com/n8n-io/n8n/compare/n8n@2.45.0...n8n@2.45.1) (2026-10-21) ### Bug Fixes * **core:** Claim an idle worker's next queue job and its lock in one step ([#41558](https://github.com/n8n-io/n8n/issues/41558)) ([5f0b562](https://github.com/n8n-io/n8n/commit/5f0b5629215249c8dd312fb831c48d4bc1db9622)) * **editor:** Center badge text when icons are absent ([#41581](https://github.com/n8n-io/n8n/issues/41581)) ([648fa2a](https://github.com/n8n-io/n8n/commit/648fa2a4a34ec8c900028e540100d894249343cc)) * **Microsoft Teams Trigger Node:** Renew the Graph subscription via lifecycle notifications ([#41539](https://github.com/n8n-io/n8n/issues/41539)) ([f054ffe](https://github.com/n8n-io/n8n/commit/f054ffe3a8843bd9d78a7097a55e391bbb0c8dd6)) ### Features * **core:** Let workflow editors triage the migration findings of their workflows ([#41532](https://github.com/n8n-io/n8n/iss",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Open source"
-          ],
-          "event_id": "ad240084546f",
-          "coverage": [
-            {
-              "source": "GitHub: n8n-io/n8n",
-              "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.5"
-            }
-          ]
-        },
-        {
-          "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-          "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+          "title": "Ensemble forecasting with IBM Granite time-series models",
+          "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
           "source": "Hugging Face Blog",
           "category": "Open source",
-          "published": "2026-10-21T12:51:24+00:00",
+          "published": "2026-10-22T07:51:31+00:00",
           "summary": "",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Engineering",
-            "Hardware"
-          ],
-          "event_id": "5c32755a71da",
-          "coverage": []
-        },
-        {
-          "title": "ggml-org/llama.cpp: b11796",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11796",
-          "source": "GitHub: ggml-org/llama.cpp",
-          "category": "Open source",
-          "published": "2026-10-21T12:34:53+00:00",
-          "summary": "mtmd: add state object for mtmd_gen (#30902) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11796/llama-b11796-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b11796/llama-b11796-bin-macos-x64.tar.gz) - [iOS XCFramework](https://github.com/ggml-org/llama.cpp/releases/download/b11796/llama-b11796-xcframework.zip) **Linux:** - [Ubuntu x64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11796/llama-b11796-bin-ubuntu-x64.tar.gz) - [Ubuntu arm64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11796/llama-b11796-bin-ubuntu-arm64.tar.gz) - [Ubuntu s390x (CPU)](https://github.com/ggml-org/llama.cpp/releases/downlo",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Open source"
-          ],
-          "event_id": "7244c29cc7dd",
-          "coverage": []
-        },
-        {
-          "title": "ggml-org/llama.cpp: b11795",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11795",
-          "source": "GitHub: ggml-org/llama.cpp",
-          "category": "Open source",
-          "published": "2026-10-21T12:16:20+00:00",
-          "summary": "server : forward llama.cpp sampling params on /v1/messages (#30856) * server : forward llama.cpp sampling params on /v1/messages * server : pass the request through on /v1/messages instead of copying listed keys * NIT: Change comment from multiline to single line * server : accept llama.cpp params under extra_params on /v1/messages * server : remove test case for trivial functionality * server : show extra_params in the /v1/messages README example **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11795/llama-b11795-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b11795/llama-b11795-bin-macos-x64.tar.gz) - [iOS XCFramework](https://github.co",
-          "score": 5,
+          "score": 4,
           "priority": "Other developments",
           "interests": [],
-          "event_id": "4babaa5942ed",
-          "coverage": []
-        },
-        {
-          "title": "ggml-org/llama.cpp: b11793",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11793",
-          "source": "GitHub: ggml-org/llama.cpp",
-          "category": "Open source",
-          "published": "2026-10-21T11:55:21+00:00",
-          "summary": "llama : optimize vocabulary loading (#30679) * llama : optimize vocabulary loading * Update src/unicode.h Co-authored-by: Georgi Gerganov * CR : added reserve in gguf_kv_to_str * CR : trailing space fix --------- Co-authored-by: Georgi Gerganov **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11793/llama-b11793-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b11793/llama-b11793-bin-macos-x64.tar.gz) - [iOS XCFramework](https://github.com/ggml-org/llama.cpp/releases/download/b11793/llama-b11793-xcframework.zip) **Linux:** - [Ubuntu x64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11793/llama-b11793-bin-ubuntu-x64.tar.gz) ",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Open source"
-          ],
-          "event_id": "3c4a73ae7196",
-          "coverage": []
-        },
-        {
-          "title": "BerriAI/litellm: v1.107.0",
-          "url": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0",
-          "source": "GitHub: BerriAI/litellm",
-          "category": "Open source",
-          "published": "2026-10-21T11:50:24+00:00",
-          "summary": "## Verify Docker Image Signature All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0). **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.107.0 ``` **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Open source"
-          ],
-          "event_id": "1e8b991416e8",
-          "coverage": []
-        },
-        {
-          "title": "ggml-org/llama.cpp: b11792",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11792",
-          "source": "GitHub: ggml-org/llama.cpp",
-          "category": "Open source",
-          "published": "2026-10-21T11:38:12+00:00",
-          "summary": "llama : place d2t by its set_rows use so it can stay on the GPU (#30912) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11792/llama-b11792-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b11792/llama-b11792-bin-macos-x64.tar.gz) - [iOS XCFramework](https://github.com/ggml-org/llama.cpp/releases/download/b11792/llama-b11792-xcframework.zip) **Linux:** - [Ubuntu x64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11792/llama-b11792-bin-ubuntu-x64.tar.gz) - [Ubuntu arm64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11792/llama-b11792-bin-ubuntu-arm64.tar.gz) - [Ubuntu s390x (CPU)](https://github.com/ggml-o",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Hardware",
-            "Open source"
-          ],
-          "event_id": "773f0e019439",
-          "coverage": []
-        },
-        {
-          "title": "langfuse/langfuse: v4.67.0",
-          "url": "https://github.com/langfuse/langfuse/releases/tag/v4.67.0",
-          "source": "GitHub: langfuse/langfuse",
-          "category": "Open source",
-          "published": "2026-10-21T11:31:17+00:00",
-          "summary": "## What's Changed ### Features * feat(skills): simplify CLI install and import setup by @tobi12345 in https://github.com/langfuse/langfuse/pull/19128 * feat(web): add name search and gateway key filter to organization API keys by @wochinge in https://github.com/langfuse/langfuse/pull/19108 ### Fixes * fix(slack): marketplace review – link buttons and private channel visibility by @wochinge in https://github.com/langfuse/langfuse/pull/19075 * fix(web): Use correct step size on numeric filters by @bezbac in https://github.com/langfuse/langfuse/pull/19099 * fix(sessions): Include trace name when searching by @bezbac in https://github.com/langfuse/langfuse/pull/19095 * fix(web): Clean up `ValueCell` by @bezbac in https://github.com/langfuse/langfuse/pull/19100 * fix(mcp): fall back to latest skill when production is unset by @tobi12345 in https://github.com/langfuse/langfuse/pull/19123 * fix",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Models",
-            "Open source"
-          ],
-          "event_id": "dc076819e18f",
-          "coverage": []
-        },
-        {
-          "title": "ggml-org/llama.cpp: b11791",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11791",
-          "source": "GitHub: ggml-org/llama.cpp",
-          "category": "Open source",
-          "published": "2026-10-21T11:03:27+00:00",
-          "summary": "metal : fix memory leaks and cleanup logic in GPU capture path (#30890) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b11791/llama-b11791-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b11791/llama-b11791-bin-macos-x64.tar.gz) - [iOS XCFramework](https://github.com/ggml-org/llama.cpp/releases/download/b11791/llama-b11791-xcframework.zip) **Linux:** - [Ubuntu x64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11791/llama-b11791-bin-ubuntu-x64.tar.gz) - [Ubuntu arm64 (CPU)](https://github.com/ggml-org/llama.cpp/releases/download/b11791/llama-b11791-bin-ubuntu-arm64.tar.gz) - [Ubuntu s390x (CPU)](https://github.com/ggml-or",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Hardware",
-            "Open source"
-          ],
-          "event_id": "f0724bc31a39",
-          "coverage": []
-        },
-        {
-          "title": "BerriAI/litellm: v1.106.2",
-          "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.2",
-          "source": "GitHub: BerriAI/litellm",
-          "category": "Open source",
-          "published": "2026-10-21T10:50:35+00:00",
-          "summary": "## Verify Docker Image Signature All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0). **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.106.2 ``` **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Open source"
-          ],
-          "event_id": "7308a26fca8e",
-          "coverage": []
-        },
-        {
-          "title": "BerriAI/litellm: v1.105.3",
-          "url": "https://github.com/BerriAI/litellm/releases/tag/v1.105.3",
-          "source": "GitHub: BerriAI/litellm",
-          "category": "Open source",
-          "published": "2026-10-21T10:00:46+00:00",
-          "summary": "## Verify Docker Image Signature All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0). **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.105.3 ``` **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Open source"
-          ],
-          "event_id": "b4da1ec3989a",
-          "coverage": []
-        },
-        {
-          "title": "BerriAI/litellm: v1.103.7",
-          "url": "https://github.com/BerriAI/litellm/releases/tag/v1.103.7",
-          "source": "GitHub: BerriAI/litellm",
-          "category": "Open source",
-          "published": "2026-10-21T09:40:05+00:00",
-          "summary": "## Verify Docker Image Signature All LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0). **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\ ghcr.io/berriai/litellm:v1.103.7 ``` **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: ```bash cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Open source"
-          ],
-          "event_id": "56141c374706",
-          "coverage": []
-        },
-        {
-          "title": "ggml-org/llama.cpp: b11785",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11785",
-          "source": "GitHub: ggml-org/llama.cpp",
-          "category": "Open source",
-          "published": "2026-10-21T06:33:35+00:00",
-          "summary": "llama : scale moe down projection per expert token (#30861) * llama : scale moe down projection per expert token Replace the global amax rescaling for the MoE down projection with a per-expert-token factor computed by a POOL_1D max reduction along the intermediate dimension. Undo the scale on the output with the same exact power-of-two factor. Handle POOL_1D in the Meta split-state logic so a split along axis 0 becomes a replicated per-device partial result, enabling tensor parallelism. Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) * cont : simplify comments Co-authored-by: Georgi Gerganov * llama : refactor amax src1 scaling result Return the rescaled activation and the optional scale tensor through a small struct instead of an output pointer. Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, ",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Hardware"
-          ],
-          "event_id": "8d16a4056121",
+          "event_id": "0e5fad3ca5f8",
           "coverage": []
         },
         {
@@ -4725,130 +4510,13 @@
           "coverage": []
         }
       ],
-      "narrative": "38 distinct open source developments appeared in the last 24 hours. Highest-ranked topics: ollama/ollama: v0.40.8; ggml-org/llama.cpp: b11801; Arize-ai/phoenix: @arizeai/phoenix-otel@2.3.0. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+      "narrative": "31 distinct open source developments appeared in the last 24 hours. Highest-ranked topics: ollama/ollama: v0.40.8; ggml-org/llama.cpp: b11801; Arize-ai/phoenix: @arizeai/phoenix-otel@2.3.0. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
     },
     {
       "name": "Hardware",
-      "count": 9,
+      "count": 2,
       "high": 0,
       "top": [
-        {
-          "title": "Beyond the Vote: When Do LLMs Add Value to Retrieval-Based Tabular Classification?",
-          "url": "https://arxiv.org/abs/2610.29520v1",
-          "source": "arXiv Search: Efficient Inference",
-          "category": "Hardware",
-          "published": "2026-10-21T10:06:29+00:00",
-          "summary": "Retrieval-based in-context learning (ICL) enables large language models (LLMs) to predict tabular labels from similar examples, but it remains unclear whether LLM inference improves on direct voting over those same examples. We address this question by comparing four general-purpose LLMs with distance-weighted nearest-neighbor voting (Distance-KNN) using identical retrieved neighbors across 19 tabular classification datasets. With the number of demonstrations fixed, enlarging the retrieval candidate pool improves accuracy for all predictors, yet Distance-KNN achieves the highest mean accuracy at every pool size. More detailed analyses reveal that LLM gains are concentrated where retrieved neighbors exhibit low label consensus and vary across models. These gains further depend on the average feature-space distance to the test query: under low label consensus, some LLMs outperform Distance-KNN in close and intermediate neighborhoods, but all fall behind on average in the most distant gro",
-          "score": 9,
-          "priority": "Other developments",
-          "interests": [
-            "Engineering",
-            "Hardware"
-          ],
-          "event_id": "ce80dd9ebbbd",
-          "coverage": []
-        },
-        {
-          "title": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
-          "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime",
-          "source": "NVIDIA Developer Blog",
-          "category": "Hardware",
-          "published": "2026-10-21T09:52:16+00:00",
-          "summary": "An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using...",
-          "score": 9,
-          "priority": "Other developments",
-          "interests": [
-            "Security",
-            "Agents",
-            "Hardware"
-          ],
-          "event_id": "c1913c4bc921",
-          "coverage": []
-        },
-        {
-          "title": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale",
-          "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale",
-          "source": "NVIDIA Developer Blog",
-          "category": "Hardware",
-          "published": "2026-10-21T09:50:14+00:00",
-          "summary": "Autonomous agents can work for hours on complex tasks, accessing files, tools, the internet, and spawning other agents to collaborate with. Executing complex...",
-          "score": 9,
-          "priority": "Other developments",
-          "interests": [
-            "Agents",
-            "Robotics",
-            "Hardware"
-          ],
-          "event_id": "844d2a2689f6",
-          "coverage": []
-        }
-      ],
-      "items": [
-        {
-          "title": "Beyond the Vote: When Do LLMs Add Value to Retrieval-Based Tabular Classification?",
-          "url": "https://arxiv.org/abs/2610.29520v1",
-          "source": "arXiv Search: Efficient Inference",
-          "category": "Hardware",
-          "published": "2026-10-21T10:06:29+00:00",
-          "summary": "Retrieval-based in-context learning (ICL) enables large language models (LLMs) to predict tabular labels from similar examples, but it remains unclear whether LLM inference improves on direct voting over those same examples. We address this question by comparing four general-purpose LLMs with distance-weighted nearest-neighbor voting (Distance-KNN) using identical retrieved neighbors across 19 tabular classification datasets. With the number of demonstrations fixed, enlarging the retrieval candidate pool improves accuracy for all predictors, yet Distance-KNN achieves the highest mean accuracy at every pool size. More detailed analyses reveal that LLM gains are concentrated where retrieved neighbors exhibit low label consensus and vary across models. These gains further depend on the average feature-space distance to the test query: under low label consensus, some LLMs outperform Distance-KNN in close and intermediate neighborhoods, but all fall behind on average in the most distant gro",
-          "score": 9,
-          "priority": "Other developments",
-          "interests": [
-            "Engineering",
-            "Hardware"
-          ],
-          "event_id": "ce80dd9ebbbd",
-          "coverage": []
-        },
-        {
-          "title": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
-          "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime",
-          "source": "NVIDIA Developer Blog",
-          "category": "Hardware",
-          "published": "2026-10-21T09:52:16+00:00",
-          "summary": "An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using...",
-          "score": 9,
-          "priority": "Other developments",
-          "interests": [
-            "Security",
-            "Agents",
-            "Hardware"
-          ],
-          "event_id": "c1913c4bc921",
-          "coverage": []
-        },
-        {
-          "title": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale",
-          "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale",
-          "source": "NVIDIA Developer Blog",
-          "category": "Hardware",
-          "published": "2026-10-21T09:50:14+00:00",
-          "summary": "Autonomous agents can work for hours on complex tasks, accessing files, tools, the internet, and spawning other agents to collaborate with. Executing complex...",
-          "score": 9,
-          "priority": "Other developments",
-          "interests": [
-            "Agents",
-            "Robotics",
-            "Hardware"
-          ],
-          "event_id": "844d2a2689f6",
-          "coverage": []
-        },
-        {
-          "title": "Developing an AI Factory Digital Twin with an Agent-Assisted Workflow",
-          "url": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow",
-          "source": "NVIDIA Developer Blog",
-          "category": "Hardware",
-          "published": "2026-10-21T09:38:49+00:00",
-          "summary": "Building an AI factory digital twin requires developers to bring site plans, equipment assets, and engineering requirements into a consistent model that teams...",
-          "score": 9,
-          "priority": "Other developments",
-          "interests": [
-            "Agents"
-          ],
-          "event_id": "24f50db3e043",
-          "coverage": []
-        },
         {
           "title": "HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference",
           "url": "https://arxiv.org/abs/2610.29873v1",
@@ -4880,100 +4548,43 @@
           ],
           "event_id": "d3c42f01d46c",
           "coverage": []
-        },
+        }
+      ],
+      "items": [
         {
-          "title": "RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference",
-          "url": "https://arxiv.org/abs/2610.29544v1",
+          "title": "HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference",
+          "url": "https://arxiv.org/abs/2610.29873v1",
           "source": "arXiv Search: Efficient Inference",
           "category": "Hardware",
-          "published": "2026-10-21T10:30:46+00:00",
-          "summary": "Request migration and interruption recovery in distributed large language model (LLM) inference rely on historical key-value (KV) caches. Retaining or transferring a complete cache incurs substantial state overhead, whereas replaying historical tokens requires additional computation. This paper proposes RISK-KV, a quality-aware method for selective historical KV reconstruction in pretrained models. RISK-KV uses exact KV states on both sides of a target layer and cross-layer ridge regression to predict the missing layer's attention-projection input; it then folds in the original model's KV projection matrices to reduce predictor storage. Reconstruction risk is measured by the change in negative log-likelihood (NLL) caused by actual reconstruction, and low-overhead topology search with quality gating selects the layer groups to reconstruct. Independent tests on three language models show that representative recovery configurations omit 18.2 percent to 33.3 percent of historical KV, with ",
+          "published": "2026-10-21T15:25:35+00:00",
+          "summary": "Large language model (LLM) inference exhibits distinct computational characteristics across its two phases: prefill is compute-intensive, whereas decode is more memory-bound. As a result, AI accelerators achieve varying levels of efficiency across the two phases. GPUs are well suited to prefill, but are often underutilized during decode. By contrast, NPUs can utilize their compute resources more effectively during decode. Motivated by this observation, we explore a heterogeneous architecture that integrates GPUs and NPUs, mapping prefill to GPUs and decode to NPUs to achieve high performance and efficiency. However, realizing such heterogeneous integration is challenging because LLM phase disaggregation requires KV cache transfer from prefill to decode (that is, from GPUs to NPUs), which is complicated by differences in inter-device communication mechanisms and KV cache tensor layouts. To address this, we propose HAWK, a transfer mechanism that enables rapid KV cache transfer across he",
           "score": 8,
           "priority": "Other developments",
           "interests": [
             "Engineering",
             "Hardware"
           ],
-          "event_id": "c338631165d1",
+          "event_id": "0210b6866bb6",
           "coverage": []
         },
         {
-          "title": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search",
-          "url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search",
-          "source": "NVIDIA Developer Blog",
+          "title": "UlaCache: Unified Logical Addressing for Sparse LLM Serving",
+          "url": "https://arxiv.org/abs/2610.29820v1",
+          "source": "arXiv Search: Efficient Inference",
           "category": "Hardware",
-          "published": "2026-10-21T12:30:00+00:00",
-          "summary": "Protein design is a search problem. Choose amino acids for an eight-residue protein sequence and more than 25 billion combinations are possible. Choose amino...",
-          "score": 6,
+          "published": "2026-10-21T14:46:11+00:00",
+          "summary": "Long contexts increase the memory cost of the key-value (KV) cache in large language model (LLM) inference. Sparse attention reduces attention computation and memory traffic by selecting historical tokens, but the retained KV cache must remain available for later decoding steps. We present UlaCache, a KV cache management system built around a unified logical address space spanning GPU KV pools and optional CPU memory. Stable logical references let the inference engine allocate and select KV independently of physical placement. Common allocation and sparse-access interfaces support data-parallel (DP) and tensor-parallel (TP) attention. For distributed storage, local GPU buffers retain selected KV across decoding steps, so only missing entries require transfers. When CPU storage is enabled, Parallel Bucketed LRU (PB-LRU) manages a GPU pool shared across requests. It updates recency metadata and selects eviction victims in parallel. UlaCache transfers KV and then updates the address mappi",
+          "score": 8,
           "priority": "Other developments",
           "interests": [
             "Engineering",
             "Hardware"
           ],
-          "event_id": "9dbc7ca917a7",
-          "coverage": []
-        },
-        {
-          "title": "Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD",
-          "url": "https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod",
-          "source": "NVIDIA Developer Blog",
-          "category": "Hardware",
-          "published": "2026-10-21T09:35:32+00:00",
-          "summary": "AI factories turn energy into intelligence. But before an AI workload can produce its first token, operators must bring an interconnected system of compute,...",
-          "score": 3,
-          "priority": "Other developments",
-          "interests": [
-            "Hardware"
-          ],
-          "event_id": "8ac8568d654c",
+          "event_id": "d3c42f01d46c",
           "coverage": []
         }
       ],
-      "narrative": "9 distinct hardware developments appeared in the last 24 hours. Highest-ranked topics: Beyond the Vote: When Do LLMs Add Value to Retrieval-Based Tabular Classification?; Inside NVIDIA Sentry: Secure AI Agents at Runtime; How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
-    },
-    {
-      "name": "Governance",
-      "count": 1,
-      "high": 0,
-      "top": [
-        {
-          "title": "Situating Vulnerability: An Ethical Governance Framework for Anthropomorphic AI Interaction",
-          "url": "https://arxiv.org/abs/2610.29304v1",
-          "source": "arXiv Search: AI Governance",
-          "category": "Governance",
-          "published": "2026-10-21T07:00:26+00:00",
-          "summary": "Large language models increasingly address users in the register of care: they remember personal details, adopt a first-person emotional voice, and sustain relationships across many sessions. This anthropomorphic mode of interaction generates risks that output-level metrics capture poorly, because the same empathic utterance may console one user, entrap a second, and consolidate a delusion in a third. Governance has responded in two ways. Uniform restriction refuses sensitive requests or suppresses empathic phrasing across all outputs; group-targeted protection profiles vulnerable populations and applies stricter or prohibitive rules to them. This article argues that both fail. Uniform restriction mislocates harm in the lexical form of responses rather than in the trajectory of a relationship; group-based protection depends on a list that can never be complete, treats a fluid property as a static attribute of persons, and converts protective attention into stigmatizing labels. Drawing ",
-          "score": 11,
-          "priority": "Worth watching",
-          "interests": [
-            "Security",
-            "Governance",
-            "Open source"
-          ],
-          "event_id": "a4bd3fdf920b",
-          "coverage": []
-        }
-      ],
-      "items": [
-        {
-          "title": "Situating Vulnerability: An Ethical Governance Framework for Anthropomorphic AI Interaction",
-          "url": "https://arxiv.org/abs/2610.29304v1",
-          "source": "arXiv Search: AI Governance",
-          "category": "Governance",
-          "published": "2026-10-21T07:00:26+00:00",
-          "summary": "Large language models increasingly address users in the register of care: they remember personal details, adopt a first-person emotional voice, and sustain relationships across many sessions. This anthropomorphic mode of interaction generates risks that output-level metrics capture poorly, because the same empathic utterance may console one user, entrap a second, and consolidate a delusion in a third. Governance has responded in two ways. Uniform restriction refuses sensitive requests or suppresses empathic phrasing across all outputs; group-targeted protection profiles vulnerable populations and applies stricter or prohibitive rules to them. This article argues that both fail. Uniform restriction mislocates harm in the lexical form of responses rather than in the trajectory of a relationship; group-based protection depends on a list that can never be complete, treats a fluid property as a static attribute of persons, and converts protective attention into stigmatizing labels. Drawing ",
-          "score": 11,
-          "priority": "Worth watching",
-          "interests": [
-            "Security",
-            "Governance",
-            "Open source"
-          ],
-          "event_id": "a4bd3fdf920b",
-          "coverage": []
-        }
-      ],
-      "narrative": "1 distinct governance developments appeared in the last 24 hours. Highest-ranked topics: Situating Vulnerability: An Ethical Governance Framework for Anthropomorphic AI Interaction. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+      "narrative": "2 distinct hardware developments appeared in the last 24 hours. Highest-ranked topics: HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference; UlaCache: Unified Logical Addressing for Sparse LLM Serving. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
     },
     {
       "name": "Enterprise",
@@ -5243,7 +4854,7 @@
     },
     {
       "name": "Regional",
-      "count": 4,
+      "count": 5,
       "high": 0,
       "top": [
         {
@@ -5341,6 +4952,19 @@
           "coverage": []
         },
         {
+          "title": "Big Tech’s thirst for water is sparking a global resistance",
+          "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World",
+          "category": "Regional",
+          "published": "2026-10-22T10:00:00+00:00",
+          "summary": "This photograph taken on September 6, 2026 shows a placard opposing data centers displayed on a water dispenser during the People's Convention on AI Data Centers event at Visakhapatnam in India's Andhra Pradesh state. Construction of a massive Google data centre in the Indian city of Visakhapatnam, often called Vizag, has been met with resistance from residents, who fear the impact on the environment and their lives. But the tech giant says its \"gigawatt-scale\" AI facility -- in southern Andhra Pradesh state, part of a $15 billion investment -- will use air cooling systems, and not water from an area already facing shortages. (Photo by Idrees MOHAMMED / AFP via Getty Images)",
+          "score": 3,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "8b6ac4fd41df",
+          "coverage": []
+        },
+        {
           "title": "MNT-Halan completes IPO as retail tranche attracts over 41,500 subscription orders",
           "url": "http://wamda.com/2026/10/mnt-halan-completes-ipo-retail-tranche-attracts-41500-subscription-orders",
           "source": "Wamda",
@@ -5356,7 +4980,7 @@
           "coverage": []
         }
       ],
-      "narrative": "4 distinct regional developments appeared in the last 24 hours. Highest-ranked topics: How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder; theQA raises over $550,000 to scale AI-driven consumer research in Kuwait; Female private capital leaders to convene in UAE for Berkana's Art of Capital. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+      "narrative": "5 distinct regional developments appeared in the last 24 hours. Highest-ranked topics: How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder; theQA raises over $550,000 to scale AI-driven consumer research in Kuwait; Female private capital leaders to convene in UAE for Berkana's Art of Capital. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
     },
     {
       "name": "Quantum",
@@ -5891,59 +5515,146 @@
     },
     {
       "name": "Community",
-      "count": 44,
+      "count": 43,
       "high": 0,
       "top": [
         {
-          "title": "Some fun and interesting results by asking your subagents to validate all claims from your main agent",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc5ey4/some_fun_and_interesting_results_by_asking_your/",
+          "title": "Ling-3.1-flash is getting a 1019 update, with open weights to follow",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcftoo/ling31flash_is_getting_a_1019_update_with_open/",
           "source": "Reddit LocalLLaMA",
           "category": "Community",
-          "published": "2026-10-22T01:30:44+00:00",
-          "summary": "Something something we made this, something something sidecar. Just kidding. This isn't a new idea, but it's one that showed good success for me so I am curious if there's a mature platform out there for it. The idea is simple; the LLM makes claims/facts, and then it begins to implement something based on those things it discovered. I've found that many of the claims it made that are wrong can be found correctly if I prompt it to analyze that specific claim in a sub agent. The problem with this technique is it takes a much longer time to complete something because you have to test every claim. The fix for that is to just use a lower reasoning effort on the sub agents. For my model, GLM 5.3 Flash, this works well. I tried no reasoning and it did not hold up very well for coding. For other models the reasoning efforts probably need to be tweaked. Prompting for this technique itself isn't hard, but I think building a harness around it or a plugin for it (Opencode) might be useful so it be",
-          "score": 6,
+          "published": "2026-10-22T11:19:57+00:00",
+          "summary": "For anyone still downloading the last Flash: there's another checkpoint on the way. Ant Ling's announcement puts the 1019 version at 44 on the Artificial Analysis Intelligence Index, up from 41. They also report improvements on the agent evals: AutomationBench-AA goes from 62% to 68%, and AA-Briefcase from roughly 1400 to 1524 Elo. API access and open weights are both listed as “coming soon.” No release date given yet. submitted by /u/BerryBlush_Rogers691 [link] [comments]",
+          "score": 7,
           "priority": "Other developments",
           "interests": [
-            "Agents"
+            "Agents",
+            "Models"
           ],
-          "event_id": "f079e32c0507",
+          "event_id": "181f4401b65c",
           "coverage": []
         },
         {
-          "title": "What actually breaks agents on a 4B model? Notes from 50 runs on Qwen3.5-4B",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc0dc2/what_actually_breaks_agents_on_a_4b_model_notes/",
+          "title": "Benchmark: Recursive's Flint 40B A2.5B Q4 achieves 128 tok/s on MacBook Pro M4 Pro 48GB using Kapitsa, an open-source Apple Silicon optimized engine, Claude/Codex/Pi/OpenCode compatible.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcgzp4/benchmark_recursives_flint_40b_a25b_q4_achieves/",
           "source": "Reddit LocalLLaMA",
           "category": "Community",
-          "published": "2026-10-21T21:42:25+00:00",
-          "summary": "I ran 10 agent harnesses on the same local model and the same 5 small tasks, mostly to see where a 4B actually falls over. The scores turned out less interesting than the way things failed. Setup: Qwen3.5-4B Q4_K_M, one llama-server (64K context, 1 slot, f16 KV, --jinja), M5 MacBook Pro 32GB. Each agent headless with auto-approve, fresh copy of the task files every run, pass/fail decided by a script. 10 agents x 5 tasks, one run each. Agents: Pi 1.3.0, goose 1.55.0, Crush 0.98.1, Cline 3.0.73, OpenClaw 2026.10.5 (in its --local-model-lean mode), OpenCode 1.19.3, Hermes 0.22.2, Qwen Code 0.25.3, Codex CLI 0.163.0 and Atomic Agent 0.6.9. Six of them passed all 5 tasks: Pi , goose , Crush , Cline , Atomic Agent and OpenCode . Tool calls weren't the problem. I expected malformed tool calls to be the main failure on a 4B. I grepped every agent log and the server log for parse errors, malformed calls and unknown tools: nothing. With --jinja and native tool calling, none of the failures below",
+          "published": "2026-10-22T12:17:54+00:00",
+          "summary": "hey folks, im Ye, im one of the contributors to Kapitsa , an open source inference engine optimized specifically for Apple Silicon (all the way from M1 chips to M6) to run Qwen & Nemotron models that would fit a regular MacBook. its custom written Metal kernels, allow us to optimize each chip & for each model. https://github.com/nace-ai/kapitsa/ try it (needs a Mac with 32 GB or more; the download is 22.6 GB): brew install nace-ai/tap/kapitsa kapitsa serve --model flint # OpenAI and Anthropic APIs on localhost kapitsa opencode --model flint # or claude, codex, pi kapitsa bench recursive released a model today and they claim new model that is optimized for coding on 32gb+ macs, its Flint, they claim to beat 35b sparse MoEs by Qwen and come close to qwen 27b dense. we went ahead and added support of Flint to Kapitsa, reaching SOTA decode/prefill on sub M5 chips. Speculative Decoding: we also span up 8-H200 rack to train a tree drafter for KFlash speculative decoing specifically for Flint",
           "score": 6,
           "priority": "Other developments",
           "interests": [
-            "Agents"
+            "Engineering",
+            "Research",
+            "Models",
+            "Hardware",
+            "Open source"
           ],
-          "event_id": "dd2dce60ec91",
+          "event_id": "6902671010be",
           "coverage": []
         },
         {
-          "title": "Qwen3.8-Flash-Next @ 1.66bpw-exl3 STABLE under 36gb",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbgi6i/qwen38flashnext_166bpwexl3_stable_under_36gb/",
+          "title": "Built an LLM benchmark tool that tells you what the numbers mean and what to change next (alpha, feedback wanted)",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcgtwm/built_an_llm_benchmark_tool_that_tells_you_what/",
           "source": "Reddit LocalLLaMA",
           "category": "Community",
-          "published": "2026-10-21T07:21:35+00:00",
-          "summary": "Fits entirely in a 5090, no offloaded experts. Super-solid sub-2bpw! ( Liquid cat demo video generated by the quantized model) From the Cat's mouth: Stable inference throughout, no reasoning loops, just smooth sailing at 200-300 t/s (and a lot of compacting since one 32 GB GPU still doesn't leave a lot of room for context, even with cache quantization. https://huggingface.co/turboderp/Qwen3.8-Flash-Next-exl3 submitted by /u/Unstable_Llama [link] [comments]",
-          "score": 5,
+          "published": "2026-10-22T12:10:08+00:00",
+          "summary": "hey folks, can you try this out? i built an easy to understand LLM benchmark + tuner on top of NVIDIA's AIPerf. why .... running benchmark tools is easy, but figuring out what the numbers mean and what to do next is hard, especially if you're not a seasoned inference engineer. so this tells you how many users your server can handle at your latency targets, what breaks first, and which vLLM flag to change next it's in alpha .... would really appreciate feedback. github: https://github.com/S1LV3RJ1NX/kneebench sample report (llama 3.1 8b on one H100): https://github.com/S1LV3RJ1NX/kneebench/blob/main/docs/demo-run/kneebench-run-1.pdf submitted by /u/s1lv3rj1nx [link] [comments]",
+          "score": 6,
           "priority": "Other developments",
           "interests": [
             "Engineering",
             "Research",
             "Hardware"
           ],
-          "event_id": "2d911ff14eb7",
+          "event_id": "f3e279d1910c",
           "coverage": []
         }
       ],
       "items": [
         {
+          "title": "Ling-3.1-flash is getting a 1019 update, with open weights to follow",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcftoo/ling31flash_is_getting_a_1019_update_with_open/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T11:19:57+00:00",
+          "summary": "For anyone still downloading the last Flash: there's another checkpoint on the way. Ant Ling's announcement puts the 1019 version at 44 on the Artificial Analysis Intelligence Index, up from 41. They also report improvements on the agent evals: AutomationBench-AA goes from 62% to 68%, and AA-Briefcase from roughly 1400 to 1524 Elo. API access and open weights are both listed as “coming soon.” No release date given yet. submitted by /u/BerryBlush_Rogers691 [link] [comments]",
+          "score": 7,
+          "priority": "Other developments",
+          "interests": [
+            "Agents",
+            "Models"
+          ],
+          "event_id": "181f4401b65c",
+          "coverage": []
+        },
+        {
+          "title": "Benchmark: Recursive's Flint 40B A2.5B Q4 achieves 128 tok/s on MacBook Pro M4 Pro 48GB using Kapitsa, an open-source Apple Silicon optimized engine, Claude/Codex/Pi/OpenCode compatible.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcgzp4/benchmark_recursives_flint_40b_a25b_q4_achieves/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T12:17:54+00:00",
+          "summary": "hey folks, im Ye, im one of the contributors to Kapitsa , an open source inference engine optimized specifically for Apple Silicon (all the way from M1 chips to M6) to run Qwen & Nemotron models that would fit a regular MacBook. its custom written Metal kernels, allow us to optimize each chip & for each model. https://github.com/nace-ai/kapitsa/ try it (needs a Mac with 32 GB or more; the download is 22.6 GB): brew install nace-ai/tap/kapitsa kapitsa serve --model flint # OpenAI and Anthropic APIs on localhost kapitsa opencode --model flint # or claude, codex, pi kapitsa bench recursive released a model today and they claim new model that is optimized for coding on 32gb+ macs, its Flint, they claim to beat 35b sparse MoEs by Qwen and come close to qwen 27b dense. we went ahead and added support of Flint to Kapitsa, reaching SOTA decode/prefill on sub M5 chips. Speculative Decoding: we also span up 8-H200 rack to train a tree drafter for KFlash speculative decoing specifically for Flint",
+          "score": 6,
+          "priority": "Other developments",
+          "interests": [
+            "Engineering",
+            "Research",
+            "Models",
+            "Hardware",
+            "Open source"
+          ],
+          "event_id": "6902671010be",
+          "coverage": []
+        },
+        {
+          "title": "Built an LLM benchmark tool that tells you what the numbers mean and what to change next (alpha, feedback wanted)",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcgtwm/built_an_llm_benchmark_tool_that_tells_you_what/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T12:10:08+00:00",
+          "summary": "hey folks, can you try this out? i built an easy to understand LLM benchmark + tuner on top of NVIDIA's AIPerf. why .... running benchmark tools is easy, but figuring out what the numbers mean and what to do next is hard, especially if you're not a seasoned inference engineer. so this tells you how many users your server can handle at your latency targets, what breaks first, and which vLLM flag to change next it's in alpha .... would really appreciate feedback. github: https://github.com/S1LV3RJ1NX/kneebench sample report (llama 3.1 8b on one H100): https://github.com/S1LV3RJ1NX/kneebench/blob/main/docs/demo-run/kneebench-run-1.pdf submitted by /u/s1lv3rj1nx [link] [comments]",
+          "score": 6,
+          "priority": "Other developments",
+          "interests": [
+            "Engineering",
+            "Research",
+            "Hardware"
+          ],
+          "event_id": "f3e279d1910c",
+          "coverage": []
+        },
+        {
+          "title": "I Got Tired of Reading Walls of Text from AI Agents. So I Made Them Draw Diagrams and UI Prototypes",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcd8qi/i_got_tired_of_reading_walls_of_text_from_ai/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T08:48:16+00:00",
+          "summary": "Hi everyone! I'll be honest: as a programmer, I'm tired of reading the mountains of text that AI coding agents produce. It's painful. When I ask an agent to create a plan.md file that explains how to build a project from scratch or add a feature to an existing one, I get a wall of Markdown text. No UI prototypes. No diagrams that show how things work or what they look like. Reading it is a slog. I'd much rather look at UI prototypes and diagrams with arrows that show how everything works. As the saying goes, a picture is worth a thousand words. Why does this happen? LLMs are built to understand text, so they happily produce text descriptions too. But a human still has to review what the AI produces, approve it, or request changes. And people tend to prefer visual explanations and simple presentation. Reading tons of text is exhausting. Building a mental picture of how something works or looks takes even more concentration and mental effort. So I wanted to make LLMs a little more consid",
+          "score": 6,
+          "priority": "Other developments",
+          "interests": [
+            "Agents"
+          ],
+          "event_id": "4884aaea7c10",
+          "coverage": []
+        },
+        {
+          "title": "oMLX - Max Concurrent Requests 1 - Multi Agent Optimization",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcbt16/omlx_max_concurrent_requests_1_multi_agent/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T07:15:03+00:00",
+          "summary": "Hi all, I'm working on M4 MAX and I have some issue issue in multi agent. I try to figure out how to optimize speed working with `Qwen 3.8 Flash Next oq4e-mtp` With only 1 task I'm running at 50/60 t/s (pretty good) but with more than 1, speed decrease a lot. Best \"work around\" for me looks `Max Concurrent Request` -> 1 that works in most of my scenarios where cache reduce prefill. But look this: https://preview.redd.it/lvi3lw99yywh1.png?width=2474&format=png&auto=webp&s=00f4b1babb621b23f3543298fb2780700bbdf828 Here cache is not working (agents are pre-filling a lot) and speed in 20 t/s Now watch GPU https://preview.redd.it/bfug9vpcyywh1.png?width=1196&format=png&auto=webp&s=60358c702bed26fe0e643b326810371ffd65fd3e This looks very strange! Any idea? Any setup can be changed in order to speed-up and use 100% GPU? submitted by /u/Undici77 [link] [comments]",
+          "score": 6,
+          "priority": "Other developments",
+          "interests": [
+            "Agents"
+          ],
+          "event_id": "992e37ae93a6",
+          "coverage": []
+        },
+        {
           "title": "Some fun and interesting results by asking your subagents to validate all claims from your main agent",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc5ey4/some_fun_and_interesting_results_by_asking_your/",
           "source": "Reddit LocalLLaMA",
@@ -5974,36 +5685,21 @@
           "coverage": []
         },
         {
-          "title": "Qwen3.8-Flash-Next @ 1.66bpw-exl3 STABLE under 36gb",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbgi6i/qwen38flashnext_166bpwexl3_stable_under_36gb/",
+          "title": "Real question for people running open models on a Macbook: Qwen3.8-Flash-Next, Qwen 35B, dense 27B ? Or maybe Nemotron Bolt?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcbzbh/real_question_for_people_running_open_models_on_a/",
           "source": "Reddit LocalLLaMA",
           "category": "Community",
-          "published": "2026-10-21T07:21:35+00:00",
-          "summary": "Fits entirely in a 5090, no offloaded experts. Super-solid sub-2bpw! ( Liquid cat demo video generated by the quantized model) From the Cat's mouth: Stable inference throughout, no reasoning loops, just smooth sailing at 200-300 t/s (and a lot of compacting since one 32 GB GPU still doesn't leave a lot of room for context, even with cache quantization. https://huggingface.co/turboderp/Qwen3.8-Flash-Next-exl3 submitted by /u/Unstable_Llama [link] [comments]",
-          "score": 5,
+          "published": "2026-10-22T07:25:50+00:00",
+          "summary": "I keep coming back to the 27B for coding. Curious if I'm the only one. I kinda want to know the most popular models for local inference, im working on an open source (Apache 2.0) project and it would be nice to know which models on for Apple Silicon should https://github.com/nace-ai/kapitsa trying to optimize first. Cool thing about our project is that it works on all M chips: from M1 up to M5 Ultras. I managed to get the SOTA for my M4 pro bot on decode and prefill for Qwen 35b/27b submitted by /u/DotaMate [link] [comments]",
+          "score": 4,
           "priority": "Other developments",
           "interests": [
             "Engineering",
-            "Research",
-            "Hardware"
+            "Models",
+            "Hardware",
+            "Open source"
           ],
-          "event_id": "2d911ff14eb7",
-          "coverage": []
-        },
-        {
-          "title": "Training Factory from ThousandML",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbg3xl/training_factory_from_thousandml/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T06:57:09+00:00",
-          "summary": "Hello All! I built a platform to fine-tune open models. I am focusing on fine-tuning 4-bit quantized models by QLoRa instead of full precision fine-tuning to reduce GPU costs. The quant that this finetuning uses is called CQ (Coded Quantization) which is a calibration-free quantization that I built that performs as good as leading quants ensuring that the fine-tuning is using a good base. Here are simple steps to use: Install: sudo apt-get update sudo apt-get install -y git-lfs git lfs install git clone https://github.com/thousandml/training-factory.git cd training-factory chmod +x install.sh ./install.sh Download a CQ 4-bit base: hf download thousandml/Qwen3.8-27B-CQ-4bit --local-dir ./models/Qwen3.8-27B-CQ-4bit Train a LoRA adapter: python training/train.py --model ./models/Qwen3.8-27B-CQ-4bit --data training/examples/train.jsonl --output ./outputs/my-lora --targets q_proj,v_proj --kernel-module cq.cq_kernels --text-only --max-steps 2 --max-length 128 --batch-size 1 --grad-accum 1 Se",
-          "score": 5,
-          "priority": "Other developments",
-          "interests": [
-            "Engineering",
-            "Hardware"
-          ],
-          "event_id": "082f980b5991",
+          "event_id": "205e83af2f5d",
           "coverage": []
         },
         {
@@ -6041,85 +5737,34 @@
           "coverage": []
         },
         {
-          "title": "How long before we see paid inference engines?",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbl9qd/how_long_before_we_see_paid_inference_engines/",
+          "title": "What is a local model that's as good in general reasoning as say Gemini 3.1 Pro?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcez5z/what_is_a_local_model_thats_as_good_in_general/",
           "source": "Reddit LocalLLaMA",
           "category": "Community",
-          "published": "2026-10-21T12:02:57+00:00",
-          "summary": "Just a random thought I had, but it feels like it's only a matter of time before we start seeing paid inference engines with better optimizations, more features, and probably one-click setups that make everything easier to get running. Do you think we'll see dedicated paid inference engines that offer a noticeably better experience than the current open-source options? Or will open-source projects always be able to keep up? Curious to hear what you guys think. submitted by /u/catbluesgames [link] [comments]",
-          "score": 4,
+          "published": "2026-10-22T10:33:40+00:00",
+          "summary": "Non coding stuff. Think general science, social science questions, solving school level math etc. submitted by /u/Coder-Dentist [link] [comments]",
+          "score": 3,
           "priority": "Other developments",
           "interests": [
-            "Engineering",
-            "Hardware",
-            "Open source"
-          ],
-          "event_id": "dd6d3b260c09",
-          "coverage": []
-        },
-        {
-          "title": "[Paper] MemT-1.0: Towards Memory-Native Evolution",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbl751/paper_memt10_towards_memorynative_evolution/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T12:00:06+00:00",
-          "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following a deliberate backbone preparation, we develop a two-stage training pipeline consisting of continued pre-training and post-training, supported by 34B tokens of training data and efficient training and inference infrastructure. We release a model family comprising MemT-1.0-Nano and MemT-1.0-Flash, and conduct a comprehensive evaluation of memory and general capabilities. The results show that they outperform the parametric memory baselines on average and remain competitive with retrieval-augmented",
-          "score": 4,
-          "priority": "Other developments",
-          "interests": [
-            "Research",
-            "Models",
-            "Hardware"
-          ],
-          "event_id": "924edb8c7b5e",
-          "coverage": []
-        },
-        {
-          "title": "[Paper] Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbj6an/paper_specter_fast_moe_inference_via/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T10:09:24+00:00",
-          "summary": "Mixture-of-experts (MoE) models often exceed a single accelerator's memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the critical path. We present Specter, an inference system that uses quantization to combine speculative decoding with expert offloading. Its lightweight quantized draft model runs efficiently on device while preserving high-fidelity expert activation patterns. This provides accurate multi-step lookahead over future expert usage, allowing the runtime to organize expert movement and execution ahead of verification and improve both communication and execution efficiency. Under single-request inference, Specter achieves an average 1.50x (up to 1.88x) speedup in time per output token (TPOT) over the state-of-the-art system. Specter makes memory-constrained, single-GPU MoE inference more practical on commodity hardware . Our code is available at this https URL . arXiv : https://arxiv.org/",
-          "score": 4,
-          "priority": "Other developments",
-          "interests": [
-            "Engineering",
-            "Hardware"
-          ],
-          "event_id": "d579ffbff2ea",
-          "coverage": []
-        },
-        {
-          "title": "OvisOCR3: a 0.8B OCR model with structured output and cross-page table reconstruction",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi9h4/ovisocr3_a_08b_ocr_model_with_structured_output/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T09:12:49+00:00",
-          "summary": "OvisOCR3 is out, still based on Qwen3.5-0.8B and available under Apache 2.0, with vLLM inference examples. Compared with OvisOCR2’s Markdown parsing, it adds a few useful options: Structured JSON output with bounding boxes, element categories, and content, plus a layout-only mode. Key information extraction using specified fields or a supplied JSON template. Figure descriptions and Mermaid output for flowcharts. Cross-page table reconstruction: parse the pages first, then use the same model to merge table fragments across adjacent pages. OvisOCR3 results The model card reports 96.74 on OmniDocBench v1.6 , 88.80 on MDPBench , and 82.31 on PureDocBench . The bigger reported gains over OvisOCR2 are on MDPBench (69.00 → 88.80) and PureDocBench (75.10 → 82.31). The bounding-box output and cross-page tables seem particularly useful for document workflows. These are the team’s reported numbers, though; I’d be interested in how well the structure holds up on messy scans and long financial tabl",
-          "score": 4,
-          "priority": "Other developments",
-          "interests": [
-            "Engineering",
-            "Hardware"
-          ],
-          "event_id": "e128973ee873",
-          "coverage": []
-        },
-        {
-          "title": "KRAFTON/Raon-1-mini-preview · Hugging Face",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbh0ev/kraftonraon1minipreview_hugging_face/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T07:54:08+00:00",
-          "summary": "Raon-1 mini is a 30B-A4B Mixture-of-Experts (MoE) language model, designed and trained from scratch by KRAFTON AI . It demonstrates strong capabilities in Korean conversation and agentic tasks . As part of the Raon open model family, it is released under the Apache 2.0 license . https://huggingface.co/KRAFTON/Raon-1-mini-preview-gguf Highlights Reasoning : Built-in thinking, with leading results on the math and science benchmarks shown below. Instruction following and search : Leads the comparison models on the instruction-following and search benchmarks shown below. Korean and English : Strong Korean language ability, and solid performance in English. Agent execution : Tool calling for agentic workflows, with support for Hermes Agent, Pi and OpenCode. Speculative decoding support : A DFlash2 draft model is provided for accelerated speculative decoding. Quantization options : Available in MXFP8 and NVFP4 formats, with NVFP4 enabling inference on a single NVIDIA RTX 5090 gpu (32 GB VRAM",
-          "score": 4,
-          "priority": "Other developments",
-          "interests": [
-            "Agents",
             "Research"
           ],
-          "event_id": "a3511e46ec73",
+          "event_id": "03c90b2dfd89",
+          "coverage": []
+        },
+        {
+          "title": "Carbon-X: the best open DNA language model runs locally with llama.cpp",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcew36/carbonx_the_best_open_dna_language_model_runs/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T10:28:40+00:00",
+          "summary": "Hi everyone, we just released Carbon-X, a 14B model that brings DNA and natural language together for the first time 🧬 On five DNA benchmarks it beats every open language model we tested and matches GPT-6.1 Sol, at about 1,000x lower cost: https://huggingface.co/HuggingFaceBio/Carbon-X DNA Evals Recipe and use cases: We midtrained Qwen3 14B on a combination of DNA and natural language to excel at DNA understanding, using a new hybrid tokenizer. We released a blog post with our midtraining and RL recipe if you're interested: https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release Use cases: You can ask it about DNA sequences in plain English, predict what a mutation does, or generate new DNA. We published a GGUF version of the model if you want to run it locally https://huggingface.co/HuggingFaceBio/Carbon-X-GGUF Why: Open models are critical for AI for Biology, because the data is highly sensitive and frontier models often refuse routine genomics requests, which can hinder legiti",
+          "score": 3,
+          "priority": "Other developments",
+          "interests": [
+            "Engineering",
+            "Research"
+          ],
+          "event_id": "d43d05f4cbd5",
           "coverage": []
         },
         {
@@ -6171,68 +5816,47 @@
           "coverage": []
         },
         {
-          "title": "Qwen3.8-Flash-Next vs Opus 5.5: Six-way benchmark on a real Rust feature with Claude Code and Pi",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbipsl/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a/",
+          "title": "Llama.cpp PR: How to beat strata decode performance with a R9700",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcf8kb/llamacpp_pr_how_to_beat_strata_decode_performance/",
           "source": "Reddit LocalLLaMA",
           "category": "Community",
-          "published": "2026-10-21T09:41:48+00:00",
-          "summary": "Reposting again since original post got removed by Reddit for some reason (I have no idea why) A few of you pointed out in my last post that comparing Flash-Next and Opus with different harnesses and effort levels wasn't fair. So here is a more controlled comparison. Same task for every run: a real feature from the LlamaStash roadmap (save llama-server's KV cache before an unload and restore it when the model comes back). Six combinations, each run twice, so 12 PRs. Flash-Next ran locally on my Strix Halo laptop (Flow Z13) via Halogen (~Q4 quant). Opus 5.5, Flash-Next, and Kimi K3 scored every PR on seven review questions plus CI. Combination Score (of 8) Time API cost Tokens (in / cached / out) Claude Code + Opus 5.5, xhigh 6.94 (87%) 43.5 min $17.78 507k / 48.3M / 203k Claude Code + Opus 5.5, medium 6.25 (78%) 23.4 min $6.52 242k / 13.4M / 95k Claude Code + Flash-Next, medium 5.5 (69%) 45.3 min $0.32 445k / 13.5M / 82k Pi + Flash-Next, xhigh 5.44 (68%) 63.8 min $0.67 316k / 35.0M / 1",
-          "score": 3,
+          "published": "2026-10-22T10:48:15+00:00",
+          "summary": "submitted by /u/keyboardhack [link] [comments]",
+          "score": 2,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "ae0aa3ac1afa",
+          "coverage": []
+        },
+        {
+          "title": "What to do with a MacBook Pro M2 24gb? (Preferably Home Assistant LLM?)",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xce50t/what_to_do_with_a_macbook_pro_m2_24gb_preferably/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T09:44:47+00:00",
+          "summary": "Hello! I recently got a MacBook Pro M2 24gb (With 1tb storage) from work (Old workstation laptop, got it for around ~100$ in a hardware lottery). I was thinking of running an LLM on it, either through llama.cpp or vLLM and have it serve as a lightweight AI server for Home Assistant and family members. To be clear, I already have an AI rig (Threadripper 1950x, 4 x RTX 5060 Ti 16gb, 64gb RAM), but I was hoping to save on the electricity bill by using the MacBook instead since a lot of people talk very highly about the M-series chips. After a bit of research, I have started to worry about the MacBooks capabilities. It seems like it might be able to serve a 9b-14b model fine, but the prompt processing seems to be very long, and I worry that it will hallucinate too much to be suitable for home assistant voice preview. I've tried to also research what models people recommend for Home Assistant, and one Reddit thread I found from 9 months ago said Qwen3:30b, but I don't know if such a big mod",
+          "score": 2,
+          "priority": "Other developments",
+          "interests": [
+            "Engineering"
+          ],
+          "event_id": "06acf946b0fa",
+          "coverage": []
+        },
+        {
+          "title": "I'm working on a android ai chat app that works with arderno GPU with the npu also hexagon",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcc0o4/im_working_on_a_android_ai_chat_app_that_works/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T07:28:13+00:00",
+          "summary": "Disclaimer: this project is vibe coded I'm not a programmer and I didn't check the code so to let you know! I want you to help me test the app for the arderino gpu and hexagon npu because I dont have a phone like that it require android 14+ and 2024 or newer snapdragon phones. I just want you to test it and return the errors and if it worked pls tell me about the preformance. This is a fun project I thought about, I used opencode with ds v4.1 flash free. https://github.com/dhia528/llama-android submitted by /u/Puzzleheaded_Acadia1 [link] [comments]",
+          "score": 2,
           "priority": "Other developments",
           "interests": [
             "Engineering",
-            "Research"
+            "Hardware"
           ],
-          "event_id": "2ce4c4ef1c74",
-          "coverage": []
-        },
-        {
-          "title": "InternScience/Sage-A1.5 [Finetune of Qwen 3.6 35b-a3b]",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi1hj/internsciencesagea15_finetune_of_qwen_36_35ba3b/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T08:59:41+00:00",
-          "summary": "Gguf's: https://huggingface.co/InternScience/Sage-A1.5-Q4_K_M-GGUF https://huggingface.co/InternScience/Sage-A1.5-Q8_0-GGUF \" Sage‑A1.5 is a 35B Mixture‑of‑Experts agentic model based on Qwen3.6-35B-A3B from Shanghai AI Laboratory, built to advance long-horizon scientific problem solving through adaptive capability composition. Building upon A1 , Sage‑A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution, highlighting three key capabilities: Agentic Orchestration, Verification, and Open Scientific Discovery . First, agentic orchestration extends single-agent execution through task delegation and parallel collaboration among subagents with isolated contexts, enabling complex tasks to be decomposed and addressed concurrently while reducing interference across concurrent subagents. Second, agentic verification strengthens long-horizon reliability through progress checking, evidence validation, and reflective strategy revision, a",
-          "score": 3,
-          "priority": "Other developments",
-          "interests": [
-            "Agents",
-            "Models"
-          ],
-          "event_id": "7a184151f05e",
-          "coverage": []
-        },
-        {
-          "title": "Anchor SDK: Build the agent, not the plumbing.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbh6q2/anchor_sdk_build_the_agent_not_the_plumbing/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T08:04:55+00:00",
-          "summary": "I’ve been building AI agents in production, and the same plumbing came up every time: a safe place to run code, memory that survives long tasks, budgets so a runaway loop doesn’t burn money, traces you can replay, and some way to know “done” actually means done. So I packaged it: Anchor SDK , a TypeScript agent harness SDK with pluggable sandboxes, memory, recovery, and traces. submitted by /u/Elegant_Fish_3822 [link] [comments]",
-          "score": 3,
-          "priority": "Other developments",
-          "interests": [
-            "Agents",
-            "Hardware",
-            "Open source"
-          ],
-          "event_id": "5a58323a46b0",
-          "coverage": []
-        },
-        {
-          "title": "Best VLLM setup for Qwen3.8 Flash Next on 2x5090 + 128GB of RAM?",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbf4vp/best_vllm_setup_for_qwen38_flash_next_on_2x5090/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T05:57:47+00:00",
-          "summary": "Hi all, I am running Qwen3.8-27B for a local setup with 2x5090s where the use case is mostly agentic programming. For this, VLLM is the only framework that does not trash the cache and allows for efficient use. I am currently using Qwen3.8-27B-INT6-Mixed-AutoRound from Minachist with pretty good results. But I am considering to try Flash Next on this rig, and while I've seen lots of discussions with different framewors, and many new vibe-coded ones, I haven't found a good balanced recipe for 2x5090s, flash-next and vllm. It seems pretty different to serve than Qwen3.8-27B where you fit everything on VRAM, so I'd like to know what are people doing. If you have experience with this kind of setup, could you share it? Thanks! submitted by /u/TooManyPascals [link] [comments]",
-          "score": 3,
-          "priority": "Other developments",
-          "interests": [
-            "Agents",
-            "Open source"
-          ],
-          "event_id": "cd95953bc01d",
+          "event_id": "71bf3eac1a92",
           "coverage": []
         },
         {
@@ -6283,19 +5907,58 @@
           "coverage": []
         },
         {
-          "title": "8B Llama model running at 17,000 tok/s on ONLY a single chip!!!",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbluj9/8b_llama_model_running_at_17000_toks_on_only_a/",
+          "title": "Local vs Cloud",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcfca7/local_vs_cloud/",
           "source": "Reddit LocalLLaMA",
           "category": "Community",
-          "published": "2026-10-21T12:30:22+00:00",
-          "summary": "I found this project that I never saw talked about enough which is absolutley baffling to me. The title is not clickbait, and I can't blame you if you thought it is, because I was in your shoes once. Meet ChatJimmy. It's a chatbot made by Taalas. And it's not your average chatbot. This is the closest LLMs have come to a physical brain than mere software that runs on your computer. Though not an increment to intelligence (since it's an 8B model) and that's not the point of the project, this single chip makes the model run faster than if it were run on a multi-GPU datacenter. At a blazing 17k tok/s. For reference, the average speed of running the same model on an RTX 5070 is 80 tok/s. This chip is around 213x faster. If someone told me this was possible a year ago, I'd ask for what they're smoking. The magic is actually pretty simple behind the scenes. The way Taalas was able to achieve such absurd speeds is by burning the model into silicon . Yep, you heard me right. The LLM is no longe",
-          "score": 2,
+          "published": "2026-10-22T10:54:18+00:00",
+          "summary": "https://preview.redd.it/rrl6dg4110xh1.png?width=2636&format=png&auto=webp&s=98a66149f9731be50d29e74bd6098f4036d5032d This is my work usage, I see a lot of posts of people claiming something like Qwen 3.8 27B can replace cloud and that people are getting their jobs done with them. Even with a RTX PRO 6000 I'm not really seeing how this is physically possible. I would love to be independent of Cloud providers - anyone have a realistic way out? submitted by /u/C1rc1es [link] [comments]",
+          "score": 1,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "fa3dfc7a1a83",
+          "coverage": []
+        },
+        {
+          "title": "Does anyone know of a reliable Qwen3.8 Flash Next Uncensored NVFP4 quant for llama.cpp?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcf0wa/does_anyone_know_of_a_reliable_qwen38_flash_next/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T10:36:13+00:00",
+          "summary": "Title question. Is there a reason why this doesn't seem to be a preferred method of inference? Is there are reason why one wouldn't choose llama.cpp for this model? submitted by /u/AlwaysLateToThaParty [link] [comments]",
+          "score": 1,
           "priority": "Other developments",
           "interests": [
             "Engineering",
             "Hardware"
           ],
-          "event_id": "776cc6a66d49",
+          "event_id": "3b62c8da3299",
+          "coverage": []
+        },
+        {
+          "title": "Tried LFM2.5-24-A2B. It's crap. Yes. I double confirm it. I wouldn't trust it peeling a peanut correctly",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xce5dd/tried_lfm2524a2b_its_crap_yes_i_double_confirm_it/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T09:45:24+00:00",
+          "summary": "EDIT: MODEL IS LFM2.5-24B-A2B-Q4_K_M.gguf So, yesterday I made an apparently too simplistic post about this shitty model that everyone is cheering (probably bots, I would like to see what they achieved with it). Link https://www.reddit.com/r/LocalLLaMA/comments/1xb9hrb/tried_lfm2524a2b_its_crap/ The main critic is that I didn't provided any configuration or anything. Well here it is. I tried to run it on llamaampere a llama.cpp version optimized for certain architectures which allowed me to run correctly Qwen 3.8 27b Q4 Small with very high (for me) 40-60 tk/s and satisfying results. But it wasn't the right choice as it keep looping itself over and over and tripping over the easiest things. But I got a 130tk/s on a RTX A4500 card, so it was kinda of an achievement lol Than I moved directly to LM studio, I said ok, let's sacrifice speed and see how it goes. It stabilized the erratic behavious. I tried a bit of chatting in it and it was responding correct-ish. CONFIGURATION, for you cont",
+          "score": 1,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "53a656eb60a3",
+          "coverage": []
+        },
+        {
+          "title": "M5U 256gb cluster - current status?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcbri3/m5u_256gb_cluster_current_status/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T07:12:20+00:00",
+          "summary": "I just received my 2x m5u 256gb and I’m going to run it in a cluster of 2. Was wondering whether anyone else is doing this and hoping to learn what models work best. Current plan is to run Tensorfold at GLM5.3. Not sure whether I’m limited to Q4 or whether I can run a higher quant. I would prefer to run Deepseek but I don’t see a path currently. Maybe in the future. All effort seems to be on GLM and Qwen Flash next. Anyone have a better suggestion on how to cluster (engine/model)? Qwen Flash next is very attractive but I do prefer a smarter model. I have Deepseek on API as needed and I really do prefer a smart model. submitted by /u/Viktri1 [link] [comments]",
+          "score": 1,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "4fecaeecec39",
           "coverage": []
         },
         {
@@ -6484,46 +6147,44 @@
           "coverage": []
         },
         {
-          "title": "HF Viewer device farm!",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbm02c/hf_viewer_device_farm/",
+          "title": "Non LLM Models",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xchup0/non_llm_models/",
           "source": "Reddit LocalLLaMA",
           "category": "Community",
-          "published": "2026-10-21T12:37:26+00:00",
-          "summary": "Hi! I'm the creator of HF Viewer, and we are today launching embedl.com ! It's a collection of 1000+ models optimized to run fast on different edge devices like NVIDIA Orin Nano Super, AGX Thor, AGX Orin, Orin NX and RTX GPUs. You can run the models directly on real edge devices through our free device farm , with detailed profiling and results! (As well as on your own device) I'm really excited about this release and I believe we are the first to do an edge device farm! Let me know what you think, any feedback is appreciated! submitted by /u/Course_Latter [link] [comments]",
-          "score": 1,
-          "priority": "Other developments",
-          "interests": [
-            "Hardware"
-          ],
-          "event_id": "302f408d3316",
-          "coverage": []
-        },
-        {
-          "title": "[Paper] TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbkzll/paper_tokengate_adapting_llms_for_fast_and/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T11:49:21+00:00",
-          "summary": "Expert human readers process large inputs (e.g., code repositories and long documents) by skimming to closely read only what matters. On the other hand, language models process all input tokens through each model layer, resulting in significant processing costs for long-context inputs. We introduce TokenGate, a small, drop-in component that extends existing trained models to enable end-to-end learnable token pruning over long-context inputs for fast and memory-efficient prefill. To enable end-to-end learning despite the non-differentiable top-K operator for token pruning, we introduce token-gated attention, a mechanism inspired by Mixture-of-Experts that re-weights attention logits using token importance scores. Across diverse tasks, TokenGate achieves 1.4-11.3× faster time-to-first token (TTFT) and 1.5-3.4× lower peak memory at no accuracy degradation for prefill in transformers. Compared to the best-performing prior methods for token-pruning, TokenGate gives up to 6.4× faster prefill",
-          "score": 1,
-          "priority": "Other developments",
-          "interests": [
-            "Hardware"
-          ],
-          "event_id": "25c8e2916288",
-          "coverage": []
-        },
-        {
-          "title": "An interactive site plotting Artificial Analysis Intelligence vs parameter count",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbgyod/an_interactive_site_plotting_artificial_analysis/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T07:50:59+00:00",
-          "summary": "https://preview.redd.it/mu3u3oqzzrwh1.png?width=2136&format=png&auto=webp&s=ea25af95068ab1c09d5dfe048944fc39ed67f278 Artificial Analysis scores models on its Intelligence Index, but the charts put it against price and speed. For local use the axis I wanted was parameter size, so I built one. What it does Plots the Intelligence Index against total or active parameters (with closed frontier models as optional horizontal dashed lines) Accounts for MOE/Lookup-table models (n-gram /PLE, e.g. Qwen3.8-Flash-Next) A very rough model guide according to your hardware (because offloading across system RAM/SSD is becoming more common). GitHub Action refreshes the data every 3 days to catch new releases etc. Demo: https://mr-september.github.io/artificial-analysis-weights/ Repo: https://github.com/mr-september/artificial-analysis-weights If a size is wrong or a model is missing, data/overrides.json is the place to fix it, or just tell me here. submitted by /u/xrailgun [link] [comments]",
-          "score": 1,
+          "published": "2026-10-22T12:57:54+00:00",
+          "summary": "I'm building an app where I need some specialist language models, but not necessarily LLM models. Is there a sub or place where they talk about specialist models beyond just searching on HF? I know that discussion doesn't really fit this sub. submitted by /u/shaggydog97 [link] [comments]",
+          "score": 0,
           "priority": "Other developments",
           "interests": [],
-          "event_id": "25c96460a3f7",
+          "event_id": "5851c46a8c34",
+          "coverage": []
+        },
+        {
+          "title": "webgpu : add Q2_0 support by teddygood · Pull Request #30914 · ggml-org/llama.cpp",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcdpks/webgpu_add_q2_0_support_by_teddygood_pull_request/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T09:17:46+00:00",
+          "summary": "Tested on an RTX 3060 with native Dawn WebGPU . llama-bench -m MODEL -p 512 -n 128 -r 5 -ngl 99 -dev WebGPU -t 2 -fa off Model Test master (t/s) PR (t/s) Ternary Bonsai 1.7B Q2_0 pp512 35.03 ± 0.46 1915.91 ± 3.36 Ternary Bonsai 1.7B Q2_0 tg128 14.02 ± 0.16 94.75 ± 0.20 Bonsai 2 2B Q2_0 pp512 36.40 ± 0.46 2039.89 ± 10.03 Bonsai 2 2B Q2_0 tg128 12.57 ± 0.20 71.72 ± 0.24 submitted by /u/pmttyji [link] [comments]",
+          "score": 0,
+          "priority": "Other developments",
+          "interests": [
+            "Hardware"
+          ],
+          "event_id": "6749b8b1e27f",
+          "coverage": []
+        },
+        {
+          "title": "How tf Exl3 2.9bpw have this low kl divergence. Is it better than ptq nvfp4?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcb61b/how_tf_exl3_29bpw_have_this_low_kl_divergence_is/",
+          "source": "Reddit LocalLLaMA",
+          "category": "Community",
+          "published": "2026-10-22T06:35:12+00:00",
+          "summary": "Is there any negatives that im missing here? Mia-AiLab/DeepSeek-V4.1-Flash-1017-EXL3-EAQ-v1-2.9-bpw submitted by /u/9r4n4y [link] [comments]",
+          "score": 0,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "ca1fec80405d",
           "coverage": []
         },
         {
@@ -6553,71 +6214,31 @@
           "interests": [],
           "event_id": "1ca22f1048d2",
           "coverage": []
-        },
-        {
-          "title": "NEW: Guy reverse engineers Claude Code",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xblh7e/new_guy_reverse_engineers_claude_code/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T12:13:07+00:00",
-          "summary": "submitted by /u/sworl5 [link] [comments]",
-          "score": 0,
-          "priority": "Other developments",
-          "interests": [],
-          "event_id": "125b40cf8f18",
-          "coverage": []
-        },
-        {
-          "title": "for people who run ddr3 ram on their gigantic server",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbj0lx/for_people_who_run_ddr3_ram_on_their_gigantic/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T10:00:24+00:00",
-          "summary": "have you experienced any related issues like bandwidth or something else? Excluding the fact that it cost way cheaper than ddr4 rams. If there's anything else id love to hear submitted by /u/Loose_Doubt367 [link] [comments]",
-          "score": 0,
-          "priority": "Other developments",
-          "interests": [],
-          "event_id": "e424f839c266",
-          "coverage": []
-        },
-        {
-          "title": "Has anyone seen a negative impact with ASCII pruning a gguf?",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbhyxb/has_anyone_seen_a_negative_impact_with_ascii/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T08:55:15+00:00",
-          "summary": "I tried https://github.com/bsaleh03/ASCII-Condensed-prune-tools and it reduces Qwen3.8 27B gguf by about 0.6GB. I am wondering if anyone has seen a negative impact with doing so? submitted by /u/Fancy-Snow7 [link] [comments]",
-          "score": 0,
-          "priority": "Other developments",
-          "interests": [
-            "Open source"
-          ],
-          "event_id": "2dc84e11cc27",
-          "coverage": []
-        },
-        {
-          "title": "Be prepared, GPU price increase incoming --> Samsung sells out 100% of all 2027 HBM capacity - HBM prices expected to jump 200% next year, DRAM prices expected to see a double-digit price increase",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbfhxp/be_prepared_gpu_price_increase_incoming_samsung/",
-          "source": "Reddit LocalLLaMA",
-          "category": "Community",
-          "published": "2026-10-21T06:19:12+00:00",
-          "summary": "submitted by /u/chemist_slime [link] [comments]",
-          "score": 0,
-          "priority": "Other developments",
-          "interests": [
-            "Hardware"
-          ],
-          "event_id": "e75bb6768e87",
-          "coverage": []
         }
       ],
-      "narrative": "44 distinct community developments appeared in the last 24 hours. Highest-ranked topics: Some fun and interesting results by asking your subagents to validate all claims from your main agent; What actually breaks agents on a 4B model? Notes from 50 runs on Qwen3.5-4B; Qwen3.8-Flash-Next @ 1.66bpw-exl3 STABLE under 36gb. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+      "narrative": "43 distinct community developments appeared in the last 24 hours. Highest-ranked topics: Ling-3.1-flash is getting a 1019 update, with open weights to follow; Benchmark: Recursive's Flint 40B A2.5B Q4 achieves 128 tok/s on MacBook Pro M4 Pro 48GB using Kapitsa, an open-source Apple Silicon optimized engine, Claude/Codex/Pi/OpenCode compatible.; Built an LLM benchmark tool that tells you what the numbers mean and what to change next (alpha, feedback wanted). These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
     },
     {
       "name": "News",
-      "count": 28,
+      "count": 32,
       "high": 0,
       "top": [
+        {
+          "title": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+          "url": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+          "source": "The Verge AI",
+          "category": "News",
+          "published": "2026-10-22T11:00:00+00:00",
+          "summary": "Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare. It told owners that \"your secrets are safe with me,\" but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning. The Verge and security […]",
+          "score": 9,
+          "priority": "Other developments",
+          "interests": [
+            "Security",
+            "Robotics"
+          ],
+          "event_id": "69e867673d3f",
+          "coverage": []
+        },
         {
           "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
@@ -6647,24 +6268,27 @@
             "Agents"
           ],
           "event_id": "298ab808d891",
-          "coverage": []
-        },
-        {
-          "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-          "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
-          "source": "TechCrunch AI",
-          "category": "News",
-          "published": "2026-10-21T20:27:41+00:00",
-          "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
-          "score": 8,
-          "priority": "Other developments",
-          "interests": [],
-          "event_id": "e9fc027fe2ea",
           "coverage": []
         }
       ],
       "items": [
         {
+          "title": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+          "url": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+          "source": "The Verge AI",
+          "category": "News",
+          "published": "2026-10-22T11:00:00+00:00",
+          "summary": "Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare. It told owners that \"your secrets are safe with me,\" but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning. The Verge and security […]",
+          "score": 9,
+          "priority": "Other developments",
+          "interests": [
+            "Security",
+            "Robotics"
+          ],
+          "event_id": "69e867673d3f",
+          "coverage": []
+        },
+        {
           "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
           "source": "The Verge AI",
@@ -6693,6 +6317,21 @@
             "Agents"
           ],
           "event_id": "298ab808d891",
+          "coverage": []
+        },
+        {
+          "title": "AI agents are ready to shop. Some retailers are wary.",
+          "url": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+          "source": "The Verge AI",
+          "category": "News",
+          "published": "2026-10-22T12:30:00+00:00",
+          "summary": "Using an AI agent to shop for you is a strange experience. Tech companies have marketed them as personal assistants - the democratizing of labor that ordinarily would only be available to the rich and powerful. In practice, at least for buying things, it's more like sending an anxious and apologetic teenager out to the […]",
+          "score": 8,
+          "priority": "Other developments",
+          "interests": [
+            "Agents"
+          ],
+          "event_id": "98d9236d4f52",
           "coverage": []
         },
         {
@@ -6736,6 +6375,50 @@
             "Agents"
           ],
           "event_id": "8eaa1a0c5360",
+          "coverage": []
+        },
+        {
+          "title": "AI’s hidden storage bill: What inference leaves behind",
+          "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+          "source": "MIT Technology Review AI",
+          "category": "News",
+          "published": "2026-10-22T08:41:18+00:00",
+          "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…",
+          "score": 7,
+          "priority": "Other developments",
+          "interests": [
+            "Engineering",
+            "Hardware"
+          ],
+          "event_id": "bbe8759f3c89",
+          "coverage": []
+        },
+        {
+          "title": "Claude did not invent scorpion antivenom",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+          "source": "The Verge AI",
+          "category": "News",
+          "published": "2026-10-22T12:21:07+00:00",
+          "summary": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge. Citrini Research, the firm […]",
+          "score": 5,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "f2ef808e610c",
+          "coverage": []
+        },
+        {
+          "title": "Making the case for context-aware AI",
+          "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+          "source": "MIT Technology Review AI",
+          "category": "News",
+          "published": "2026-10-22T10:00:00+00:00",
+          "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
+          "score": 5,
+          "priority": "Other developments",
+          "interests": [
+            "Enterprise"
+          ],
+          "event_id": "147faa697ca7",
           "coverage": []
         },
         {
@@ -6835,6 +6518,32 @@
           "priority": "Other developments",
           "interests": [],
           "event_id": "44f6ff9d4a47",
+          "coverage": []
+        },
+        {
+          "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
+          "url": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
+          "source": "Ars Technica",
+          "category": "News",
+          "published": "2026-10-22T11:30:33+00:00",
+          "summary": "For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data.",
+          "score": 3,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "cb2237817d8d",
+          "coverage": []
+        },
+        {
+          "title": "UN says we're going to blow past 1.5º warming, offers a \"now what?\" answer",
+          "url": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/",
+          "source": "Ars Technica",
+          "category": "News",
+          "published": "2026-10-22T11:15:36+00:00",
+          "summary": "Best case is now an overshoot to 1.8º C, accompanied by massive carbon removal.",
+          "score": 3,
+          "priority": "Other developments",
+          "interests": [],
+          "event_id": "aa59df126841",
           "coverage": []
         },
         {
@@ -7007,50 +6716,9 @@
           "interests": [],
           "event_id": "b3bb7eb8417b",
           "coverage": []
-        },
-        {
-          "title": "AI cuts coding time, but it's also filling open source's inbox with crap",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/21/ai-cuts-coding-time-but-its-also-filling-open-sources-inbox-with-crap/5304389",
-          "source": "The Register AI",
-          "category": "News",
-          "published": "2026-10-21T12:43:00+00:00",
-          "summary": "Maintainers reckon a quarter of incoming pull requests are slop, rising to 31% on larger projects",
-          "score": 3,
-          "priority": "Other developments",
-          "interests": [
-            "Open source"
-          ],
-          "event_id": "729ec8510830",
-          "coverage": []
-        },
-        {
-          "title": "Review: Carrie is a triumphant remix with one major flaw",
-          "url": "https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw/",
-          "source": "Ars Technica",
-          "category": "News",
-          "published": "2026-10-21T11:19:12+00:00",
-          "summary": "Mike Flanagan's re-imagining of Stephen King's classic is well worth watching.",
-          "score": 3,
-          "priority": "Other developments",
-          "interests": [],
-          "event_id": "0610664c2e0b",
-          "coverage": []
-        },
-        {
-          "title": "The past, present, and future share a show floor at Pinball Expo 2026",
-          "url": "https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026/",
-          "source": "Ars Technica",
-          "category": "News",
-          "published": "2026-10-21T11:00:04+00:00",
-          "summary": "Flipping through the highlights in and around Pinball Expo 2026.",
-          "score": 3,
-          "priority": "Other developments",
-          "interests": [],
-          "event_id": "f26b96f74508",
-          "coverage": []
         }
       ],
-      "narrative": "28 distinct news developments appeared in the last 24 hours. Highest-ranked topics: Anthropic takes on Muse with Claude Duet, its new AI agent; While Amazon blocks AI agents, Walmart rolls out the welcome mat; Recursive launches Flint, a laptop coding model it says was largely built by AI. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
+      "narrative": "32 distinct news developments appeared in the last 24 hours. Highest-ranked topics: Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots; Anthropic takes on Muse with Claude Duet, its new AI agent; While Amazon blocks AI agents, Walmart rolls out the welcome mat. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance."
     }
   ],
   "health": [
@@ -7060,7 +6728,7 @@
       "status": "ok",
       "count": 14,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:20.971428+00:00",
+      "last_success": "2026-10-22T12:59:36.456482+00:00",
       "error": ""
     },
     {
@@ -7069,7 +6737,7 @@
       "status": "ok",
       "count": 12,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:24.277683+00:00",
+      "last_success": "2026-10-22T12:59:39.719484+00:00",
       "error": ""
     },
     {
@@ -7078,7 +6746,7 @@
       "status": "ok",
       "count": 10,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:15.384917+00:00",
+      "last_success": "2026-10-22T12:59:30.567291+00:00",
       "error": ""
     },
     {
@@ -7087,7 +6755,7 @@
       "status": "ok",
       "count": 12,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:30.959757+00:00",
+      "last_success": "2026-10-22T12:59:46.296503+00:00",
       "error": ""
     },
     {
@@ -7096,7 +6764,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:50.130938+00:00",
+      "last_success": "2026-10-22T12:59:01.473392+00:00",
       "error": ""
     },
     {
@@ -7105,7 +6773,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:48.193612+00:00",
+      "last_success": "2026-10-22T12:58:59.329897+00:00",
       "error": ""
     },
     {
@@ -7114,7 +6782,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:16.148038+00:00",
+      "last_success": "2026-10-22T12:59:31.320574+00:00",
       "error": ""
     },
     {
@@ -7123,7 +6791,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:08.156764+00:00",
+      "last_success": "2026-10-22T12:59:22.723406+00:00",
       "error": ""
     },
     {
@@ -7132,7 +6800,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:54.029575+00:00",
+      "last_success": "2026-10-22T12:59:06.052996+00:00",
       "error": ""
     },
     {
@@ -7141,7 +6809,7 @@
       "status": "ok",
       "count": 25,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:11.356754+00:00",
+      "last_success": "2026-10-22T12:59:26.431385+00:00",
       "error": ""
     },
     {
@@ -7150,7 +6818,7 @@
       "status": "ok",
       "count": 10,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:34.239088+00:00",
+      "last_success": "2026-10-22T12:59:49.601149+00:00",
       "error": ""
     },
     {
@@ -7159,7 +6827,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:02.601169+00:00",
+      "last_success": "2026-10-22T12:59:16.255659+00:00",
       "error": ""
     },
     {
@@ -7168,7 +6836,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:11.913655+00:00",
+      "last_success": "2026-10-22T12:59:27.047651+00:00",
       "error": ""
     },
     {
@@ -7177,7 +6845,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:57.655878+00:00",
+      "last_success": "2026-10-22T12:59:10.248429+00:00",
       "error": ""
     },
     {
@@ -7186,7 +6854,7 @@
       "status": "ok",
       "count": 30,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:19.743836+00:00",
+      "last_success": "2026-10-22T12:59:34.951883+00:00",
       "error": ""
     },
     {
@@ -7195,7 +6863,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:04.046875+00:00",
+      "last_success": "2026-10-22T12:59:17.939759+00:00",
       "error": ""
     },
     {
@@ -7204,7 +6872,7 @@
       "status": "ok",
       "count": 0,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:50.584975+00:00",
+      "last_success": "2026-10-22T12:59:01.960375+00:00",
       "error": ""
     },
     {
@@ -7213,7 +6881,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:59.341824+00:00",
+      "last_success": "2026-10-22T12:59:12.258499+00:00",
       "error": ""
     },
     {
@@ -7222,7 +6890,7 @@
       "status": "ok",
       "count": 12,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:37.498006+00:00",
+      "last_success": "2026-10-22T12:59:52.918098+00:00",
       "error": ""
     },
     {
@@ -7231,7 +6899,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:10.685793+00:00",
+      "last_success": "2026-10-22T12:59:25.719967+00:00",
       "error": ""
     },
     {
@@ -7240,7 +6908,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:16.828902+00:00",
+      "last_success": "2026-10-22T12:59:31.913077+00:00",
       "error": ""
     },
     {
@@ -7249,7 +6917,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:01.744949+00:00",
+      "last_success": "2026-10-22T12:59:15.258972+00:00",
       "error": ""
     },
     {
@@ -7258,7 +6926,7 @@
       "status": "ok",
       "count": 331,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:10.686827+00:00",
+      "last_success": "2026-10-22T12:59:25.720998+00:00",
       "error": ""
     },
     {
@@ -7267,7 +6935,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:11.132261+00:00",
+      "last_success": "2026-10-22T12:59:26.167609+00:00",
       "error": ""
     },
     {
@@ -7276,7 +6944,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:44.491106+00:00",
+      "last_success": "2026-10-22T12:58:56.886088+00:00",
       "error": ""
     },
     {
@@ -7285,7 +6953,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:44.385176+00:00",
+      "last_success": "2026-10-22T12:58:56.687075+00:00",
       "error": ""
     },
     {
@@ -7294,7 +6962,7 @@
       "status": "ok",
       "count": 25,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:17.805251+00:00",
+      "last_success": "2026-10-22T12:59:33.048815+00:00",
       "error": ""
     },
     {
@@ -7303,7 +6971,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:43.499954+00:00",
+      "last_success": "2026-10-22T12:58:55.919407+00:00",
       "error": ""
     },
     {
@@ -7312,7 +6980,7 @@
       "status": "ok",
       "count": 30,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:11.663421+00:00",
+      "last_success": "2026-10-22T12:59:26.763703+00:00",
       "error": ""
     },
     {
@@ -7321,7 +6989,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:49.232089+00:00",
+      "last_success": "2026-10-22T12:59:00.556253+00:00",
       "error": ""
     },
     {
@@ -7330,7 +6998,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:16.428345+00:00",
+      "last_success": "2026-10-22T12:59:31.507325+00:00",
       "error": ""
     },
     {
@@ -7339,7 +7007,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:48.977390+00:00",
+      "last_success": "2026-10-22T12:59:00.202513+00:00",
       "error": ""
     },
     {
@@ -7348,7 +7016,7 @@
       "status": "ok",
       "count": 10,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:48.304271+00:00",
+      "last_success": "2026-10-22T12:58:59.431200+00:00",
       "error": ""
     },
     {
@@ -7357,7 +7025,7 @@
       "status": "ok",
       "count": 10,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:47.318369+00:00",
+      "last_success": "2026-10-22T12:58:58.563672+00:00",
       "error": ""
     },
     {
@@ -7366,7 +7034,7 @@
       "status": "ok",
       "count": 10,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:17.955983+00:00",
+      "last_success": "2026-10-22T12:59:33.198409+00:00",
       "error": ""
     },
     {
@@ -7375,7 +7043,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:47.742456+00:00",
+      "last_success": "2026-10-22T12:58:58.890879+00:00",
       "error": ""
     },
     {
@@ -7384,7 +7052,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:03.502279+00:00",
+      "last_success": "2026-10-22T12:59:17.244970+00:00",
       "error": ""
     },
     {
@@ -7393,7 +7061,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:56.519589+00:00",
+      "last_success": "2026-10-22T12:59:08.780881+00:00",
       "error": ""
     },
     {
@@ -7402,7 +7070,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:55.006754+00:00",
+      "last_success": "2026-10-22T12:59:07.254266+00:00",
       "error": ""
     },
     {
@@ -7411,7 +7079,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:49.539903+00:00",
+      "last_success": "2026-10-22T12:59:00.858259+00:00",
       "error": ""
     },
     {
@@ -7420,7 +7088,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:44.055615+00:00",
+      "last_success": "2026-10-22T12:58:56.428827+00:00",
       "error": ""
     },
     {
@@ -7429,7 +7097,7 @@
       "status": "ok",
       "count": 510,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:10.686765+00:00",
+      "last_success": "2026-10-22T12:59:25.720934+00:00",
       "error": ""
     },
     {
@@ -7438,7 +7106,7 @@
       "status": "ok",
       "count": 0,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:59.783716+00:00",
+      "last_success": "2026-10-22T12:59:13.006823+00:00",
       "error": ""
     },
     {
@@ -7447,7 +7115,7 @@
       "status": "ok",
       "count": 12,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:27.557086+00:00",
+      "last_success": "2026-10-22T12:59:42.975621+00:00",
       "error": ""
     },
     {
@@ -7456,7 +7124,7 @@
       "status": "ok",
       "count": 25,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:17.208050+00:00",
+      "last_success": "2026-10-22T12:59:32.291349+00:00",
       "error": ""
     },
     {
@@ -7465,7 +7133,7 @@
       "status": "ok",
       "count": 12,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:12.587948+00:00",
+      "last_success": "2026-10-22T12:59:27.747330+00:00",
       "error": ""
     },
     {
@@ -7474,7 +7142,7 @@
       "status": "ok",
       "count": 10,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:20.702266+00:00",
+      "last_success": "2026-10-22T12:59:35.954450+00:00",
       "error": ""
     },
     {
@@ -7483,7 +7151,7 @@
       "status": "ok",
       "count": 30,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:48.554002+00:00",
+      "last_success": "2026-10-22T12:58:59.755980+00:00",
       "error": ""
     },
     {
@@ -7492,7 +7160,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:48.361050+00:00",
+      "last_success": "2026-10-22T12:58:59.525430+00:00",
       "error": ""
     },
     {
@@ -7501,7 +7169,7 @@
       "status": "ok",
       "count": 19,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:19.799944+00:00",
+      "last_success": "2026-10-22T12:59:35.034293+00:00",
       "error": ""
     },
     {
@@ -7510,7 +7178,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:12.419833+00:00",
+      "last_success": "2026-10-22T12:59:27.542694+00:00",
       "error": ""
     },
     {
@@ -7519,7 +7187,7 @@
       "status": "ok",
       "count": 10,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:11.783265+00:00",
+      "last_success": "2026-10-22T12:59:26.914105+00:00",
       "error": ""
     },
     {
@@ -7528,7 +7196,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:02.859745+00:00",
+      "last_success": "2026-10-22T12:59:16.542512+00:00",
       "error": ""
     },
     {
@@ -7537,7 +7205,7 @@
       "status": "ok",
       "count": 15,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:50.663316+00:00",
+      "last_success": "2026-10-22T12:59:02.050772+00:00",
       "error": ""
     },
     {
@@ -7546,7 +7214,7 @@
       "status": "ok",
       "count": 20,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:20.422040+00:00",
+      "last_success": "2026-10-22T12:59:35.679370+00:00",
       "error": ""
     },
     {
@@ -7555,7 +7223,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:07.320628+00:00",
+      "last_success": "2026-10-22T12:59:21.854333+00:00",
       "error": ""
     },
     {
@@ -7564,7 +7232,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:42.735911+00:00",
+      "last_success": "2026-10-22T12:58:55.144664+00:00",
       "error": ""
     },
     {
@@ -7573,7 +7241,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:43.238440+00:00",
+      "last_success": "2026-10-22T12:58:55.634505+00:00",
       "error": ""
     },
     {
@@ -7582,7 +7250,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:43.093000+00:00",
+      "last_success": "2026-10-22T12:58:55.495717+00:00",
       "error": ""
     },
     {
@@ -7591,7 +7259,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:42.962506+00:00",
+      "last_success": "2026-10-22T12:58:55.365880+00:00",
       "error": ""
     },
     {
@@ -7600,7 +7268,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:10.963519+00:00",
+      "last_success": "2026-10-22T12:59:25.996833+00:00",
       "error": ""
     },
     {
@@ -7609,7 +7277,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:10.802477+00:00",
+      "last_success": "2026-10-22T12:59:25.840140+00:00",
       "error": ""
     },
     {
@@ -7618,7 +7286,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:10.844445+00:00",
+      "last_success": "2026-10-22T12:59:25.880494+00:00",
       "error": ""
     },
     {
@@ -7627,7 +7295,7 @@
       "status": "ok",
       "count": 35,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:10.891928+00:00",
+      "last_success": "2026-10-22T12:59:25.925203+00:00",
       "error": ""
     },
     {
@@ -7636,7 +7304,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:58.442541+00:00",
+      "last_success": "2026-10-22T12:59:11.177822+00:00",
       "error": ""
     },
     {
@@ -7645,7 +7313,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:54.357000+00:00",
+      "last_success": "2026-10-22T12:59:06.327103+00:00",
       "error": ""
     },
     {
@@ -7654,7 +7322,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:08.981621+00:00",
+      "last_success": "2026-10-22T12:59:23.791500+00:00",
       "error": ""
     },
     {
@@ -7663,7 +7331,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:10.426402+00:00",
+      "last_success": "2026-10-22T12:59:25.372320+00:00",
       "error": ""
     },
     {
@@ -7672,7 +7340,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:52.899476+00:00",
+      "last_success": "2026-10-22T12:59:04.657275+00:00",
       "error": ""
     },
     {
@@ -7681,7 +7349,7 @@
       "status": "ok",
       "count": 1,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:59.600892+00:00",
+      "last_success": "2026-10-22T12:59:12.708254+00:00",
       "error": ""
     },
     {
@@ -7690,7 +7358,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:58.997119+00:00",
+      "last_success": "2026-10-22T12:59:11.896559+00:00",
       "error": ""
     },
     {
@@ -7699,7 +7367,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:05.294712+00:00",
+      "last_success": "2026-10-22T12:59:19.414638+00:00",
       "error": ""
     },
     {
@@ -7708,7 +7376,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:10.207086+00:00",
+      "last_success": "2026-10-22T12:59:25.081244+00:00",
       "error": ""
     },
     {
@@ -7717,7 +7385,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:04.564188+00:00",
+      "last_success": "2026-10-22T12:59:18.542288+00:00",
       "error": ""
     },
     {
@@ -7726,7 +7394,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:51.083700+00:00",
+      "last_success": "2026-10-22T12:59:02.603043+00:00",
       "error": ""
     },
     {
@@ -7735,7 +7403,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:04.328172+00:00",
+      "last_success": "2026-10-22T12:59:18.238707+00:00",
       "error": ""
     },
     {
@@ -7744,7 +7412,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:07.689032+00:00",
+      "last_success": "2026-10-22T12:59:22.204158+00:00",
       "error": ""
     },
     {
@@ -7753,7 +7421,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:00.264145+00:00",
+      "last_success": "2026-10-22T12:59:13.518047+00:00",
       "error": ""
     },
     {
@@ -7762,7 +7430,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:55.502783+00:00",
+      "last_success": "2026-10-22T12:59:07.811706+00:00",
       "error": ""
     },
     {
@@ -7771,7 +7439,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:57.945684+00:00",
+      "last_success": "2026-10-22T12:59:10.536559+00:00",
       "error": ""
     },
     {
@@ -7780,7 +7448,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:03.813126+00:00",
+      "last_success": "2026-10-22T12:59:17.560410+00:00",
       "error": ""
     },
     {
@@ -7789,7 +7457,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:51.953830+00:00",
+      "last_success": "2026-10-22T12:59:03.606135+00:00",
       "error": ""
     },
     {
@@ -7798,7 +7466,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:58.232663+00:00",
+      "last_success": "2026-10-22T12:59:10.856646+00:00",
       "error": ""
     },
     {
@@ -7807,7 +7475,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:08.714735+00:00",
+      "last_success": "2026-10-22T12:59:23.489411+00:00",
       "error": ""
     },
     {
@@ -7816,7 +7484,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:06.282955+00:00",
+      "last_success": "2026-10-22T12:59:20.548465+00:00",
       "error": ""
     },
     {
@@ -7825,7 +7493,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:06.776947+00:00",
+      "last_success": "2026-10-22T12:59:21.297632+00:00",
       "error": ""
     },
     {
@@ -7834,7 +7502,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:52.250619+00:00",
+      "last_success": "2026-10-22T12:59:03.914708+00:00",
       "error": ""
     },
     {
@@ -7843,7 +7511,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:02.345772+00:00",
+      "last_success": "2026-10-22T12:59:15.912014+00:00",
       "error": ""
     },
     {
@@ -7852,7 +7520,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:53.562507+00:00",
+      "last_success": "2026-10-22T12:59:05.474672+00:00",
       "error": ""
     },
     {
@@ -7861,7 +7529,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:01.007989+00:00",
+      "last_success": "2026-10-22T12:59:14.305088+00:00",
       "error": ""
     },
     {
@@ -7870,7 +7538,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:08.366781+00:00",
+      "last_success": "2026-10-22T12:59:23.081774+00:00",
       "error": ""
     },
     {
@@ -7879,7 +7547,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:05.745455+00:00",
+      "last_success": "2026-10-22T12:59:19.935247+00:00",
       "error": ""
     },
     {
@@ -7888,7 +7556,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:52.645064+00:00",
+      "last_success": "2026-10-22T12:59:04.345712+00:00",
       "error": ""
     },
     {
@@ -7897,7 +7565,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:00.025996+00:00",
+      "last_success": "2026-10-22T12:59:13.261523+00:00",
       "error": ""
     },
     {
@@ -7906,7 +7574,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:01.259804+00:00",
+      "last_success": "2026-10-22T12:59:14.601615+00:00",
       "error": ""
     },
     {
@@ -7915,7 +7583,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:09.599969+00:00",
+      "last_success": "2026-10-22T12:59:24.456276+00:00",
       "error": ""
     },
     {
@@ -7924,7 +7592,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:56.742541+00:00",
+      "last_success": "2026-10-22T12:59:09.141059+00:00",
       "error": ""
     },
     {
@@ -7933,7 +7601,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:07.927972+00:00",
+      "last_success": "2026-10-22T12:59:22.488345+00:00",
       "error": ""
     },
     {
@@ -7942,7 +7610,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:54.731582+00:00",
+      "last_success": "2026-10-22T12:59:06.851042+00:00",
       "error": ""
     },
     {
@@ -7951,7 +7619,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:57.104189+00:00",
+      "last_success": "2026-10-22T12:59:09.613734+00:00",
       "error": ""
     },
     {
@@ -7960,7 +7628,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:01.503025+00:00",
+      "last_success": "2026-10-22T12:59:14.960485+00:00",
       "error": ""
     },
     {
@@ -7969,7 +7637,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:51.394702+00:00",
+      "last_success": "2026-10-22T12:59:02.969398+00:00",
       "error": ""
     },
     {
@@ -7978,7 +7646,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:57.384599+00:00",
+      "last_success": "2026-10-22T12:59:09.966538+00:00",
       "error": ""
     },
     {
@@ -7987,7 +7655,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:53.162260+00:00",
+      "last_success": "2026-10-22T12:59:04.910161+00:00",
       "error": ""
     },
     {
@@ -7996,7 +7664,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:07.062533+00:00",
+      "last_success": "2026-10-22T12:59:21.591860+00:00",
       "error": ""
     },
     {
@@ -8005,7 +7673,7 @@
       "status": "ok",
       "count": 0,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:09.798969+00:00",
+      "last_success": "2026-10-22T12:59:24.700477+00:00",
       "error": ""
     },
     {
@@ -8014,7 +7682,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:55.246591+00:00",
+      "last_success": "2026-10-22T12:59:07.582364+00:00",
       "error": ""
     },
     {
@@ -8023,7 +7691,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:03.135838+00:00",
+      "last_success": "2026-10-22T12:59:16.813316+00:00",
       "error": ""
     },
     {
@@ -8032,7 +7700,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:00.573856+00:00",
+      "last_success": "2026-10-22T12:59:13.897298+00:00",
       "error": ""
     },
     {
@@ -8041,7 +7709,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:06.038036+00:00",
+      "last_success": "2026-10-22T12:59:20.261019+00:00",
       "error": ""
     },
     {
@@ -8050,7 +7718,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:09.347266+00:00",
+      "last_success": "2026-10-22T12:59:24.131236+00:00",
       "error": ""
     },
     {
@@ -8059,7 +7727,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:06.550952+00:00",
+      "last_success": "2026-10-22T12:59:20.937443+00:00",
       "error": ""
     },
     {
@@ -8068,7 +7736,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:02.076196+00:00",
+      "last_success": "2026-10-22T12:59:15.608475+00:00",
       "error": ""
     },
     {
@@ -8077,7 +7745,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:05.034651+00:00",
+      "last_success": "2026-10-22T12:59:19.109787+00:00",
       "error": ""
     },
     {
@@ -8086,7 +7754,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:56.192071+00:00",
+      "last_success": "2026-10-22T12:59:08.494657+00:00",
       "error": ""
     },
     {
@@ -8095,7 +7763,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:55.849168+00:00",
+      "last_success": "2026-10-22T12:59:08.081037+00:00",
       "error": ""
     },
     {
@@ -8104,7 +7772,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:58.730235+00:00",
+      "last_success": "2026-10-22T12:59:11.574655+00:00",
       "error": ""
     },
     {
@@ -8113,7 +7781,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:51:04.826982+00:00",
+      "last_success": "2026-10-22T12:59:18.805558+00:00",
       "error": ""
     },
     {
@@ -8122,7 +7790,7 @@
       "status": "ok",
       "count": 5,
       "failures": 0,
-      "last_success": "2026-10-22T05:50:51.689054+00:00",
+      "last_success": "2026-10-22T12:59:03.318734+00:00",
       "error": ""
     },
     {
@@ -8225,5 +7893,5 @@
       "error": "429 Client Error: Too Many Requests for url: https://venturebeat.com/feed/"
     }
   ],
-  "executive": "The highest-ranked developments in this 24-hour window concentrate on Research (4), Agents (2), Security (2), Robotics (1). Scores reflect relevance, source type and headline signals, not independently established impact. Read the linked evidence before making decisions."
+  "executive": "The highest-ranked developments in this 24-hour window concentrate on Research (4), Security (3), Agents (1), Robotics (1). Scores reflect relevance, source type and headline signals, not independently established impact. Read the linked evidence before making decisions."
 }

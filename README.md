@@ -1,12 +1,12 @@
 # Daily AI Intelligence Digest
 
-**Generated:** 2026-10-22T05:50:42.324410+00:00  
+**Generated:** 2026-10-22T12:58:54.681190+00:00  
 **Window: last 24 hours (UTC, rolling)**  
-**Distinct events:** 399 · **High-signal candidates:** 5 · **Sources reporting:** 44
+**Distinct events:** 382 · **High-signal candidates:** 4 · **Sources reporting:** 39
 
 ## Executive brief
 
-The highest-ranked developments in this 24-hour window concentrate on Research (4), Agents (2), Security (2), Robotics (1). Scores reflect relevance, source type and headline signals, not independently established impact. Read the linked evidence before making decisions.
+The highest-ranked developments in this 24-hour window concentrate on Research (4), Security (3), Agents (1), Robotics (1). Scores reflect relevance, source type and headline signals, not independently established impact. Read the linked evidence before making decisions.
 
 ## Top stories
 
@@ -35,12 +35,6 @@ Abstract: Customized agent deployments define policies over tools, resources, an
 
 arXiv:2610.29747v1 Announce Type: new 
 Abstract: Large language models (LLMs) are entering digital forensics as examination assistants and autonomous agents. Digital forensics inverts the usual setting for indirect prompt injection: the evidence under analysis is attacker-controlled by definition, a
-
-### [Benchmarking and Error Analysis of Deep Search and Deep Research LLM Agents](https://arxiv.org/abs/2610.29346v1)
-
-**Agents · High signal · Score 14 · arXiv Search: AI Agents**
-
-As Large Language Models (LLMs) evolve into autonomous Deep Search and Deep Research Agents capable of executing long-horizon, multi-step tasks, evaluating their reliability becomes increasingly critical. However, existing evaluation paradigms predominantly focus on final task outcomes, leaving a si
 
 ### [One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?](https://arxiv.org/abs/2610.28925)
 
@@ -73,9 +67,16 @@ arXiv:2610.28933v1 Announce Type: new Abstract: In data-rich enterprises the har
 
 Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in t
 
-## Agents — 9 distinct findings, 2 high-signal
+### [Beyond Policy Engines: Binding-Complete Execution Admission](https://arxiv.org/abs/2610.29701)
 
-9 distinct agents developments appeared in the last 24 hours. Highest-ranked topics: From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks; Benchmarking and Error Analysis of Deep Search and Deep Research LLM Agents; Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+**Security · Worth watching · Score 12 · arXiv Security**
+
+arXiv:2610.29701v1 Announce Type: new 
+Abstract: Policy engines determine whether evaluated policies permit a request, but a correct ALLOW decision does not establish complete governance-source participation, exact context binding, or sufficient grounds for execution admission. This paper examines t
+
+## Agents — 8 distinct findings, 1 high-signal
+
+8 distinct agents developments appeared in the last 24 hours. Highest-ranked topics: From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks; Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering; Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks](https://arxiv.org/abs/2610.30051v1)
 
@@ -83,21 +84,21 @@ Today's PHP Security Release, and How We're Strengthening PHP Security If you're
 
 Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their manipulation capabilities have 
 
-### [Benchmarking and Error Analysis of Deep Search and Deep Research LLM Agents](https://arxiv.org/abs/2610.29346v1)
-
-**Agents · High signal · Score 14 · arXiv Search: AI Agents**
-
-As Large Language Models (LLMs) evolve into autonomous Deep Search and Deep Research Agents capable of executing long-horizon, multi-step tasks, evaluating their reliability becomes increasingly critical. However, existing evaluation paradigms predominantly focus on final task outcomes, leaving a si
-
 ### [Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering](https://arxiv.org/abs/2610.28958)
 
 **Agents · Worth watching · Score 12 · arXiv Machine Learning**
 
 arXiv:2610.28958v1 Announce Type: new Abstract: Transformers are deployed as a special model class. Neural processing units (NPU) add dedicated operators for attention and normalization, and quantization relies on Transformer-specific algorithms. We show the computation does not force this. Every Tr
 
-## Security — 36 distinct findings, 2 high-signal
+### [Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems](https://arxiv.org/abs/2610.29292)
 
-36 distinct security developments appeared in the last 24 hours. Highest-ranked topics: AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards; Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks on LLM-Assisted Digital Investigations; Critical Vulnerabilities in PHP Require Immediate Patching. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+**Agents · Worth watching · Score 11 · arXiv Language Models**
+
+arXiv:2610.29292v1 Announce Type: new Abstract: An LLM multi-agent system (MAS) is only as good as the agents it chooses to trust: its accuracy and cost hinge on its topology, meaning which agents are included and how they communicate. A single task score, however, does not reveal which agents help 
+
+## Security — 35 distinct findings, 2 high-signal
+
+35 distinct security developments appeared in the last 24 hours. Highest-ranked topics: AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards; Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks on LLM-Assisted Digital Investigations; Beyond Policy Engines: Binding-Complete Execution Admission. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards](https://arxiv.org/abs/2610.28989)
 
@@ -113,15 +114,16 @@ Abstract: Customized agent deployments define policies over tools, resources, an
 arXiv:2610.29747v1 Announce Type: new 
 Abstract: Large language models (LLMs) are entering digital forensics as examination assistants and autonomous agents. Digital forensics inverts the usual setting for indirect prompt injection: the evidence under analysis is attacker-controlled by definition, a
 
-### [Critical Vulnerabilities in PHP Require Immediate Patching](https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching)
+### [Beyond Policy Engines: Binding-Complete Execution Admission](https://arxiv.org/abs/2610.29701)
 
-**Security · Worth watching · Score 13 · CISA Alerts**
+**Security · Worth watching · Score 12 · arXiv Security**
 
-CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619 . These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution in PHP and affect all PHP installations serving web reques
+arXiv:2610.29701v1 Announce Type: new 
+Abstract: Policy engines determine whether evaluated policies permit a request, but a correct ALLOW decision does not establish complete governance-source participation, exact context binding, or sufficient grounds for execution admission. This paper examines t
 
-## Research — 137 distinct findings, 1 high-signal
+## Research — 136 distinct findings, 1 high-signal
 
-137 distinct research developments appeared in the last 24 hours. Highest-ranked topics: Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning; MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents; TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+136 distinct research developments appeared in the last 24 hours. Highest-ranked topics: Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning; MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents; TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning](https://arxiv.org/abs/2610.28785)
 
@@ -166,15 +168,9 @@ Abstract: Long-horizon robot manipulation requires a robot to remember task-rele
 arXiv:2610.29264v1 Announce Type: new 
 Abstract: Large pretrained robot foundation models provide strong priors for manipulation, yet adapting them to target tasks with offline teleoperated demonstrations often fails to cover the contact-rich, recovery, and precision-critical states encountered duri
 
-## Models — 6 distinct findings, 0 high-signal
+## Models — 3 distinct findings, 0 high-signal
 
-6 distinct models developments appeared in the last 24 hours. Highest-ranked topics: Patch the Planet: global response coordination as agents uncover critical vulnerabilities; Broad access through consistent standards; ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
-
-### [Patch the Planet: global response coordination as agents uncover critical vulnerabilities](https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities)
-
-**Models · Worth watching · Score 11 · OpenAI News**
-
-Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.
+3 distinct models developments appeared in the last 24 hours. Highest-ranked topics: Broad access through consistent standards; ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform; How AT&T is rethinking in-house legal work with OpenAI. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [Broad access through consistent standards](https://openai.com/index/broad-access-through-consistent-standards)
 
@@ -187,6 +183,12 @@ How OpenAI works with distribution partners to uphold consistent safeguards, sup
 **Models · Other developments · Score 6 · OpenAI News**
 
 From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.
+
+### [How AT&T is rethinking in-house legal work with OpenAI](https://openai.com/index/att-legal)
+
+**Models · Other developments · Score 5 · OpenAI News**
+
+AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.
 
 ## Engineering — 8 distinct findings, 0 high-signal
 
@@ -210,9 +212,9 @@ Retrieval-Augmented Generation (RAG) improves the performance of Large Language 
 
 Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains uncl
 
-## Open source — 38 distinct findings, 0 high-signal
+## Open source — 31 distinct findings, 0 high-signal
 
-38 distinct open source developments appeared in the last 24 hours. Highest-ranked topics: ollama/ollama: v0.40.8; ggml-org/llama.cpp: b11801; Arize-ai/phoenix: @arizeai/phoenix-otel@2.3.0. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+31 distinct open source developments appeared in the last 24 hours. Highest-ranked topics: ollama/ollama: v0.40.8; ggml-org/llama.cpp: b11801; Arize-ai/phoenix: @arizeai/phoenix-otel@2.3.0. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [ollama/ollama: v0.40.8](https://github.com/ollama/ollama/releases/tag/v0.40.8)
 
@@ -232,37 +234,21 @@ model: Add support for SenseNova U1 model (#28919) * model : add SenseNova U1 un
 
 ### Minor Changes - 188ce28: feat(phoenix-otel): Upgrade openinference-vercel tracing dependency to support decision model tracing ### Patch Changes - Updated dependencies [67cc379] - @arizeai/phoenix-config@0.5.1
 
-## Hardware — 9 distinct findings, 0 high-signal
+## Hardware — 2 distinct findings, 0 high-signal
 
-9 distinct hardware developments appeared in the last 24 hours. Highest-ranked topics: Beyond the Vote: When Do LLMs Add Value to Retrieval-Based Tabular Classification?; Inside NVIDIA Sentry: Secure AI Agents at Runtime; How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+2 distinct hardware developments appeared in the last 24 hours. Highest-ranked topics: HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference; UlaCache: Unified Logical Addressing for Sparse LLM Serving. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [Beyond the Vote: When Do LLMs Add Value to Retrieval-Based Tabular Classification?](https://arxiv.org/abs/2610.29520v1)
+### [HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference](https://arxiv.org/abs/2610.29873v1)
 
-**Hardware · Other developments · Score 9 · arXiv Search: Efficient Inference**
+**Hardware · Other developments · Score 8 · arXiv Search: Efficient Inference**
 
-Retrieval-based in-context learning (ICL) enables large language models (LLMs) to predict tabular labels from similar examples, but it remains unclear whether LLM inference improves on direct voting over those same examples. We address this question by comparing four general-purpose LLMs with distan
+Large language model (LLM) inference exhibits distinct computational characteristics across its two phases: prefill is compute-intensive, whereas decode is more memory-bound. As a result, AI accelerators achieve varying levels of efficiency across the two phases. GPUs are well suited to prefill, but
 
-### [Inside NVIDIA Sentry: Secure AI Agents at Runtime](https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime)
+### [UlaCache: Unified Logical Addressing for Sparse LLM Serving](https://arxiv.org/abs/2610.29820v1)
 
-**Hardware · Other developments · Score 9 · NVIDIA Developer Blog**
+**Hardware · Other developments · Score 8 · arXiv Search: Efficient Inference**
 
-An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using...
-
-### [How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale](https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale)
-
-**Hardware · Other developments · Score 9 · NVIDIA Developer Blog**
-
-Autonomous agents can work for hours on complex tasks, accessing files, tools, the internet, and spawning other agents to collaborate with. Executing complex...
-
-## Governance — 1 distinct findings, 0 high-signal
-
-1 distinct governance developments appeared in the last 24 hours. Highest-ranked topics: Situating Vulnerability: An Ethical Governance Framework for Anthropomorphic AI Interaction. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
-
-### [Situating Vulnerability: An Ethical Governance Framework for Anthropomorphic AI Interaction](https://arxiv.org/abs/2610.29304v1)
-
-**Governance · Worth watching · Score 11 · arXiv Search: AI Governance**
-
-Large language models increasingly address users in the register of care: they remember personal details, adopt a first-person emotional voice, and sustain relationships across many sessions. This anthropomorphic mode of interaction generates risks that output-level metrics capture poorly, because t
+Long contexts increase the memory cost of the key-value (KV) cache in large language model (LLM) inference. Sparse attention reduces attention computation and memory traffic by selecting historical tokens, but the retained KV cache must remain available for later decoding steps. We present UlaCache,
 
 ## Enterprise — 5 distinct findings, 0 high-signal
 
@@ -308,9 +294,9 @@ Just 9 months after raising a $180 million seed round, Flapping Airplanes has la
 
 Legal AI startup Legora announced Wednesday that it raised a $550 million Series E round, valuing it at $8.8 billion.
 
-## Regional — 4 distinct findings, 0 high-signal
+## Regional — 5 distinct findings, 0 high-signal
 
-4 distinct regional developments appeared in the last 24 hours. Highest-ranked topics: How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder; theQA raises over $550,000 to scale AI-driven consumer research in Kuwait; Female private capital leaders to convene in UAE for Berkana's Art of Capital. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+5 distinct regional developments appeared in the last 24 hours. Highest-ranked topics: How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder; theQA raises over $550,000 to scale AI-driven consumer research in Kuwait; Female private capital leaders to convene in UAE for Berkana's Art of Capital. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder](https://arxiv.org/abs/2610.28673)
 
@@ -355,31 +341,37 @@ Abstract: As quantum computing moves from the noisy intermediate-scale quantum (
 arXiv:2610.28852v1 Announce Type: new 
 Abstract: Gradient-based algorithms are often applied to identify an optimal control for maximizing a quantum objective functional by following a steepest ascent path to the top of the control landscape. In contrast, this paper explores straight shots through c
 
-## Community — 44 distinct findings, 0 high-signal
+## Community — 43 distinct findings, 0 high-signal
 
-44 distinct community developments appeared in the last 24 hours. Highest-ranked topics: Some fun and interesting results by asking your subagents to validate all claims from your main agent; What actually breaks agents on a 4B model? Notes from 50 runs on Qwen3.5-4B; Qwen3.8-Flash-Next @ 1.66bpw-exl3 STABLE under 36gb. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+43 distinct community developments appeared in the last 24 hours. Highest-ranked topics: Ling-3.1-flash is getting a 1019 update, with open weights to follow; Benchmark: Recursive's Flint 40B A2.5B Q4 achieves 128 tok/s on MacBook Pro M4 Pro 48GB using Kapitsa, an open-source Apple Silicon optimized engine, Claude/Codex/Pi/OpenCode compatible.; Built an LLM benchmark tool that tells you what the numbers mean and what to change next (alpha, feedback wanted). These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [Some fun and interesting results by asking your subagents to validate all claims from your main agent](https://www.reddit.com/r/LocalLLaMA/comments/1xc5ey4/some_fun_and_interesting_results_by_asking_your/)
+### [Ling-3.1-flash is getting a 1019 update, with open weights to follow](https://www.reddit.com/r/LocalLLaMA/comments/1xcftoo/ling31flash_is_getting_a_1019_update_with_open/)
+
+**Community · Other developments · Score 7 · Reddit LocalLLaMA**
+
+For anyone still downloading the last Flash: there's another checkpoint on the way. Ant Ling's announcement puts the 1019 version at 44 on the Artificial Analysis Intelligence Index, up from 41. They also report improvements on the agent evals: AutomationBench-AA goes from 62% to 68%, and AA-Briefca
+
+### [Benchmark: Recursive's Flint 40B A2.5B Q4 achieves 128 tok/s on MacBook Pro M4 Pro 48GB using Kapitsa, an open-source Apple Silicon optimized engine, Claude/Codex/Pi/OpenCode compatible.](https://www.reddit.com/r/LocalLLaMA/comments/1xcgzp4/benchmark_recursives_flint_40b_a25b_q4_achieves/)
 
 **Community · Other developments · Score 6 · Reddit LocalLLaMA**
 
-Something something we made this, something something sidecar. Just kidding. This isn't a new idea, but it's one that showed good success for me so I am curious if there's a mature platform out there for it. The idea is simple; the LLM makes claims/facts, and then it begins to implement something ba
+hey folks, im Ye, im one of the contributors to Kapitsa , an open source inference engine optimized specifically for Apple Silicon (all the way from M1 chips to M6) to run Qwen & Nemotron models that would fit a regular MacBook. its custom written Metal kernels, allow us to optimize each chip & for 
 
-### [What actually breaks agents on a 4B model? Notes from 50 runs on Qwen3.5-4B](https://www.reddit.com/r/LocalLLaMA/comments/1xc0dc2/what_actually_breaks_agents_on_a_4b_model_notes/)
+### [Built an LLM benchmark tool that tells you what the numbers mean and what to change next (alpha, feedback wanted)](https://www.reddit.com/r/LocalLLaMA/comments/1xcgtwm/built_an_llm_benchmark_tool_that_tells_you_what/)
 
 **Community · Other developments · Score 6 · Reddit LocalLLaMA**
 
-I ran 10 agent harnesses on the same local model and the same 5 small tasks, mostly to see where a 4B actually falls over. The scores turned out less interesting than the way things failed. Setup: Qwen3.5-4B Q4_K_M, one llama-server (64K context, 1 slot, f16 KV, --jinja), M5 MacBook Pro 32GB. Each a
+hey folks, can you try this out? i built an easy to understand LLM benchmark + tuner on top of NVIDIA's AIPerf. why .... running benchmark tools is easy, but figuring out what the numbers mean and what to do next is hard, especially if you're not a seasoned inference engineer. so this tells you how 
 
-### [Qwen3.8-Flash-Next @ 1.66bpw-exl3 STABLE under 36gb](https://www.reddit.com/r/LocalLLaMA/comments/1xbgi6i/qwen38flashnext_166bpwexl3_stable_under_36gb/)
+## News — 32 distinct findings, 0 high-signal
 
-**Community · Other developments · Score 5 · Reddit LocalLLaMA**
+32 distinct news developments appeared in the last 24 hours. Highest-ranked topics: Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots; Anthropic takes on Muse with Claude Duet, its new AI agent; While Amazon blocks AI agents, Walmart rolls out the welcome mat. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-Fits entirely in a 5090, no offloaded experts. Super-solid sub-2bpw! ( Liquid cat demo video generated by the quantized model) From the Cat's mouth: Stable inference throughout, no reasoning loops, just smooth sailing at 200-300 t/s (and a lot of compacting since one 32 GB GPU still doesn't leave a 
+### [Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots](https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach)
 
-## News — 28 distinct findings, 0 high-signal
+**News · Other developments · Score 9 · The Verge AI**
 
-28 distinct news developments appeared in the last 24 hours. Highest-ranked topics: Anthropic takes on Muse with Claude Duet, its new AI agent; While Amazon blocks AI agents, Walmart rolls out the welcome mat; Recursive launches Flint, a laptop coding model it says was largely built by AI. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare. It told owners that "your secrets are safe with me," but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning. The Verge
 
 ### [Anthropic takes on Muse with Claude Duet, its new AI agent](https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent)
 
@@ -392,12 +384,6 @@ Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots
 **News · Other developments · Score 9 · TechCrunch AI**
 
 As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.
-
-### [Recursive launches Flint, a laptop coding model it says was largely built by AI](https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai)
-
-**News · Other developments · Score 8 · TechCrunch AI**
-
-Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.
 
 ---
 
