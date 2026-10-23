@@ -1,343 +1,350 @@
 # Daily AI Intelligence Digest
 
-**Generated:** 2026-10-22T13:00:37.418637+00:00  
+**Generated:** 2026-10-23T12:38:28.943237+00:00  
 **Window: last 24 hours (UTC, rolling)**  
-**Distinct events:** 381 · **High-signal candidates:** 4 · **Sources reporting:** 39
+**Distinct events:** 412 · **High-signal candidates:** 3 · **Sources reporting:** 44
 
 ## Executive brief
 
-The highest-ranked developments in this 24-hour window concentrate on Research (4), Security (3), Agents (1), Robotics (1). Scores reflect relevance, source type and headline signals, not independently established impact. Read the linked evidence before making decisions.
+The highest-ranked developments in this 24-hour window concentrate on Research (4), Security (3), Robotics (2), Agents (1). Scores reflect relevance, source type and headline signals, not independently established impact. Read the linked evidence before making decisions.
 
 ## Top stories
 
-### [Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning](https://arxiv.org/abs/2610.28785)
-
-**Research · High signal · Score 15 · arXiv Machine Learning**
-
-arXiv:2610.28785v1 Announce Type: new Abstract: Training tool-using language models requires costly interaction, yet identical rewards within a rollout group provide no group-relative learning signal. We use reward disagreement to guide harness evaluation and the allocation of rollouts for policy tr
-
-### [From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks](https://arxiv.org/abs/2610.30051v1)
-
-**Agents · High signal · Score 15 · arXiv Search: AI Agents**
-
-Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their manipulation capabilities have 
-
-### [AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards](https://arxiv.org/abs/2610.28989)
+### [AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack](https://arxiv.org/abs/2610.31404)
 
 **Security · High signal · Score 14 · arXiv Security**
 
-arXiv:2610.28989v1 Announce Type: cross 
-Abstract: Customized agent deployments define policies over tools, resources, and execution conditions. Providing these policies in the task agent's prompt does not reliably prevent violations. Training a guard requires examples of tool calls that comply with
+arXiv:2610.31404v1 Announce Type: new 
+Abstract: Computer-use agents increasingly handle private information and act on users' behalf across desktop and web applications, including email. Phishing therefore poses privacy and security risks that depend not only on whether agents recognize malicious m
 
-### [Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks on LLM-Assisted Digital Investigations](https://arxiv.org/abs/2610.29747)
+### [SecLog-Bench: A Scalable Benchmark for Cybersecurity Log Reasoning with Scaffolded Evidence](https://arxiv.org/abs/2610.31000)
 
 **Security · High signal · Score 14 · arXiv Security**
 
-arXiv:2610.29747v1 Announce Type: new 
-Abstract: Large language models (LLMs) are entering digital forensics as examination assistants and autonomous agents. Digital forensics inverts the usual setting for indirect prompt injection: the evidence under analysis is attacker-controlled by definition, a
+arXiv:2610.31000v1 Announce Type: new 
+Abstract: Large language models (LLMs) have shown strong potential for cybersecurity, leading to growing interest in LLM-based automated cybersecurity log analysis. However, current datasets (1) are limited in scale; (2) rely mainly on single-source evidence; a
 
-### [One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?](https://arxiv.org/abs/2610.28925)
+### [Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents](https://arxiv.org/abs/2610.28982)
+
+**Research · High signal · Score 14 · arXiv AI**
+
+arXiv:2610.28982v1 Announce Type: new Abstract: While large language models are increasingly deployed as tool-calling agents, their safety evaluations still focus primarily on their ability to refuse harmful requests in text. We investigate whether the refusal behavior in text transfers to tool use.
+
+### [Membership Inference Attack on Private Evolution](https://arxiv.org/abs/2610.30514)
+
+**Security · Worth watching · Score 13 · arXiv Security**
+
+arXiv:2610.30514v1 Announce Type: new 
+Abstract: Synthetic Data Generation (SDG) is an actively studied way to enable safe sharing of private data more broadly. Inference-only SDG methods, such as Private Evolution (PE), are particularly appealing, as they can leverage black-box access to pre-traine
+
+### [Live Thread Reconstruction for Autonomous Manipulation](https://arxiv.org/abs/2610.30694)
 
 **Robotics · Worth watching · Score 13 · arXiv Robotics**
 
-arXiv:2610.28925v1 Announce Type: new 
-Abstract: Modern robotic agents are increasingly expected to support steerable control, where a single policy can adjust its behavioral style at runtime under changing user preferences. Preference-conditioned reinforcement learning provides this interface, but 
+arXiv:2610.30694v1 Announce Type: new 
+Abstract: Autonomous robotic surgery has drawn increased attention in recent years due to its potential to relieve surgeons of time-consuming, mentally straining, and tedious tasks, particularly during prolonged operations. One suitable task for automation is s
 
-### [MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents](https://arxiv.org/abs/2610.29249)
-
-**Research · Worth watching · Score 13 · arXiv Language Models**
-
-arXiv:2610.29249v1 Announce Type: new Abstract: Omni-modal assistants must remember not only what users say, but also what they show and convey. Existing long-term memory benchmarks are mostly text-and-image or report a single end-to-end score, so they cannot locate whether evidence is lost when it 
-
-### [TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence](https://arxiv.org/abs/2610.29171)
-
-**Research · Worth watching · Score 13 · arXiv Language Models**
-
-arXiv:2610.29171v1 Announce Type: new Abstract: We study how to improve training efficiency on Ascend NPUs. In the NPU training programs we study, framework-level compilation optimizations such as operator fusion are only partially applied, leaving fragmented computation and avoidable execution over
-
-### [The Data Differentiator Framework (DDF): Quantifying Marginal Data Value with Information-Theoretic and Game-Theoretic Measures in an Agentic Evaluation Pipeline (SDSAE)](https://arxiv.org/abs/2610.28933)
-
-**Research · Worth watching · Score 13 · arXiv Machine Learning**
-
-arXiv:2610.28933v1 Announce Type: new Abstract: In data-rich enterprises the hard question is not whether a candidate dataset is good in isolation, but whether it adds information beyond what the organization already holds, and whether that increment is worth its price. We present the Data Different
-
-### [Today's PHP Security Release, and How We're Strengthening PHP Security](https://simonwillison.net/2026/Oct/21/php-security-release)
-
-**Engineering · Worth watching · Score 13 · Simon Willison**
-
-Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in t
-
-### [Beyond Policy Engines: Binding-Complete Execution Admission](https://arxiv.org/abs/2610.29701)
-
-**Security · Worth watching · Score 12 · arXiv Security**
-
-arXiv:2610.29701v1 Announce Type: new 
-Abstract: Policy engines determine whether evaluated policies permit a request, but a correct ALLOW decision does not establish complete governance-source participation, exact context binding, or sufficient grounds for execution admission. This paper examines t
-
-## Agents — 8 distinct findings, 1 high-signal
-
-8 distinct agents developments appeared in the last 24 hours. Highest-ranked topics: From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks; Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering; Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
-
-### [From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks](https://arxiv.org/abs/2610.30051v1)
-
-**Agents · High signal · Score 15 · arXiv Search: AI Agents**
-
-Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their manipulation capabilities have 
-
-### [Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering](https://arxiv.org/abs/2610.28958)
-
-**Agents · Worth watching · Score 12 · arXiv Machine Learning**
-
-arXiv:2610.28958v1 Announce Type: new Abstract: Transformers are deployed as a special model class. Neural processing units (NPU) add dedicated operators for attention and normalization, and quantization relies on Transformer-specific algorithms. We show the computation does not force this. Every Tr
-
-### [Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems](https://arxiv.org/abs/2610.29292)
-
-**Agents · Worth watching · Score 11 · arXiv Language Models**
-
-arXiv:2610.29292v1 Announce Type: new Abstract: An LLM multi-agent system (MAS) is only as good as the agents it chooses to trust: its accuracy and cost hinge on its topology, meaning which agents are included and how they communicate. A single task score, however, does not reveal which agents help 
-
-## Security — 35 distinct findings, 2 high-signal
-
-35 distinct security developments appeared in the last 24 hours. Highest-ranked topics: AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards; Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks on LLM-Assisted Digital Investigations; Beyond Policy Engines: Binding-Complete Execution Admission. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
-
-### [AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards](https://arxiv.org/abs/2610.28989)
-
-**Security · High signal · Score 14 · arXiv Security**
-
-arXiv:2610.28989v1 Announce Type: cross 
-Abstract: Customized agent deployments define policies over tools, resources, and execution conditions. Providing these policies in the task agent's prompt does not reliably prevent violations. Training a guard requires examples of tool calls that comply with
-
-### [Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks on LLM-Assisted Digital Investigations](https://arxiv.org/abs/2610.29747)
-
-**Security · High signal · Score 14 · arXiv Security**
-
-arXiv:2610.29747v1 Announce Type: new 
-Abstract: Large language models (LLMs) are entering digital forensics as examination assistants and autonomous agents. Digital forensics inverts the usual setting for indirect prompt injection: the evidence under analysis is attacker-controlled by definition, a
-
-### [Beyond Policy Engines: Binding-Complete Execution Admission](https://arxiv.org/abs/2610.29701)
-
-**Security · Worth watching · Score 12 · arXiv Security**
-
-arXiv:2610.29701v1 Announce Type: new 
-Abstract: Policy engines determine whether evaluated policies permit a request, but a correct ALLOW decision does not establish complete governance-source participation, exact context binding, or sufficient grounds for execution admission. This paper examines t
-
-## Research — 136 distinct findings, 1 high-signal
-
-136 distinct research developments appeared in the last 24 hours. Highest-ranked topics: Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning; MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents; TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
-
-### [Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning](https://arxiv.org/abs/2610.28785)
-
-**Research · High signal · Score 15 · arXiv Machine Learning**
-
-arXiv:2610.28785v1 Announce Type: new Abstract: Training tool-using language models requires costly interaction, yet identical rewards within a rollout group provide no group-relative learning signal. We use reward disagreement to guide harness evaluation and the allocation of rollouts for policy tr
-
-### [MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents](https://arxiv.org/abs/2610.29249)
-
-**Research · Worth watching · Score 13 · arXiv Language Models**
-
-arXiv:2610.29249v1 Announce Type: new Abstract: Omni-modal assistants must remember not only what users say, but also what they show and convey. Existing long-term memory benchmarks are mostly text-and-image or report a single end-to-end score, so they cannot locate whether evidence is lost when it 
-
-### [TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence](https://arxiv.org/abs/2610.29171)
-
-**Research · Worth watching · Score 13 · arXiv Language Models**
-
-arXiv:2610.29171v1 Announce Type: new Abstract: We study how to improve training efficiency on Ascend NPUs. In the NPU training programs we study, framework-level compilation optimizations such as operator fusion are only partially applied, leaving fragmented computation and avoidable execution over
-
-## Robotics — 35 distinct findings, 0 high-signal
-
-35 distinct robotics developments appeared in the last 24 hours. Highest-ranked topics: One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?; Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control; Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
-
-### [One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?](https://arxiv.org/abs/2610.28925)
+### [Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live](https://arxiv.org/abs/2610.30478)
 
 **Robotics · Worth watching · Score 13 · arXiv Robotics**
 
-arXiv:2610.28925v1 Announce Type: new 
-Abstract: Modern robotic agents are increasingly expected to support steerable control, where a single policy can adjust its behavioral style at runtime under changing user preferences. Preference-conditioned reinforcement learning provides this interface, but 
+arXiv:2610.30478v1 Announce Type: new 
+Abstract: Should an embodied agent's experience be baked into its policy weights, or kept external and retrieved at inference? A memory-augmented teacher (a VLM that retrieves lessons, with their episode images, from its own past attempts) produces trajectories
 
-### [Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control](https://arxiv.org/abs/2610.29329)
+### [Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis](https://arxiv.org/abs/2610.30519)
+
+**Agents · Worth watching · Score 13 · arXiv Computer Vision**
+
+arXiv:2610.30519v1 Announce Type: new Abstract: Forecasting future human motion requires jointly reasoning about an agent's global trajectory and 3D body pose, which are tightly coupled, particularly in team sports where multiple interacting players introduce complex social dynamics. We exploit a so
+
+### [IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval](https://arxiv.org/abs/2610.30533)
+
+**Research · Worth watching · Score 13 · arXiv Language Models**
+
+arXiv:2610.30533v1 Announce Type: new Abstract: Industry Foundation Classes (IFC), the standard for building information exchange in architecture, engineering, and construction (AEC), is increasingly queried through large language models (LLMs) using natural language. Evaluating these systems at sca
+
+### [SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots](https://arxiv.org/abs/2610.30412)
+
+**Research · Worth watching · Score 13 · arXiv Language Models**
+
+arXiv:2610.30412v1 Announce Type: new Abstract: LLM-based chat agents are increasingly used for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs), yet evaluation methods focus on single-turn, English-only benchmarks that primarily test the chatbots' knowled
+
+### [Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model](https://arxiv.org/abs/2610.29139)
+
+**Research · Worth watching · Score 13 · arXiv AI**
+
+arXiv:2610.29139v1 Announce Type: new Abstract: Frontier black-box Large Language Model (LLM) agents are proficient at long-horizon reasoning and precise action generation. However, when it comes to a specific agentic task, they have no internalized knowledge of how that particular environment unfol
+
+## Agents — 12 distinct findings, 0 high-signal
+
+12 distinct agents developments appeared in the last 24 hours. Highest-ranked topics: Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis; Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action; AgentDreamer: Agentic 3D Motion Reasoning for Text-Controllable Physics Simulation. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+
+### [Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis](https://arxiv.org/abs/2610.30519)
+
+**Agents · Worth watching · Score 13 · arXiv Computer Vision**
+
+arXiv:2610.30519v1 Announce Type: new Abstract: Forecasting future human motion requires jointly reasoning about an agent's global trajectory and 3D body pose, which are tightly coupled, particularly in team sports where multiple interacting players introduce complex social dynamics. We exploit a so
+
+### [Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action](https://arxiv.org/abs/2610.31376v1)
+
+**Agents · Worth watching · Score 13 · arXiv Search: AI Agents**
+
+This paper studies the problem of safe tool execution for large language model (LLM) agents under prompt injection. Using Petri nets, we formalize the execution harness between the LLM and its tools as a supervisory control problem, in which marks represent capabilities, approvals and budgets. Since
+
+### [AgentDreamer: Agentic 3D Motion Reasoning for Text-Controllable Physics Simulation](https://arxiv.org/abs/2610.30679)
+
+**Agents · Worth watching · Score 12 · arXiv Computer Vision**
+
+arXiv:2610.30679v1 Announce Type: new Abstract: We propose AgentDreamer, an agent-guided optimization framework that aligns text instructions with simulated motion through explicit 3D motion planning. Given a text instruction and scene geometry, an off-the-shelf agent translates the instruction into
+
+## Security — 38 distinct findings, 2 high-signal
+
+38 distinct security developments appeared in the last 24 hours. Highest-ranked topics: AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack; SecLog-Bench: A Scalable Benchmark for Cybersecurity Log Reasoning with Scaffolded Evidence; Membership Inference Attack on Private Evolution. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+
+### [AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack](https://arxiv.org/abs/2610.31404)
+
+**Security · High signal · Score 14 · arXiv Security**
+
+arXiv:2610.31404v1 Announce Type: new 
+Abstract: Computer-use agents increasingly handle private information and act on users' behalf across desktop and web applications, including email. Phishing therefore poses privacy and security risks that depend not only on whether agents recognize malicious m
+
+### [SecLog-Bench: A Scalable Benchmark for Cybersecurity Log Reasoning with Scaffolded Evidence](https://arxiv.org/abs/2610.31000)
+
+**Security · High signal · Score 14 · arXiv Security**
+
+arXiv:2610.31000v1 Announce Type: new 
+Abstract: Large language models (LLMs) have shown strong potential for cybersecurity, leading to growing interest in LLM-based automated cybersecurity log analysis. However, current datasets (1) are limited in scale; (2) rely mainly on single-source evidence; a
+
+### [Membership Inference Attack on Private Evolution](https://arxiv.org/abs/2610.30514)
+
+**Security · Worth watching · Score 13 · arXiv Security**
+
+arXiv:2610.30514v1 Announce Type: new 
+Abstract: Synthetic Data Generation (SDG) is an actively studied way to enable safe sharing of private data more broadly. Inference-only SDG methods, such as Private Evolution (PE), are particularly appealing, as they can leverage black-box access to pre-traine
+
+## Research — 166 distinct findings, 1 high-signal
+
+166 distinct research developments appeared in the last 24 hours. Highest-ranked topics: Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents; IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval; SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+
+### [Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents](https://arxiv.org/abs/2610.28982)
+
+**Research · High signal · Score 14 · arXiv AI**
+
+arXiv:2610.28982v1 Announce Type: new Abstract: While large language models are increasingly deployed as tool-calling agents, their safety evaluations still focus primarily on their ability to refuse harmful requests in text. We investigate whether the refusal behavior in text transfers to tool use.
+
+### [IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval](https://arxiv.org/abs/2610.30533)
+
+**Research · Worth watching · Score 13 · arXiv Language Models**
+
+arXiv:2610.30533v1 Announce Type: new Abstract: Industry Foundation Classes (IFC), the standard for building information exchange in architecture, engineering, and construction (AEC), is increasingly queried through large language models (LLMs) using natural language. Evaluating these systems at sca
+
+### [SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots](https://arxiv.org/abs/2610.30412)
+
+**Research · Worth watching · Score 13 · arXiv Language Models**
+
+arXiv:2610.30412v1 Announce Type: new Abstract: LLM-based chat agents are increasingly used for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs), yet evaluation methods focus on single-turn, English-only benchmarks that primarily test the chatbots' knowled
+
+## Robotics — 36 distinct findings, 0 high-signal
+
+36 distinct robotics developments appeared in the last 24 hours. Highest-ranked topics: Live Thread Reconstruction for Autonomous Manipulation; Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live; Revisiting Distribution Matching for State-to-Vision Policy Distillation in Laparoscopic Robotic Manipulation. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+
+### [Live Thread Reconstruction for Autonomous Manipulation](https://arxiv.org/abs/2610.30694)
+
+**Robotics · Worth watching · Score 13 · arXiv Robotics**
+
+arXiv:2610.30694v1 Announce Type: new 
+Abstract: Autonomous robotic surgery has drawn increased attention in recent years due to its potential to relieve surgeons of time-consuming, mentally straining, and tedious tasks, particularly during prolonged operations. One suitable task for automation is s
+
+### [Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live](https://arxiv.org/abs/2610.30478)
+
+**Robotics · Worth watching · Score 13 · arXiv Robotics**
+
+arXiv:2610.30478v1 Announce Type: new 
+Abstract: Should an embodied agent's experience be baked into its policy weights, or kept external and retrieved at inference? A memory-augmented teacher (a VLM that retrieves lessons, with their episode images, from its own past attempts) produces trajectories
+
+### [Revisiting Distribution Matching for State-to-Vision Policy Distillation in Laparoscopic Robotic Manipulation](https://arxiv.org/abs/2610.31010)
 
 **Robotics · Worth watching · Score 12 · arXiv Robotics**
 
-arXiv:2610.29329v1 Announce Type: new 
-Abstract: Long-horizon robot manipulation requires a robot to remember task-relevant information beyond its short observation window. Existing memory-augmented policies typically retrieve relevant information from history and reason over it at execution time, p
+arXiv:2610.31010v1 Announce Type: new 
+Abstract: End-to-end control policies trained via Reinforcement Learning (RL) have emerged as an alternative to conventional surgical robotic control approaches, with recent studies exploring state-based policies trained on privileged state observations. Howeve
 
-### [Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation](https://arxiv.org/abs/2610.29264)
+## Models — 3 distinct findings, 0 high-signal
 
-**Robotics · Worth watching · Score 12 · arXiv Robotics**
+3 distinct models developments appeared in the last 24 hours. Highest-ranked topics: OpenAI and Poland’s NASK partner to advance AI safety and security; Build more responsive apps with the Decisions API; Beyond tree cover: mapping the world’s forest types. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-arXiv:2610.29264v1 Announce Type: new 
-Abstract: Large pretrained robot foundation models provide strong priors for manipulation, yet adapting them to target tasks with offline teleoperated demonstrations often fails to cover the contact-rich, recovery, and precision-critical states encountered duri
+### [OpenAI and Poland’s NASK partner to advance AI safety and security](https://openai.com/index/openai-nask-ai-safety-security-partnership)
 
-## Models — 2 distinct findings, 0 high-signal
+**Models · Worth watching · Score 10 · OpenAI News**
 
-2 distinct models developments appeared in the last 24 hours. Highest-ranked topics: Broad access through consistent standards; How AT&T is rethinking in-house legal work with OpenAI. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.
 
-### [Broad access through consistent standards](https://openai.com/index/broad-access-through-consistent-standards)
-
-**Models · Other developments · Score 9 · OpenAI News**
-
-How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.
-
-### [How AT&T is rethinking in-house legal work with OpenAI](https://openai.com/index/att-legal)
+### [Build more responsive apps with the Decisions API](https://openai.com/index/decisions-api)
 
 **Models · Other developments · Score 5 · OpenAI News**
 
-AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.
+Fast, focused, low-cost decisions for any application.
 
-## Engineering — 8 distinct findings, 0 high-signal
+### [Beyond tree cover: mapping the world’s forest types](https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types)
 
-8 distinct engineering developments appeared in the last 24 hours. Highest-ranked topics: Today's PHP Security Release, and How We're Strengthening PHP Security; MAPS: Macro-Adaptive Parallel Reasoning for Regulating Search Momentum in Retrieval-Augmented Generation; Retrieval Augmented Generation Compositionality. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+**Models · Other developments · Score 5 · Google DeepMind**
 
-### [Today's PHP Security Release, and How We're Strengthening PHP Security](https://simonwillison.net/2026/Oct/21/php-security-release)
+A global map categorizing every 10-meter patch of land on Earth into distinct forest types.
 
-**Engineering · Worth watching · Score 13 · Simon Willison**
+## Engineering — 7 distinct findings, 0 high-signal
 
-Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in t
+7 distinct engineering developments appeared in the last 24 hours. Highest-ranked topics: How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions; Quoting Armin Ronacher; From Structured Records to Patient Narratives: Preserving Clinical Alignment in LLM-Generated Health Summaries. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [MAPS: Macro-Adaptive Parallel Reasoning for Regulating Search Momentum in Retrieval-Augmented Generation](https://arxiv.org/abs/2610.29792v1)
+### [How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions](https://arxiv.org/abs/2610.31606v1)
 
-**Engineering · Worth watching · Score 12 · arXiv Search: RAG and Retrieval**
+**Engineering · Worth watching · Score 10 · arXiv Search: RAG and Retrieval**
 
-Retrieval-Augmented Generation (RAG) improves the performance of Large Language Models (LLMs) by retrieving external knowledge. Recently, some RAG methods interleave reasoning and retrieval, enabling LLMs to progressively generate sub-queries and retrieve external knowledge. However, these methods m
+Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development b
 
-### [Retrieval Augmented Generation Compositionality](https://arxiv.org/abs/2610.29722v1)
+### [Quoting Armin Ronacher](https://simonwillison.net/2026/Oct/22/armin-ronacher)
 
-**Engineering · Other developments · Score 9 · arXiv Search: RAG and Retrieval**
+**Engineering · Other developments · Score 6 · Simon Willison**
 
-Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains uncl
+As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms
 
-## Open source — 31 distinct findings, 0 high-signal
+### [From Structured Records to Patient Narratives: Preserving Clinical Alignment in LLM-Generated Health Summaries](https://arxiv.org/abs/2610.31467v1)
 
-31 distinct open source developments appeared in the last 24 hours. Highest-ranked topics: ollama/ollama: v0.40.8; ggml-org/llama.cpp: b11801; Arize-ai/phoenix: @arizeai/phoenix-otel@2.3.0. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+**Engineering · Other developments · Score 5 · arXiv Search: RAG and Retrieval**
 
-### [ollama/ollama: v0.40.8](https://github.com/ollama/ollama/releases/tag/v0.40.8)
+As wearable and digital health systems increasingly generate longitudinal physiological records, communicating these observations in patient-accessible language remains a significant challenge. Large Language Models (LLMs) offer a promising mechanism for translating structured clinical information i
 
-**Open source · Other developments · Score 9 · GitHub: ollama/ollama**
+## Open source — 24 distinct findings, 0 high-signal
 
-## Recursive Flint [Flint](https://ollama.com/library/flint) brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-t
+24 distinct open source developments appeared in the last 24 hours. Highest-ranked topics: langgenius/dify: v1.18.0 — Smarter Agent Routing, Portable Apps, Deeper Workflow Visibility; microsoft/agent-framework: python-1.23.0; Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [ggml-org/llama.cpp: b11801](https://github.com/ggml-org/llama.cpp/releases/tag/b11801)
+### [langgenius/dify: v1.18.0 — Smarter Agent Routing, Portable Apps, Deeper Workflow Visibility](https://github.com/langgenius/dify/releases/tag/1.18.0)
 
-**Open source · Other developments · Score 8 · GitHub: ggml-org/llama.cpp**
+**Open source · Worth watching · Score 11 · GitHub: langgenius/dify**
 
-model: Add support for SenseNova U1 model (#28919) * model : add SenseNova U1 understanding support Add support for the dense SenseNova U1 understanding branch, including the U1.5-8B-MoT model. - Add HF-to-GGUF conversion for NEOChatModel, excluding MoT generation tensors and concatenating temporal 
+Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line. &gt; [!IMPORTANT] &gt; **Read the upgr
 
-### [Arize-ai/phoenix: @arizeai/phoenix-otel@2.3.0](https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai/phoenix-otel%402.3.0)
+### [microsoft/agent-framework: python-1.23.0](https://github.com/microsoft/agent-framework/releases/tag/python-1.23.0)
 
-**Open source · Other developments · Score 8 · GitHub: Arize-ai/phoenix**
+**Open source · Worth watching · Score 11 · GitHub: microsoft/agent-framework**
 
-### Minor Changes - 188ce28: feat(phoenix-otel): Upgrade openinference-vercel tracing dependency to support decision model tracing ### Patch Changes - Updated dependencies [67cc379] - @arizeai/phoenix-config@0.5.1
+## [1.23.0] - 2026-10-22 ### Added - **agent-framework-a2a**: Add allowlisted forwarding of function-invocation and client arguments from A2A request metadata ([#9193](https://github.com/microsoft/agent-framework/pull/9193)) - **agent-framework-core**, **agent-framework-orchestrations**: Add an opt-
 
-## Hardware — 2 distinct findings, 0 high-signal
+### [Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox](https://huggingface.co/blog/microsoft/thinkingbox-training)
 
-2 distinct hardware developments appeared in the last 24 hours. Highest-ranked topics: HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference; UlaCache: Unified Logical Addressing for Sparse LLM Serving. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+**Open source · Worth watching · Score 10 · Hugging Face Blog**
 
-### [HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference](https://arxiv.org/abs/2610.29873v1)
+
+
+## Hardware — 3 distinct findings, 0 high-signal
+
+3 distinct hardware developments appeared in the last 24 hours. Highest-ranked topics: Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon; Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes; How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+
+### [Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon](https://arxiv.org/abs/2610.31479v1)
 
 **Hardware · Other developments · Score 8 · arXiv Search: Efficient Inference**
 
-Large language model (LLM) inference exhibits distinct computational characteristics across its two phases: prefill is compute-intensive, whereas decode is more memory-bound. As a result, AI accelerators achieve varying levels of efficiency across the two phases. GPUs are well suited to prefill, but
+Apple Silicon is among the most widely used platforms for local LLM inference, yet nearly all inference optimizations are designed and validated on server-class NVIDIA GPUs under batched serving workloads. Which optimizations retain their benefits when moved to Apple Silicon, and what determines the
 
-### [UlaCache: Unified Logical Addressing for Sparse LLM Serving](https://arxiv.org/abs/2610.29820v1)
+### [Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes](https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes)
 
-**Hardware · Other developments · Score 8 · arXiv Search: Efficient Inference**
+**Hardware · Other developments · Score 6 · NVIDIA Developer Blog**
 
-Long contexts increase the memory cost of the key-value (KV) cache in large language model (LLM) inference. Sparse attention reduces attention computation and memory traffic by selecting historical tokens, but the retained KV cache must remain available for later decoding steps. We present UlaCache,
+AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...
 
-## Enterprise — 5 distinct findings, 0 high-signal
+### [How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage](https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage)
 
-5 distinct enterprise developments appeared in the last 24 hours. Highest-ranked topics: 5 production challenges in multi-agent systems and how Deep Insight solved them; Adaptive agentic intelligence framework using Strands Agents; How U.S. Hunger connects leaders and data using Amazon Quick. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+**Hardware · Other developments · Score 4 · NVIDIA Developer Blog**
 
-### [5 production challenges in multi-agent systems and how Deep Insight solved them](https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them)
+GPU applications are processing ever-growing datasets with increasingly powerful accelerators. According to the 2025 Stanford AI Index, compute for notable AI...
 
-**Enterprise · Worth watching · Score 10 · AWS Machine Learning**
+## Enterprise — 8 distinct findings, 0 high-signal
 
-Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, s
+8 distinct enterprise developments appeared in the last 24 hours. Highest-ranked topics: Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI; How Rescale built an AI triage agent with Strands Agents and AI-DLC; Announcing new ways to customize models with SageMaker AI, without managing GPUs. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [Adaptive agentic intelligence framework using Strands Agents](https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents)
+### [Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI](https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai)
 
-**Enterprise · Worth watching · Score 10 · AWS Machine Learning**
+**Enterprise · Other developments · Score 9 · AWS Machine Learning**
 
-The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using a
+Voice agents often wait for an agent's full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each sentence to a Kokoro-82M text-to-speech model on Amazon SageMaker AI as the agent produces it, and how to get that audio back to a browser ove
 
-### [How U.S. Hunger connects leaders and data using Amazon Quick](https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick)
+### [How Rescale built an AI triage agent with Strands Agents and AI-DLC](https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc)
+
+**Enterprise · Other developments · Score 9 · AWS Machine Learning**
+
+Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering organization.
+
+### [Announcing new ways to customize models with SageMaker AI, without managing GPUs](https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus)
 
 **Enterprise · Other developments · Score 8 · AWS Machine Learning**
 
-U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.
+Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocation, distributed exec
 
-## Business — 4 distinct findings, 0 high-signal
+## Business — 7 distinct findings, 0 high-signal
 
-4 distinct business developments appeared in the last 24 hours. Highest-ranked topics: TechCrunch Founder Summit 2026: Everything you need to know; Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation; Legal AI startup Legora raises $550M Series E at $8.8B valuation. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+7 distinct business developments appeared in the last 24 hours. Highest-ranked topics: Former OpenAI science lead launches Warp Science to automate wet labs with robots; Warhound raises $200M to engineer war dogs and arm them with Anduril gear; OpenAI working on new $30B raise at $1.25T valuation ahead of IPO. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [TechCrunch Founder Summit 2026: Everything you need to know](https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/)
+### [Former OpenAI science lead launches Warp Science to automate wet labs with robots](https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/)
 
-**Business · Other developments · Score 4 · TechCrunch Startups**
+**Business · Other developments · Score 9 · TechCrunch Startups**
 
-TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.
+Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.
 
-### [Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation](https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/)
-
-**Business · Other developments · Score 4 · TechCrunch Startups**
-
-Just 9 months after raising a $180 million seed round, Flapping Airplanes has landed a $1 billion Series A for its mission to build AI models "without ingesting half the internet."
-
-### [Legal AI startup Legora raises $550M Series E at $8.8B valuation](https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/)
+### [Warhound raises $200M to engineer war dogs and arm them with Anduril gear](https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/)
 
 **Business · Other developments · Score 4 · TechCrunch Startups**
 
-Legal AI startup Legora announced Wednesday that it raised a $550 million Series E round, valuing it at $8.8 billion.
+Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.
 
-## Regional — 5 distinct findings, 0 high-signal
+### [OpenAI working on new $30B raise at $1.25T valuation ahead of IPO](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)
 
-5 distinct regional developments appeared in the last 24 hours. Highest-ranked topics: How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder; theQA raises over $550,000 to scale AI-driven consumer research in Kuwait; Female private capital leaders to convene in UAE for Berkana's Art of Capital. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+**Business · Other developments · Score 4 · TechCrunch Startups**
 
-### [How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder](https://arxiv.org/abs/2610.28673)
+Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.
 
-**Regional · Other developments · Score 7 · arXiv Language Models**
+## Regional — 2 distinct findings, 0 high-signal
 
-arXiv:2610.28673v1 Announce Type: new Abstract: We study the 305M-parameter audio encoder shared by Gemma 4 and EmbeddingGemma 2 (identical except for its final projection) for Saudi and Gulf Arabic speech recognition, without changing any of its weights. A frozen system trains only a 22.6M-paramete
+2 distinct regional developments appeared in the last 24 hours. Highest-ranked topics: INVE raises $300,000 from Outliers VC to scale eventtech platform across GCC; UAE's Ziina secures central bank approvals for retail payments and exchange services. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [theQA raises over $550,000 to scale AI-driven consumer research in Kuwait](http://wamda.com/2026/10/theqa-raises-550000-scale-ai-driven-consumer-research-kuwait)
+### [INVE raises $300,000 from Outliers VC to scale eventtech platform across GCC](http://wamda.com/2026/10/inve-raises-300000-outliers-vc-scale-eventtech-platform-gcc)
 
-**Regional · Other developments · Score 6 · Wamda**
+**Regional · Other developments · Score 5 · Wamda**
 
-Kuwait-based AI-powered market research startup theQA has raised more than $550,000 in a Pre-Seed funding round, backed by a Kuwaiti family office and strategic angel investors. Founded in 2025 by Ahmad Al Ebrahim and Hussain Ali AlNashaba, theQA provides a digital consumer research platform that en
+Saudi Arabia-based eventtech startup INVE has raised $300,000 in a Pre-Seed funding round from Outliers VC, which previously served as the company's first paid business design partner. Founded in 2024 by Abdulrahman Alabdulkarim, INVE operates a digital event management platform for individuals and 
 
-### [Female private capital leaders to convene in UAE for Berkana's Art of Capital](http://wamda.com/2026/10/female-private-capital-leaders-convene-uae-berkana-art-capital)
+### [UAE's Ziina secures central bank approvals for retail payments and exchange services](http://wamda.com/2026/10/uaes-ziina-secures-central-bank-approvals-retail-payments-exchange-services)
 
-**Regional · Other developments · Score 4 · Wamda**
+**Regional · Other developments · Score 5 · Wamda**
 
-Press release: Berkana is bringing together 40 female single family office principals, investment decision-makers and entrepreneurs from around the world for Art of Capital: The Women of Influence, taking place on October 22–23, 2026, across Dubai and Abu Dhabi. The invitation-only gathering will co
+Press release: Ziina, the UAE’s homegrown consumer and business financial platform, has secured its Retail Payment Services Category III license and authorization to conduct Exchange Business Category IV activities under its existing Stored Value Facility license from the Central Bank of the UAE (CB
 
-## Quantum — 34 distinct findings, 0 high-signal
+## Quantum — 35 distinct findings, 0 high-signal
 
-34 distinct quantum developments appeared in the last 24 hours. Highest-ranked topics: Buffer-Qubit-Based Quantum Circuit Allocation Method Against Crosstalk Attacks; Can Quantum Layers offer Performance and Security Advantages in Vision-Language Models?; The Prevalence of Straight Shots in Control Space for Reaching Optimal Quantum Performance. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+35 distinct quantum developments appeared in the last 24 hours. Highest-ranked topics: FVQKD: A Formal Verification of Quantum Key Distribution Security in Rocq; Automating quantum circuit optimization with AI agents; Lean-QuantumAlg: A Framework for AI Agents to Produce Quantum Algorithms that Humans Can Trust. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [Buffer-Qubit-Based Quantum Circuit Allocation Method Against Crosstalk Attacks](https://arxiv.org/abs/2610.29050)
+### [FVQKD: A Formal Verification of Quantum Key Distribution Security in Rocq](https://arxiv.org/abs/2610.30645)
+
+**Quantum · Worth watching · Score 11 · arXiv Quantum**
+
+arXiv:2610.30645v1 Announce Type: new 
+Abstract: Quantum key distribution (QKD), whose security is derived from quantum mechanics rather than computational assumptions, is moving into standardization and commercial deployment. Yet its security guarantees rest on technically delicate proofs checked b
+
+### [Automating quantum circuit optimization with AI agents](https://arxiv.org/abs/2610.31352)
 
 **Quantum · Worth watching · Score 10 · arXiv Quantum**
 
-arXiv:2610.29050v1 Announce Type: new 
-Abstract: Quantum Multi-Programming (QMP) enables the simultaneous execution of quantum circuits from multiple users on a single quantum chip in cloud quantum computing services. However, QMP is vulnerable to crosstalk attacks, in which a malicious user deliber
+arXiv:2610.31352v1 Announce Type: new 
+Abstract: Compiling quantum algorithms for real devices involves hard optimization problems that can decide whether an algorithm runs at scale. We present a general method for solving such problems with AI agents, with every result certified. It builds on autor
 
-### [Can Quantum Layers offer Performance and Security Advantages in Vision-Language Models?](https://arxiv.org/abs/2610.28964)
+### [Lean-QuantumAlg: A Framework for AI Agents to Produce Quantum Algorithms that Humans Can Trust](https://arxiv.org/abs/2610.30216)
 
 **Quantum · Worth watching · Score 10 · arXiv Quantum**
 
-arXiv:2610.28964v1 Announce Type: new 
-Abstract: As quantum computing moves from the noisy intermediate-scale quantum (NISQ) era toward early fault-tolerant quantum computing (EFTQC), quantum-enhanced AI is shifting from a conceptual idea to experimental research. Quantum components are expected to 
+arXiv:2610.30216v1 Announce Type: new 
+Abstract: AI agents are increasingly capable of constructing quantum algorithms and proofs, yet machine-checked proofs alone cannot guarantee that the intended problem is solved or that resource claims match the verified computation.Here we introduce Lean-Quant
 
-### [The Prevalence of Straight Shots in Control Space for Reaching Optimal Quantum Performance](https://arxiv.org/abs/2610.28852)
+## Community — 28 distinct findings, 0 high-signal
 
-**Quantum · Other developments · Score 9 · arXiv Quantum**
-
-arXiv:2610.28852v1 Announce Type: new 
-Abstract: Gradient-based algorithms are often applied to identify an optimal control for maximizing a quantum objective functional by following a steepest ascent path to the top of the control landscape. In contrast, this paper explores straight shots through c
-
-## Community — 44 distinct findings, 0 high-signal
-
-44 distinct community developments appeared in the last 24 hours. Highest-ranked topics: support for domyn/Domyn-Small-v1.0 has been merged into llama.cpp; Ling-3.1-flash is getting a 1019 update, with open weights to follow; Benchmark: Recursive's Flint 40B A2.5B Q4 achieves 128 tok/s on MacBook Pro M4 Pro 48GB using Kapitsa, an open-source Apple Silicon optimized engine, Claude/Codex/Pi/OpenCode compatible.. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+28 distinct community developments appeared in the last 24 hours. Highest-ranked topics: support for domyn/Domyn-Small-v1.0 has been merged into llama.cpp; Getting started with local MCP server, how?; [Paper] Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [support for domyn/Domyn-Small-v1.0 has been merged into llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1xchwrf/support_for_domyndomynsmallv10_has_been_merged/)
 
@@ -345,39 +352,39 @@ Abstract: Gradient-based algorithms are often applied to identify an optimal con
 
 small context but may be good for agentic use on small VRAM setups https://huggingface.co/domyn/Domyn-Small-v1.0 Domyn Small Domyn Small is a 10B-parameter open-weight reasoning model designed for resource-constrained, agentic, and fine-tunable deployments. It pairs a dual-mode (thinking on/off) inf
 
-### [Ling-3.1-flash is getting a 1019 update, with open weights to follow](https://www.reddit.com/r/LocalLLaMA/comments/1xcftoo/ling31flash_is_getting_a_1019_update_with_open/)
-
-**Community · Other developments · Score 7 · Reddit LocalLLaMA**
-
-For anyone still downloading the last Flash: there's another checkpoint on the way. Ant Ling's announcement puts the 1019 version at 44 on the Artificial Analysis Intelligence Index, up from 41. They also report improvements on the agent evals: AutomationBench-AA goes from 62% to 68%, and AA-Briefca
-
-### [Benchmark: Recursive's Flint 40B A2.5B Q4 achieves 128 tok/s on MacBook Pro M4 Pro 48GB using Kapitsa, an open-source Apple Silicon optimized engine, Claude/Codex/Pi/OpenCode compatible.](https://www.reddit.com/r/LocalLLaMA/comments/1xcgzp4/benchmark_recursives_flint_40b_a25b_q4_achieves/)
+### [Getting started with local MCP server, how?](https://www.reddit.com/r/LocalLLaMA/comments/1xd9hc3/getting_started_with_local_mcp_server_how/)
 
 **Community · Other developments · Score 6 · Reddit LocalLLaMA**
 
-hey folks, im Ye, im one of the contributors to Kapitsa , an open source inference engine optimized specifically for Apple Silicon (all the way from M1 chips to M6) to run Qwen & Nemotron models that would fit a regular MacBook. its custom written Metal kernels, allow us to optimize each chip & for 
+EDIT: I was able to run this in Pi. This whole confusion came to my mind because it is called server when for my point of view is more like a script what is run my harness when needed and that script have just "public methods" for coder's point of view. Eg. tools defined on that script are just meth
 
-## News — 32 distinct findings, 0 high-signal
+### [\[Paper\] Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE](https://www.reddit.com/r/LocalLLaMA/comments/1xd5s0n/paper_meta_expert_crosslayer_expert_sharing_for/)
 
-32 distinct news developments appeared in the last 24 hours. Highest-ranked topics: Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots; Anthropic takes on Muse with Claude Duet, its new AI agent; While Amazon blocks AI agents, Walmart rolls out the welcome mat. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+**Community · Other developments · Score 5 · Reddit LocalLLaMA**
 
-### [Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots](https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach)
+As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity a
 
-**News · Other developments · Score 9 · The Verge AI**
+## News — 43 distinct findings, 0 high-signal
 
-Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare. It told owners that "your secrets are safe with me," but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning. The Verge
+43 distinct news developments appeared in the last 24 hours. Highest-ranked topics: Left alone with nothing to do, AI agents started playing; 1Password launches a way for AI agents to log in on your behalf without seeing your password; Spotify’s current AI bet is about being the music service that agents choose. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
-### [Anthropic takes on Muse with Claude Duet, its new AI agent](https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent)
-
-**News · Other developments · Score 9 · The Verge AI**
-
-Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a "research preview," according to Anthropic, and it's available as a standalone app on iOS and Android and through Clau
-
-### [While Amazon blocks AI agents, Walmart rolls out the welcome mat](https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat)
+### [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing)
 
 **News · Other developments · Score 9 · TechCrunch AI**
 
-As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.
+MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.
+
+### [1Password launches a way for AI agents to log in on your behalf without seeing your password](https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password)
+
+**News · Other developments · Score 9 · TechCrunch AI**
+
+The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.
+
+### [Spotify’s current AI bet is about being the music service that agents choose](https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose)
+
+**News · Other developments · Score 9 · TechCrunch AI**
+
+Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.
 
 ---
 
