@@ -1,8 +1,8 @@
 # Daily AI Intelligence Digest
 
-**Generated:** 2026-10-23T12:38:28.943237+00:00  
+**Generated:** 2026-10-23T12:40:04.024744+00:00  
 **Window: last 24 hours (UTC, rolling)**  
-**Distinct events:** 412 · **High-signal candidates:** 3 · **Sources reporting:** 44
+**Distinct events:** 413 · **High-signal candidates:** 3 · **Sources reporting:** 44
 
 ## Executive brief
 
@@ -364,9 +364,9 @@ EDIT: I was able to run this in Pi. This whole confusion came to my mind because
 
 As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity a
 
-## News — 43 distinct findings, 0 high-signal
+## News — 44 distinct findings, 0 high-signal
 
-43 distinct news developments appeared in the last 24 hours. Highest-ranked topics: Left alone with nothing to do, AI agents started playing; 1Password launches a way for AI agents to log in on your behalf without seeing your password; Spotify’s current AI bet is about being the music service that agents choose. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
+44 distinct news developments appeared in the last 24 hours. Highest-ranked topics: Left alone with nothing to do, AI agents started playing; 1Password launches a way for AI agents to log in on your behalf without seeing your password; Spotify’s current AI bet is about being the music service that agents choose. These are relevance signals, not independently verified breakthroughs; consult the linked sources for evidence and actual performance.
 
 ### [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing)
 
