@@ -6,6 +6,10 @@ Failures are recorded; failing sources do not stop the digest. Check Actions log
 
 | Source | Type | Failed runs | Error |
 |---|---|---:|---|
+| arXiv Quantum | feed | 2 | No RSS/Atom entries found (check source endpoint) |
+| arXiv Robotics | feed | 2 | No RSS/Atom entries found (check source endpoint) |
+| arXiv Security | feed | 2 | No RSS/Atom entries found (check source endpoint) |
+| arXiv Statistical ML | feed | 2 | No RSS/Atom entries found (check source endpoint) |
 | AMD ROCm | feed | 1 | 404 Client Error: Not Found for url: https://rocm.blogs.amd.com/rss.xml |
 | Anthropic | feed | 1 | 404 Client Error: Not Found for url: https://www.anthropic.com/rss.xml |
 | Google Cloud AI | feed | 1 | No RSS/Atom entries found (check source endpoint) |
@@ -17,7 +21,3 @@ Failures are recorded; failing sources do not stop the digest. Check Actions log
 | Turing Post | feed | 1 | 404 Client Error: Not Found for url: https://www.turingpost.com/feed |
 | UK AI Security Institute | feed | 1 | 404 Client Error: Not Found for url: https://www.aisi.gov.uk/rss.xml |
 | VentureBeat | feed | 1 | 429 Client Error: Too Many Requests for url: https://venturebeat.com/feed/ |
-| arXiv Quantum | feed | 1 | No RSS/Atom entries found (check source endpoint) |
-| arXiv Robotics | feed | 1 | No RSS/Atom entries found (check source endpoint) |
-| arXiv Security | feed | 1 | No RSS/Atom entries found (check source endpoint) |
-| arXiv Statistical ML | feed | 1 | No RSS/Atom entries found (check source endpoint) |
