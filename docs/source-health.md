@@ -1,6 +1,6 @@
 # Source Health
 
-**Tracked:** 130 · **Failed most recently:** 11
+**Tracked:** 130 · **Failed most recently:** 15
 
 Failures are recorded; failing sources do not stop the digest. Check Actions logs for details.
 
@@ -17,3 +17,7 @@ Failures are recorded; failing sources do not stop the digest. Check Actions log
 | Turing Post | feed | 1 | 404 Client Error: Not Found for url: https://www.turingpost.com/feed |
 | UK AI Security Institute | feed | 1 | 404 Client Error: Not Found for url: https://www.aisi.gov.uk/rss.xml |
 | VentureBeat | feed | 1 | 429 Client Error: Too Many Requests for url: https://venturebeat.com/feed/ |
+| arXiv Quantum | feed | 1 | No RSS/Atom entries found (check source endpoint) |
+| arXiv Robotics | feed | 1 | No RSS/Atom entries found (check source endpoint) |
+| arXiv Security | feed | 1 | No RSS/Atom entries found (check source endpoint) |
+| arXiv Statistical ML | feed | 1 | No RSS/Atom entries found (check source endpoint) |
